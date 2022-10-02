@@ -1,0 +1,271 @@
+#+Title: Detailed description of analysis
+
+* Data collection
+
+  I use [[http://caissabase.co.uk/][caissabase]] in the version of January 2022 for games up to January 8, 2022 and [[https://theweekinchess.com/twic][TWIC]] (issues 1418 to 1455) for later games. Only over the board game with classical time control played in 2022 are considered. To select these games automatically, I use the following julia script. As this script may look complicated to people who have never programmed, let me just state that the main selection works through the event title in the pgn. Basically, I search for known names of online tournaments or words like "blitz" and "rapid" in the event title to rule out that such games are included.
+
+#+begin_src julia
+  function extractField(gameString,fieldname)
+      """
+      extractField(gameString,fieldname)
+
+      returns the field called fieldname::String in the first game of a pgn called gameString::String
+      """
+      start = findfirst("["*fieldname*" \"",gameString)
+      if start!=nothing #fieldname exists in game
+	  finish = findnext("\"]",gameString,start[end])
+	  return gameString[start[end]+1:finish[1]-1]
+      else
+	  return " "
+      end
+  end
+
+  function includegame(game;minyear=2020)
+      """
+      includegame(game)
+
+      returns true if the game is likely to be an OTB game and false otherwise
+      """
+      #year restrictions
+      yearString = extractField(game,"Date")
+      if length(yearString)>=4
+	  if yearString[1:4]!="????"
+	      year = parse(Int,yearString[1:4])
+	      if year<minyear
+		  return false
+	      end
+	  else
+	      try
+		  year = parse(Int,extractField(game,"EventDate")[1:4])
+		  if year<minyear
+		      return false
+		  end
+	      catch
+		  @warn "Games with unknown date may be included."
+	      end
+	  end
+      end
+      #rule out online, speed chess etc.
+      eventType = lowercase(extractField(game,"EventType"))
+      outTypes = ["blitz","rapid","simul","bullet","online","internet","armageddon"]
+      if sum(occursin.(outTypes,eventType))>0
+	  return false
+      end    
+      event = lowercase(extractField(game,"Event"))
+      outlist = ["chess24","lichess","icc ","blitz","rapid","bullet","speed ","online","armageddon","titled tuesday","playzone", "titled tue","titled arena","pro league","charity cup","airthings masters","oslo esports","chessable masters","road to miami","ftx crypto cup","julius baer generation cup","mcct","meltwater champions chess","champions chess tour","skilling open","world corporate","carlsen tour","carlsen chess tour","meltwater tour","magnus carlsen invitational","san fermin master","goldmoney asian","lindores abbey","airthings master","new in chess classic","clutch chess","legends of chess","esport","global chess championship","death match","carlsen vs. challenger","9lx","960","solidarity match"]
+      site = lowercase(extractField(game,"Site"))
+      if sum(occursin.(outlist,event))>0
+	  return false
+      elseif (occursin("solidarity",event)) & (occursin("match",event))
+	  return false
+      elseif (occursin("chess.com",event)) & ((!occursin("grand swiss",event)) & (!occursin("fide",event)))
+	  return false
+      elseif (site=="online") | (site=="lichess.org int") | (site=="chess24.com int") | (site=="chess.com int") | (site=="internet (chess24.com)")
+	  return false
+      else
+	  return true
+      end
+  end
+
+  function selectGames(filename;minyear=2020,filenameAdd="OTB",replace=true)
+      pgn = open(filename) do file
+	  read(file, String)
+      end
+      newfilename = filename[1:end-4]*filenameAdd*".pgn"
+      if replace
+	  rm(newfilename;force=true)
+      end
+      touch(newfilename)
+      newpgn = open(newfilename,"a")
+      endgame = 1
+      flag = true # dummy initialization, we are through the file if flag is false
+      while flag
+	  startgame = findnext("[Event ",pgn,endgame)[1]
+	  if findnext("[Event ",pgn,startgame+1) != nothing
+	      endgame = findnext("[Event ",pgn,startgame+1)[1]-1
+	      game = pgn[startgame:endgame]
+	      if includegame(game;minyear=minyear)
+		  write(newpgn, " \n "*game)
+	      end
+	  else
+	      game = pgn[startgame:end]
+	      if includegame(game;minyear=minyear)
+		  write(newpgn, "\n "*game)
+	      end
+	      flag = false
+	  end
+      end
+      close(newpgn)
+  end
+
+  selectGames("/home/christoph/chess/chessCheating/HNgames.pgn")
+  selectGames("/home/christoph/chess/chessCheating/MCgames.pgn")
+#+end_src
+  
+* Engine evaluation
+
+  The previous step creates a pgn with 2022 OTB games for the player I want to analyze. I then use *Stockfish 15 with depth 25* to analyze all the games, i.e. Stockfish will give a numeric evaluation of each position in each game in centipawns.
+
+* Computed statistics and graphs
+
+** Centipawn losses for every move
+To get an evaluation of each move the player has played, I subtract the position evaluation before and after a player's move (if white and vice versa if black). For example, if the evaluation was +1.5 before white's move and is +1.2 after white's move, then the move caused a centipawn loss of 0.3.
+
+** Top moves
+A move is labeled as "top move" if its centipawn loss is less than 0.05. Some people might wonder why I do not simply label the engine's most preferred move as top move. The reason is that in many position there are several moves that are equally good. Which of these moves is the engine's choice depends heavily on engine version and depth in these cases and would therefore lead to a lot of noise for the data analysis.
+
+** Share of top moves in a given game
+I compute the share of top moves in a given game among the moves between move 11 and 50. That is, if the player had 15 top moves among his moves 11 to 50, this share would be $15/40=0.375$. If, however, the game lasted only to move 40, the share would be $15/30=0.5$. Why do I only consider moves 11 to 50? The first 10 moves are typically opening theory and therefore not very interesting. I stop at move 50 for two reasons: There are long games in which players continue to play on in a drawn endgame (or a totally winning endgame) and where every reasonable move leads to the same engine evaluation, e.g. 0.00. It is not hard to play "top moves" in such a situation. (Of course cutting off at move 50 is rather arbitrary way to reduce this problem but it has the advantage of simplicity.) The other reason is that with modern time controls players are likely to play on increment from move 50 onward. Some people think that in such a situation cheating is almost impossible due to lags in transmission etc.
+
+** Distribution of top moves
+For each game we now have the share of top moves (between move 11 and 50), i.e. for each game we have a single number. The histogram depicts the distribution of these numbers. Additional statistics of interest are the mean (indicating the overall strength of a player), the standard deviation (a high standard deviation indicates that a player's level of play varies a lot from game to game) and the share of games in which the share of top moves was above 75% (indicating how often a player performs extremely well).
+
+** The code
+   Below my julia code that computed the above described (and some related) statistics.
+   #+begin_src julia
+using Statistics, Plots, DataFrames
+
+function extractField(gameString,fieldname)
+    """
+    extractField(gameString,fieldname)
+
+    returns the field called fieldname::String in the first game of a pgn called gameString::String
+    """
+    start = findfirst("["*fieldname*" \"",gameString)
+    if start!=nothing #fieldname exists in game
+        finish = findnext("\"]",gameString,start[end])
+        return gameString[start[end]+1:finish[1]-1]
+    else
+        return " "
+    end
+end
+
+function stepGames(filename,name;replace=true)
+    pgn = open(filename) do file
+        read(file, String)
+    end
+    #initialize dataframe
+    df = DataFrame(white=String[],black=String[],event=String[],date=String[],cpLoss=Union{Missing,Float64}[],cpLoss1150=Union{Missing,Float64}[],cpLoss1120=Union{Missing,Float64}[],cpLoss2130=Union{Missing,Float64}[],cpLoss3140=Union{Missing,Float64}[],cpLoss50end=Union{Missing,Float64}[],shareTopMoves=Union{Missing,Float64}[],shareTopMoves1150=Union{Missing,Float64}[],shareTopMoves1120=Union{Missing,Float64}[],shareTopMoves2130=Union{Missing,Float64}[],shareTopMoves3140=Union{Missing,Float64}[],shareTopMoves50end=Union{Missing,Float64}[],shareVGMoves=Union{Missing,Float64}[],shareVGMoves1150=Union{Missing,Float64}[],shareVGMoves1120=Union{Missing,Float64}[],shareVGMoves2130=Union{Missing,Float64}[],shareVGMoves3140=Union{Missing,Float64}[],shareVGMoves50end=Union{Missing,Float64}[],stdDevCPLoss=Union{Missing,Float64}[],stDevCPLoss1150=Union{Missing,Float64}[])
+    flag=true
+    endgame = 1
+    while flag
+        startgame = findnext("[Event ",pgn,endgame)[1]
+        if findnext("[Event ",pgn,startgame+1) != nothing
+            endgame = findnext("[Event ",pgn,startgame+1)[1]-1
+            game = pgn[startgame:endgame]
+            if occursin(name,extractField(game,"White"))
+                white = true
+            else
+                white = false
+            end
+            push!(df, dataExtraction(game,white))
+        else
+            game = pgn[startgame:end]
+            if occursin(name,extractField(game,"White"))
+                white = true
+            else
+                white = false
+            end
+            push!(df, dataExtraction(game,white))
+            flag = false
+        end
+    end
+    return df
+end
+
+function dataExtraction(game,white::Bool;eval0=0.3,startingMove=11,topMove=0.05,vgMove=0.1)
+    """
+    dataExtraction(game,white::Bool;eval0=0.3,startingMove=11,topMove=0.1)
+
+    white::Boolean if true white's moves are analyzed, if false black's
+    eval0::Float64 evaluation of starting position (only relevant if startingMove=1)
+    startingMove::Int at which move should the analysis start (e.g. cut the first ten moves, then 11)
+    topMove::Float64 moves causing eval diff less than this threshold are considered to be top moves
+    vgMove::Float64 moves causing eval diff less than this threshold are considered to be very good
+    """
+    playerWhite = extractField(game,"White")
+    playerBlack = extractField(game,"Black")
+    event = extractField(game,"Event")
+    dateGame = extractField(game,"Date")
+    evalPositionStart = [x[end]+1 for x in findall("[%eval ",game)]
+    evalPositionEnd = [x[1]-1 for x in findnext.("]",game,evalPositionStart)]
+    allEvals = [parse(Float64,game[evalPositionStart[i]:evalPositionEnd[i]]) for i in 1:length(evalPositionEnd)]
+    #normalizing Evals above 5 to 5
+    for i in 1:length(allEvals)
+        allEvals[i]=max(min(allEvals[i],5.0),-5.0)
+    end
+    pushfirst!(allEvals,eval0)
+    if length(allEvals)<2*startingMove+1
+        return [playerWhite playerBlack event dateGame missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing]
+    end    
+    if white
+        evals = [(-1)*(allEvals[i]-allEvals[i-1]) for i in 2*startingMove:2:length(allEvals)]
+    else
+        evals = [(allEvals[i]-allEvals[i-1]) for i in 2*startingMove+1:2:length(allEvals)]
+    end
+    n = length(evals)
+    avg = mean(evals)
+    avg1120 = mean(evals[1:min(n,10)])
+    avg1150 = mean(evals[1:min(n,40)])
+    n>10 ? avg2130 = mean(evals[11:min(n,20)]) : avg2130=missing
+    n>20 ? avg3140 = mean(evals[21:min(n,30)]) : avg3140=missing
+    n>30 ? avg4150 = mean(evals[31:min(n,40)]) : avg4150=missing
+    n>40 ? avg50end = mean(evals[41:n]) : avg50end=missing
+    shareTop = mean(evals.<=topMove)
+    shareTop1150 = mean(evals[1:min(n,40)] .<=topMove)
+    n>10 ? shareTop2130 = mean(evals[11:min(n,20)].<=topMove) : shareTop2130=missing
+    n>20 ? shareTop3140 = mean(evals[21:min(n,30)].<=topMove) : shareTop3140=missing
+    n>30 ? shareTop4150 = mean(evals[31:min(n,40)].<=topMove) : shareTop4150=missing
+    n>40 ? shareTop50end = mean(evals[41:n].<=topMove) : shareTop50end=missing
+    shareVG = mean(evals.<=vgMove)
+    shareVG1150 = mean(evals[1:min(n,40)] .<=vgMove)
+    n>10 ? shareVG2130 = mean(evals[11:min(n,20)].<=vgMove) : shareVG2130=missing
+    n>20 ? shareVG3140 = mean(evals[21:min(n,30)].<=vgMove) : shareVG3140=missing
+    n>30 ? shareVG4150 = mean(evals[31:min(n,40)].<=vgMove) : shareVG4150=missing
+    n>40 ? shareVG50end = mean(evals[41:n].<=vgMove) : shareVG50end=missing
+    stdEval = std(evals)
+    stdEval1150 = std(evals[1:min(n,40)])
+    return [playerWhite playerBlack event dateGame avg avg1150 avg1120 avg2130 avg3140 avg50end shareTop shareTop1150 shareTop2130 shareTop3140 shareTop4150 shareTop50end shareVG shareVG1150 shareVG2130 shareVG3140 shareVG4150 shareVG50end stdEval stdEval1150]
+end
+
+function visualizer(filename,name;path="/home/christoph/chess/chessCheating/")
+    df = stepGames(filename,name)
+    out = zeros(16)
+    function data(varName)
+        return df[.!ismissing.(df[:,varName]),varName]
+    end
+    println(name,":")
+    for (i,varName) in enumerate([:shareTopMoves1150,:shareTopMoves2130,:shareVGMoves1150,:shareVGMoves2130])
+        out[3*(i-1)+1] = mean(data(varName))
+        println(varName, " is on average ",out[3*(i-1)+1])
+        out[3*(i-1)+2] = std(data(varName))
+        println(varName, " has standard deviation ",out[3*(i-1)+2])
+        out[3*(i-1)+3] = mean(data(varName).>0.75)
+        println(varName, " is above 75% in ",out[3*(i-1)+3], " of the games")
+    end
+    for (i,varName) in enumerate([:cpLoss1150,:cpLoss2130])
+        out[12+2*(i-1)+1] = mean(data(varName))
+        println(varName, " is on average ",out[3*(i-1)+1])
+        out[12+2*(i-1)+2] = std(data(varName))
+        println(varName, " has standard deviation ",out[3*(i-1)+2])
+    end
+    hist = histogram(data(:shareTopMoves1150),bins=-0.1:0.05:1.0,normalize=:probability,label="share of of top moves (between moves 11 and 50)",color=:red,ylims=(0,0.35),title="$name")
+    savefig(hist,path*name*"stm1150.png")
+    hist = histogram(data(:shareVGMoves1150),bins=-0.1:0.05:1.0,normalize=:probability,label="share of very good moves (between moves 11 and 50)",ylims=(0,0.35),title="$name")
+    savefig(hist,path*name*"vgm1150.png")
+    return out
+end
+
+visualizer("/home/christoph/chess/chessCheating/MCgamesOTB22eval.pgn","Carlsen")
+visualizer("/home/christoph/chess/chessCheating/HNgamesOTB22eval.pgn","Niemann")
+#+end_src
+
+* Results
+  All results consider only moves 11 to 50.
+| player  | average share top moves | standard deviation share top moves | share of games with > 75% top moves | average centipawn loss | standard deviation centipawn loss |
+|---------+-------------------------+------------------------------------+-------------------------------------+------------------------+-----------------------------------|
+| Carlsen |                   0.564 |                              0.120 |                               0.059 |                  0.564 |                             0.120 |
+| Niemann |                   0.540 |                              0.157 |                               0.088 |                  0.540 |                             0.157 |
+
+* Data files
+  
