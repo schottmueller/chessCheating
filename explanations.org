@@ -121,7 +121,7 @@ I compute the share of top moves in a given game among the moves between move 11
 For each game we now have the share of top moves (between move 11 and 50), i.e. for each game we have a single number. The histogram depicts the distribution of these numbers. Additional statistics of interest are the mean (indicating the overall strength of a player), the standard deviation (a high standard deviation indicates that a player's level of play varies a lot from game to game) and the share of games in which the share of top moves was above 75% (indicating how often a player performs extremely well).
 
 ** The code
-   Below my julia code that computed the above described (and some related) statistics.
+   Below my julia code that computed the above described (and some related) statistics. /Explanations continue below the code./
    #+begin_src julia
 	  using Statistics, Plots, DataFrames
 
@@ -278,8 +278,10 @@ For each game we now have the share of top moves (between move 11 and 50), i.e. 
 
 [[./Niemannstm1150.png]]
 
+Please note, that I am not claiming that anyone has cheated or has not cheated. The methods used here are not able to give a definite answer to this question anyway. I hope that the data and analysis give you some food for thoughts. 
+
 * Data files
-  
+ I would appreciate if you complemented my analysis with your own one. To simplify your life (and to be fully transparent...), I provide my data below.
 | player  | pgn with evals         | data              |
 |---------+------------------------+-------------------|
 | Carlsen | [[./MCgamesOTB22eval.pgn]] | [[./Carlsendata.csv]] |
