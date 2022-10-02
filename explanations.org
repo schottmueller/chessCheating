@@ -230,7 +230,7 @@ For each game we now have the share of top moves (between move 11 and 50), i.e. 
 
 	  function visualizer(filename,name;path="/home/christoph/chess/chessCheating/")
 	      df = stepGames(filename,name)
-	      out = zeros(16)
+	      out = zeros(18)
 	      function data(varName)
 		  return df[.!ismissing.(df[:,varName]),varName]
 	      end
@@ -248,6 +248,8 @@ For each game we now have the share of top moves (between move 11 and 50), i.e. 
 		  println(varName, " is on average ",out[12+2*(i-1)+1])
 		  out[12+2*(i-1)+2] = std(data(varName))
 		  println(varName, " has standard deviation ",out[12+2*(i-1)+2])
+		  out[12+2*(i-1)+3] = mean(data(varName).<=0.1)
+		  println(varName, " is less than 0.1 in ",out[12+2*(i-1)+3], " of the games")             
 	      end
 	      hist = histogram(data(:shareTopMoves1150),bins=-0.1:0.05:1.0,normalize=:probability,label="share of of top moves (between moves 11 and 50)",color=:red,ylims=(0,0.35),title="$name")
 	      savefig(hist,path*name*"stm1150.png")
@@ -269,11 +271,11 @@ For each game we now have the share of top moves (between move 11 and 50), i.e. 
 
 * Results
   All results consider only moves 11 to 50.
-| player       | average share top moves | standard deviation share top moves | share of games with > 75% top moves | average centipawn loss | standard deviation centipawn loss |
-|--------------+-------------------------+------------------------------------+-------------------------------------+------------------------+-----------------------------------|
-| Carlsen      |                   0.564 |                              0.120 |                               0.059 |                  0.122 |                             0.073 |
-| Niemann      |                   0.540 |                              0.157 |                               0.088 |                  0.187 |                             0.135 |
-| Abdusattorov |                   0.528 |                              0.145 |                               0.036 |                  0.165 | 0.098                          |
+| player       | average share top moves | standard deviation share top moves | share of games with > 75% top moves | average centipawn loss | standard deviation centipawn loss | share of games with average centipawn loss below 0.1 |
+|--------------+-------------------------+------------------------------------+-------------------------------------+------------------------+-----------------------------------+------------------------------------------------------|
+| Carlsen      |                   0.564 |                              0.120 |                               0.059 |                  0.122 |                             0.073 |                                                0.382 |
+| Niemann      |                   0.540 |                              0.157 |                               0.088 |                  0.187 |                             0.135 |                                                0.230 |
+| Abdusattorov |                   0.528 |                              0.145 |                               0.036 |                  0.165 |                             0.098 |                                                0.304 |
 
 [[./Carlsenstm1150.png]]
 
