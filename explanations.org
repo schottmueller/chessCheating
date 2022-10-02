@@ -2,7 +2,7 @@
 
 * Data collection
 
-  I use [[http://caissabase.co.uk/][caissabase]] in the version of January 2022 for games up to January 8, 2022 and [[https://theweekinchess.com/twic][TWIC]] (issues 1418 to 1455) for later games. Only over the board game with classical time control played in 2022 are considered. To select these games automatically, I use the following julia script. As this script may look complicated to people who have never programmed, let me just state that the main selection works through the event title in the pgn. Basically, I search for known names of online tournaments or words like "blitz" and "rapid" in the event title to rule out that such games are included.
+  I use [[http://caissabase.co.uk/][caissabase]] in the version of January 2022 for games up to January 8, 2022 and [[https://theweekinchess.com/twic][TWIC]] (issues 1418 to 1455) for later games. Only over the board game with classical time control played in 2022 are considered. To select these games automatically, I use the following julia script. As this script may look complicated to people who have never programmed, let me just state that the main selection works through the event title in the pgn. Basically, I search for known names of online tournaments or words like "blitz" and "rapid" in the event title to rule out that such games are included. /Explanations continue below the code./
 
 #+begin_src julia
   function extractField(gameString,fieldname)
