@@ -267,5 +267,13 @@ visualizer("/home/christoph/chess/chessCheating/HNgamesOTB22eval.pgn","Niemann")
 | Carlsen |                   0.564 |                              0.120 |                               0.059 |                  0.564 |                             0.120 |
 | Niemann |                   0.540 |                              0.157 |                               0.088 |                  0.540 |                             0.157 |
 
+[[./Carlsenstm1150.png]]
+
+[[./Niemannstm1150.png]]
+
 * Data files
   
+| player  | pgn with evals         | data              |
+|---------+------------------------+-------------------|
+| Carlsen | [[./MCgamesOTB22eval.pgn]] | [[./Carlsendata.csv]] |
+| Niemann | [[./HNgamesOTB22eval.pgn]] | [[./Niemanndata.csv]] |
