@@ -123,141 +123,148 @@ For each game we now have the share of top moves (between move 11 and 50), i.e. 
 ** The code
    Below my julia code that computed the above described (and some related) statistics.
    #+begin_src julia
-using Statistics, Plots, DataFrames
+	  using Statistics, Plots, DataFrames
 
-function extractField(gameString,fieldname)
-    """
-    extractField(gameString,fieldname)
+	  function extractField(gameString,fieldname)
+	      """
+	      extractField(gameString,fieldname)
 
-    returns the field called fieldname::String in the first game of a pgn called gameString::String
-    """
-    start = findfirst("["*fieldname*" \"",gameString)
-    if start!=nothing #fieldname exists in game
-        finish = findnext("\"]",gameString,start[end])
-        return gameString[start[end]+1:finish[1]-1]
-    else
-        return " "
-    end
-end
+	      returns the field called fieldname::String in the first game of a pgn called gameString::String
+	      """
+	      start = findfirst("["*fieldname*" \"",gameString)
+	      if start!=nothing #fieldname exists in game
+		  finish = findnext("\"]",gameString,start[end])
+		  return gameString[start[end]+1:finish[1]-1]
+	      else
+		  return " "
+	      end
+	  end
 
-function stepGames(filename,name;replace=true)
-    pgn = open(filename) do file
-        read(file, String)
-    end
-    #initialize dataframe
-    df = DataFrame(white=String[],black=String[],event=String[],date=String[],cpLoss=Union{Missing,Float64}[],cpLoss1150=Union{Missing,Float64}[],cpLoss1120=Union{Missing,Float64}[],cpLoss2130=Union{Missing,Float64}[],cpLoss3140=Union{Missing,Float64}[],cpLoss50end=Union{Missing,Float64}[],shareTopMoves=Union{Missing,Float64}[],shareTopMoves1150=Union{Missing,Float64}[],shareTopMoves1120=Union{Missing,Float64}[],shareTopMoves2130=Union{Missing,Float64}[],shareTopMoves3140=Union{Missing,Float64}[],shareTopMoves50end=Union{Missing,Float64}[],shareVGMoves=Union{Missing,Float64}[],shareVGMoves1150=Union{Missing,Float64}[],shareVGMoves1120=Union{Missing,Float64}[],shareVGMoves2130=Union{Missing,Float64}[],shareVGMoves3140=Union{Missing,Float64}[],shareVGMoves50end=Union{Missing,Float64}[],stdDevCPLoss=Union{Missing,Float64}[],stDevCPLoss1150=Union{Missing,Float64}[])
-    flag=true
-    endgame = 1
-    while flag
-        startgame = findnext("[Event ",pgn,endgame)[1]
-        if findnext("[Event ",pgn,startgame+1) != nothing
-            endgame = findnext("[Event ",pgn,startgame+1)[1]-1
-            game = pgn[startgame:endgame]
-            if occursin(name,extractField(game,"White"))
-                white = true
-            else
-                white = false
-            end
-            push!(df, dataExtraction(game,white))
-        else
-            game = pgn[startgame:end]
-            if occursin(name,extractField(game,"White"))
-                white = true
-            else
-                white = false
-            end
-            push!(df, dataExtraction(game,white))
-            flag = false
-        end
-    end
-    return df
-end
+	  function stepGames(filename,name;replace=true)
+	      pgn = open(filename) do file
+		  read(file, String)
+	      end
+	      #initialize dataframe
+	      df = DataFrame(white=String[],black=String[],event=String[],date=String[],cpLoss=Union{Missing,Float64}[],cpLoss1150=Union{Missing,Float64}[],cpLoss1120=Union{Missing,Float64}[],cpLoss2130=Union{Missing,Float64}[],cpLoss3140=Union{Missing,Float64}[],cpLoss50end=Union{Missing,Float64}[],shareTopMoves=Union{Missing,Float64}[],shareTopMoves1150=Union{Missing,Float64}[],shareTopMoves1120=Union{Missing,Float64}[],shareTopMoves2130=Union{Missing,Float64}[],shareTopMoves3140=Union{Missing,Float64}[],shareTopMoves50end=Union{Missing,Float64}[],shareVGMoves=Union{Missing,Float64}[],shareVGMoves1150=Union{Missing,Float64}[],shareVGMoves1120=Union{Missing,Float64}[],shareVGMoves2130=Union{Missing,Float64}[],shareVGMoves3140=Union{Missing,Float64}[],shareVGMoves50end=Union{Missing,Float64}[],stdDevCPLoss=Union{Missing,Float64}[],stDevCPLoss1150=Union{Missing,Float64}[])
+	      flag=true
+	      endgame = 1
+	      while flag
+		  startgame = findnext("[Event ",pgn,endgame)[1]
+		  if findnext("[Event ",pgn,startgame+1) != nothing
+		      endgame = findnext("[Event ",pgn,startgame+1)[1]-1
+		      game = pgn[startgame:endgame]
+		      if occursin(name,extractField(game,"White"))
+			  white = true
+		      else
+			  white = false
+		      end
+		      push!(df, dataExtraction(game,white))
+		  else
+		      game = pgn[startgame:end]
+		      if occursin(name,extractField(game,"White"))
+			  white = true
+		      else
+			  white = false
+		      end
+		      push!(df, dataExtraction(game,white))
+		      flag = false
+		  end
+	      end
+	      return df
+	  end
 
-function dataExtraction(game,white::Bool;eval0=0.3,startingMove=11,topMove=0.05,vgMove=0.1)
-    """
-    dataExtraction(game,white::Bool;eval0=0.3,startingMove=11,topMove=0.1)
+	  function dataExtraction(game,white::Bool;eval0=0.3,startingMove=11,topMove=0.05,vgMove=0.1)
+	      """
+	      dataExtraction(game,white::Bool;eval0=0.3,startingMove=11,topMove=0.1)
 
-    white::Boolean if true white's moves are analyzed, if false black's
-    eval0::Float64 evaluation of starting position (only relevant if startingMove=1)
-    startingMove::Int at which move should the analysis start (e.g. cut the first ten moves, then 11)
-    topMove::Float64 moves causing eval diff less than this threshold are considered to be top moves
-    vgMove::Float64 moves causing eval diff less than this threshold are considered to be very good
-    """
-    playerWhite = extractField(game,"White")
-    playerBlack = extractField(game,"Black")
-    event = extractField(game,"Event")
-    dateGame = extractField(game,"Date")
-    evalPositionStart = [x[end]+1 for x in findall("[%eval ",game)]
-    evalPositionEnd = [x[1]-1 for x in findnext.("]",game,evalPositionStart)]
-    allEvals = [parse(Float64,game[evalPositionStart[i]:evalPositionEnd[i]]) for i in 1:length(evalPositionEnd)]
-    #normalizing Evals above 5 to 5
-    for i in 1:length(allEvals)
-        allEvals[i]=max(min(allEvals[i],5.0),-5.0)
-    end
-    pushfirst!(allEvals,eval0)
-    if length(allEvals)<2*startingMove+1
-        return [playerWhite playerBlack event dateGame missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing]
-    end    
-    if white
-        evals = [(-1)*(allEvals[i]-allEvals[i-1]) for i in 2*startingMove:2:length(allEvals)]
-    else
-        evals = [(allEvals[i]-allEvals[i-1]) for i in 2*startingMove+1:2:length(allEvals)]
-    end
-    n = length(evals)
-    avg = mean(evals)
-    avg1120 = mean(evals[1:min(n,10)])
-    avg1150 = mean(evals[1:min(n,40)])
-    n>10 ? avg2130 = mean(evals[11:min(n,20)]) : avg2130=missing
-    n>20 ? avg3140 = mean(evals[21:min(n,30)]) : avg3140=missing
-    n>30 ? avg4150 = mean(evals[31:min(n,40)]) : avg4150=missing
-    n>40 ? avg50end = mean(evals[41:n]) : avg50end=missing
-    shareTop = mean(evals.<=topMove)
-    shareTop1150 = mean(evals[1:min(n,40)] .<=topMove)
-    n>10 ? shareTop2130 = mean(evals[11:min(n,20)].<=topMove) : shareTop2130=missing
-    n>20 ? shareTop3140 = mean(evals[21:min(n,30)].<=topMove) : shareTop3140=missing
-    n>30 ? shareTop4150 = mean(evals[31:min(n,40)].<=topMove) : shareTop4150=missing
-    n>40 ? shareTop50end = mean(evals[41:n].<=topMove) : shareTop50end=missing
-    shareVG = mean(evals.<=vgMove)
-    shareVG1150 = mean(evals[1:min(n,40)] .<=vgMove)
-    n>10 ? shareVG2130 = mean(evals[11:min(n,20)].<=vgMove) : shareVG2130=missing
-    n>20 ? shareVG3140 = mean(evals[21:min(n,30)].<=vgMove) : shareVG3140=missing
-    n>30 ? shareVG4150 = mean(evals[31:min(n,40)].<=vgMove) : shareVG4150=missing
-    n>40 ? shareVG50end = mean(evals[41:n].<=vgMove) : shareVG50end=missing
-    stdEval = std(evals)
-    stdEval1150 = std(evals[1:min(n,40)])
-    return [playerWhite playerBlack event dateGame avg avg1150 avg1120 avg2130 avg3140 avg50end shareTop shareTop1150 shareTop2130 shareTop3140 shareTop4150 shareTop50end shareVG shareVG1150 shareVG2130 shareVG3140 shareVG4150 shareVG50end stdEval stdEval1150]
-end
+	      white::Boolean if true white's moves are analyzed, if false black's
+	      eval0::Float64 evaluation of starting position (only relevant if startingMove=1)
+	      startingMove::Int at which move should the analysis start (e.g. cut the first ten moves, then 11)
+	      topMove::Float64 moves causing eval diff less than this threshold are considered to be top moves
+	      vgMove::Float64 moves causing eval diff less than this threshold are considered to be very good
+	      """
+	      playerWhite = extractField(game,"White")
+	      playerBlack = extractField(game,"Black")
+	      event = extractField(game,"Event")
+	      dateGame = extractField(game,"Date")
+	      evalPositionStart = [x[end]+1 for x in findall("[%eval ",game)]
+	      evalPositionEnd = [x[1]-1 for x in findnext.("]",game,evalPositionStart)]
+	      allEvals = [parse(Float64,game[evalPositionStart[i]:evalPositionEnd[i]]) for i in 1:length(evalPositionEnd)]
+	      #normalizing Evals above 5 to 5
+	      for i in 1:length(allEvals)
+		  allEvals[i]=max(min(allEvals[i],5.0),-5.0)
+	      end
+	      pushfirst!(allEvals,eval0)
+	      if length(allEvals)<2*startingMove+1
+		  return [playerWhite playerBlack event dateGame missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing missing]
+	      end    
+	      if white
+		  evals = [(-1)*(allEvals[i]-allEvals[i-1]) for i in 2*startingMove:2:length(allEvals)]
+	      else
+		  evals = [(allEvals[i]-allEvals[i-1]) for i in 2*startingMove+1:2:length(allEvals)]
+	      end
+	      n = length(evals)
+	      avg = mean(evals)
+	      avg1120 = mean(evals[1:min(n,10)])
+	      avg1150 = mean(evals[1:min(n,40)])
+	      n>10 ? avg2130 = mean(evals[11:min(n,20)]) : avg2130=missing
+	      n>20 ? avg3140 = mean(evals[21:min(n,30)]) : avg3140=missing
+	      n>30 ? avg4150 = mean(evals[31:min(n,40)]) : avg4150=missing
+	      n>40 ? avg50end = mean(evals[41:n]) : avg50end=missing
+	      shareTop = mean(evals.<=topMove)
+	      shareTop1150 = mean(evals[1:min(n,40)] .<=topMove)
+	      n>10 ? shareTop2130 = mean(evals[11:min(n,20)].<=topMove) : shareTop2130=missing
+	      n>20 ? shareTop3140 = mean(evals[21:min(n,30)].<=topMove) : shareTop3140=missing
+	      n>30 ? shareTop4150 = mean(evals[31:min(n,40)].<=topMove) : shareTop4150=missing
+	      n>40 ? shareTop50end = mean(evals[41:n].<=topMove) : shareTop50end=missing
+	      shareVG = mean(evals.<=vgMove)
+	      shareVG1150 = mean(evals[1:min(n,40)] .<=vgMove)
+	      n>10 ? shareVG2130 = mean(evals[11:min(n,20)].<=vgMove) : shareVG2130=missing
+	      n>20 ? shareVG3140 = mean(evals[21:min(n,30)].<=vgMove) : shareVG3140=missing
+	      n>30 ? shareVG4150 = mean(evals[31:min(n,40)].<=vgMove) : shareVG4150=missing
+	      n>40 ? shareVG50end = mean(evals[41:n].<=vgMove) : shareVG50end=missing
+	      stdEval = std(evals)
+	      stdEval1150 = std(evals[1:min(n,40)])
+	      return [playerWhite playerBlack event dateGame avg avg1150 avg1120 avg2130 avg3140 avg50end shareTop shareTop1150 shareTop2130 shareTop3140 shareTop4150 shareTop50end shareVG shareVG1150 shareVG2130 shareVG3140 shareVG4150 shareVG50end stdEval stdEval1150]
+	  end
 
-function visualizer(filename,name;path="/home/christoph/chess/chessCheating/")
-    df = stepGames(filename,name)
-    out = zeros(16)
-    function data(varName)
-        return df[.!ismissing.(df[:,varName]),varName]
-    end
-    println(name,":")
-    for (i,varName) in enumerate([:shareTopMoves1150,:shareTopMoves2130,:shareVGMoves1150,:shareVGMoves2130])
-        out[3*(i-1)+1] = mean(data(varName))
-        println(varName, " is on average ",out[3*(i-1)+1])
-        out[3*(i-1)+2] = std(data(varName))
-        println(varName, " has standard deviation ",out[3*(i-1)+2])
-        out[3*(i-1)+3] = mean(data(varName).>0.75)
-        println(varName, " is above 75% in ",out[3*(i-1)+3], " of the games")
-    end
-    for (i,varName) in enumerate([:cpLoss1150,:cpLoss2130])
-        out[12+2*(i-1)+1] = mean(data(varName))
-        println(varName, " is on average ",out[3*(i-1)+1])
-        out[12+2*(i-1)+2] = std(data(varName))
-        println(varName, " has standard deviation ",out[3*(i-1)+2])
-    end
-    hist = histogram(data(:shareTopMoves1150),bins=-0.1:0.05:1.0,normalize=:probability,label="share of of top moves (between moves 11 and 50)",color=:red,ylims=(0,0.35),title="$name")
-    savefig(hist,path*name*"stm1150.png")
-    hist = histogram(data(:shareVGMoves1150),bins=-0.1:0.05:1.0,normalize=:probability,label="share of very good moves (between moves 11 and 50)",ylims=(0,0.35),title="$name")
-    savefig(hist,path*name*"vgm1150.png")
-    return out
-end
+	  function visualizer(filename,name;path="/home/christoph/chess/chessCheating/")
+	      df = stepGames(filename,name)
+	      out = zeros(16)
+	      function data(varName)
+		  return df[.!ismissing.(df[:,varName]),varName]
+	      end
+	      println(name,":")
+	      for (i,varName) in enumerate([:shareTopMoves1150,:shareTopMoves2130,:shareVGMoves1150,:shareVGMoves2130])
+		  out[3*(i-1)+1] = mean(data(varName))
+		  println(varName, " is on average ",out[3*(i-1)+1])
+		  out[3*(i-1)+2] = std(data(varName))
+		  println(varName, " has standard deviation ",out[3*(i-1)+2])
+		  out[3*(i-1)+3] = mean(data(varName).>0.75)
+		  println(varName, " is above 75% in ",out[3*(i-1)+3], " of the games")
+	      end
+	      for (i,varName) in enumerate([:cpLoss1150,:cpLoss2130])
+		  out[12+2*(i-1)+1] = mean(data(varName))
+		  println(varName, " is on average ",out[3*(i-1)+1])
+		  out[12+2*(i-1)+2] = std(data(varName))
+		  println(varName, " has standard deviation ",out[3*(i-1)+2])
+	      end
+	      hist = histogram(data(:shareTopMoves1150),bins=-0.1:0.05:1.0,normalize=:probability,label="share of of top moves (between moves 11 and 50)",color=:red,ylims=(0,0.35),title="$name")
+	      savefig(hist,path*name*"stm1150.png")
+	      hist = histogram(data(:shareVGMoves1150),bins=-0.1:0.05:1.0,normalize=:probability,label="share of very good moves (between moves 11 and 50)",ylims=(0,0.35),title="$name")
+	      savefig(hist,path*name*"vgm1150.png")
+	      return out
+	  end
 
-visualizer("/home/christoph/chess/chessCheating/MCgamesOTB22eval.pgn","Carlsen")
-visualizer("/home/christoph/chess/chessCheating/HNgamesOTB22eval.pgn","Niemann")
+	  function analyzePlayer(pathPgn,name)
+	      visualizer(pathPgn,name)
+	      df = stepGames(pathPgn, name)
+	      CSV.write("/home/christoph/chess/chessCheating/"*name*"data.csv",df)
+	  end
+
+     analyzePlayer("/home/christoph/chess/chessCheating/MCgamesOTB22eval.pgn","Carlsen")
+     analyzePlayer("/home/christoph/chess/chessCheating/HNgamesOTB22eval.pgn","Niemann")
+
 #+end_src
 
 * Results
