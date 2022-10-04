@@ -271,11 +271,12 @@ For each game we now have the share of top moves (between move 11 and 50), i.e. 
 
 * Results
   All results consider only moves 11 to 50.
-| player       | average share top moves | standard deviation share top moves | share of games with > 75% top moves | average centipawn loss | standard deviation centipawn loss | share of games with average centipawn loss below 0.1 |
-|--------------+-------------------------+------------------------------------+-------------------------------------+------------------------+-----------------------------------+------------------------------------------------------|
-| Carlsen      |                   0.564 |                              0.120 |                               0.059 |                  0.122 |                             0.073 |                                                0.382 |
-| Niemann      |                   0.540 |                              0.157 |                               0.088 |                  0.187 |                             0.135 |                                                0.230 |
-| Abdusattorov |                   0.528 |                              0.145 |                               0.036 |                  0.165 |                             0.098 |                                                0.304 |
+| player       | average share top moves | standard deviation share top moves | share of games with > 75% top moves | average centipawn loss | standard deviation centipawn loss | share of games with average centipawn loss below 0.05 |
+|--------------+-------------------------+------------------------------------+-------------------------------------+------------------------+-----------------------------------+-------------------------------------------------------|
+| Carlsen      |                   0.564 |                              0.120 |                               0.059 |                  0.122 |                             0.073 |                                                 0.176 |
+| Niemann      |                   0.540 |                              0.157 |                               0.088 |                  0.187 |                             0.135 |                                                 0.087 |
+| Abdusattorov |                   0.528 |                              0.145 |                               0.036 |                  0.165 |                             0.098 |                                                 0.161 |
+| Keymer       |                   0.574 |                              0.151 |                               0.141 |                  0.183 |                             0.176 |                                                 0.155 |
 
 [[./Carlsenstm1150.png]]
 
@@ -283,12 +284,16 @@ For each game we now have the share of top moves (between move 11 and 50), i.e. 
 
 [[./Abdusattorovstm1150.png]]
 
+[[./Keymerstm1150.png]]
+
 Please note, that I am not claiming that anyone has cheated or has not cheated. The methods used here are not able to give a definite answer to this question and therefore I can also not claim that "the results speak for themselves". I hope that the data and analysis will give you some food for thoughts. To get you started on this consider the following questions: How would the statistics above look like if someone cheated every game? How if he cheated only in some games? How if he cheated only at certain moments of a game? Are there other statistics or visualizations that could give a better picture?
 
 * Data files
  I would appreciate if you complemented my analysis with your own one. To simplify your life (and to be fully transparent...), I provide my data below.
-| player       | pgn with evals                   | data              |
-|--------------+----------------------------------+-------------------|
-| Carlsen      | [[./MCgamesOTB22eval.pgn]]           | [[./Carlsendata.csv]] |
-| Niemann      | [[./HNgamesOTB22eval.pgn]]           | [[./Niemanndata.csv]] |
-| Abdusattorov | [[./abdusattorovGamesOTB22eval.pgn]] | [[./Abdusattorovdata.csv]]|
+| player       | pgn with evals                   | data                   |
+|--------------+----------------------------------+------------------------|
+| Carlsen      | [[./MCgamesOTB22eval.pgn]]           | [[./Carlsendata.csv]]      |
+| Niemann      | [[./HNgamesOTB22eval.pgn]]           | [[./Niemanndata.csv]]      |
+| Abdusattorov | [[./abdusattorovGamesOTB22eval.pgn]] | [[./Abdusattorovdata.csv]] |
+| Keymer       | [[./keymerGamesOTB22eval.pgn]]       | [[./Keymerdata.csv]]       |
+
