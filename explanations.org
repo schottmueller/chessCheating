@@ -187,7 +187,7 @@ For each game we now have the share of top moves (between move 11 and 50), i.e. 
 	      playerBlack = extractField(game,"Black")
 	      event = extractField(game,"Event")
 	      dateGame = extractField(game,"Date")
-	      evalPositionStart = [x[end]+1 for x in findall("[%eval ",game)]
+	      evalPositionStart = [x[end]+1 for x in findall("[%eval",game)]
 	      evalPositionEnd = [x[1]-1 for x in findnext.("]",game,evalPositionStart)]
 	      allEvals = [parse(Float64,game[evalPositionStart[i]:evalPositionEnd[i]]) for i in 1:length(evalPositionEnd)]
 	      #normalizing Evals above 5 to 5
