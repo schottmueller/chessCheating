@@ -280,7 +280,10 @@ As a complement, there is also the average centipawn loss (again a measure of av
 | Abdusattorov |                   0.528 |                              0.145 |                               0.036 |                  0.165 |                             0.098 |                                                 0.161 |
 | Keymer       |                   0.574 |                              0.151 |                               0.141 |                  0.183 |                             0.176 |                                                 0.155 |
 | Gukesh       |                   0.539 |                              0.169 |                               0.093 |                  0.175 |                             0.134 |                                                 0.153 |
-| Nihal        |                   0.553 |                              0.179 |                               0.140 |                  0.147 |                             0.204 | 0.204                                                 |
+| Nihal        |                   0.553 |                              0.179 |                               0.140 |                  0.147 |                             0.204 |                                                 0.204 |
+| Giri         |                   0.583 |                              0.181 |                                0.13 |                  0.147 |                             0.122 |                                                 0.304 |
+| Nakamura     |                   0.605 |                              0.163 |                               0.150 |                  0.135 |                             0.098 |                                                 0.175 |
+| Caruana      |                   0.585 |                              0.179 |                               0.169 |                  0.147 |                             0.129 | 0.254                                                 |
 
 [[./Carlsenstm1150.png]]
 
@@ -294,6 +297,12 @@ As a complement, there is also the average centipawn loss (again a measure of av
 
 [[./Nihalstm1150.png]]
 
+[[./Giristm1150.png]]
+
+[[./Nakamurastm1150.png]]
+
+[[./Caruanastm1150.png]]
+
 Please note, that I am not claiming that anyone has cheated or has not cheated. The methods used here are not able to give a definite answer to this question and therefore I can also not claim that "the results speak for themselves". I hope that the data and analysis will give you some food for thoughts. To get you started on this consider the following questions: How would the statistics above look like if someone cheated every game? How if he cheated only in some games? How if he cheated only at certain moments of a game? Are there other statistics or visualizations that could give a better picture?
 
 * Data files
@@ -306,4 +315,6 @@ Please note, that I am not claiming that anyone has cheated or has not cheated. 
 | Keymer       | [[./keymerGamesOTB22eval.pgn]]       | [[./Keymerdata.csv]]       |
 | Gukesh       | [[./gukeshGamesOTB22eval.pgn]]       | [[./Gukeshdata.csv]]       |
 | Nihal        | [[./nihalGamesOTB22eval.pgn]]        | [[./Nihaldata.csv]]        |
+| Giri         | [[./giriGamesOTBeval.pgn]]           | [[./Giridata.csv]]         |
+| Nakamura     | [[./nakamuraGamesOTB22eval.pgn]]     | [[./Nakamuradata.csv]]              |
 

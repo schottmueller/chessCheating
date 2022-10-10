@@ -1,0 +1,2260 @@
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.15"]
+[Round "1.3"]
+[White "Giri, A"]
+[Black "Praggnanandhaa R"]
+[Result "1/2-1/2"]
+[WhiteElo "2772"]
+[BlackElo "2612"]
+[ECO "A20"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "English opening"]
+[WhiteFideId "24116068"]
+[BlackFideId "25059530"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. c4 {[%eval +0.15]} 1. ... e5 {[%eval +0.21]} 2. g3 {[%eval +0.10]} 
+2. ... c6 {[%eval +0.44]} 3. Nf3 {[%eval +0.16]} 3. ... e4 {[%eval +0.27]}
+4. Nd4 {[%eval +0.24]} 4. ... d5 {[%eval +0.31]} 5. cxd5 {[%eval +0.25]} 
+5. ... Qxd5 {[%eval +0.32]} 6. Nc2 {[%eval +0.37]} 6. ... Nf6 {[%eval 
++0.42]} 7. Nc3 {[%eval +0.20]} 7. ... Qe5 {[%eval +0.22]} 8. Bg2 {[%eval 
++0.23]} 8. ... Na6 {[%eval +0.21]} 9. O-O {[%eval +0.15]} 9. ... Be7 {
+[%eval +0.24]} 10. Ne1 {[%eval +0.16]} 10. ... Nb4 {[%eval +0.39]} 11. f3 
+{[%eval +0.17]} 11. ... exf3 {[%eval +0.41]} 12. Nxf3 {[%eval +0.35]} 
+12. ... Qh5 {[%eval +0.66]} 13. d4 {[%eval +0.71]} 13. ... Nbd5 {[%eval 
++0.69]} 14. e4 {[%eval +0.54]} 14. ... Nxc3 {[%eval +0.45]} 15. bxc3 {
+[%eval +0.60]} 15. ... Nxe4 {[%eval +0.57]} 16. Re1 {[%eval +0.48]} 
+16. ... f5 {[%eval +0.57]} 17. Qb3 {[%eval +0.50]} 17. ... Qf7 {[%eval 
++0.53]} 18. Qxf7+ {[%eval +0.47]} 18. ... Kxf7 {[%eval +0.53]} 19. Ne5+ {
+[%eval +0.41]} 19. ... Kg8 {[%eval +0.38]} 20. Bxe4 {[%eval +0.48]} 
+20. ... fxe4 {[%eval +0.44]} 21. Rxe4 {[%eval +0.43]} 21. ... Bf5 {[%eval 
++0.44]} 22. Re1 {[%eval +0.10]} 22. ... Bf6 {[%eval +0.12]} 23. Nc4 {
+[%eval -0.04]} 23. ... b6 {[%eval +0.00]} 24. Bf4 {[%eval +0.01]} 24. ... 
+h5 {[%eval +0.00]} 25. Nd6 {[%eval +0.00]} 25. ... Bg6 {[%eval +0.04]} 26.
+ Ne4 {[%eval +0.00]} 26. ... Bxe4 {[%eval +0.00]} 27. Rxe4 {[%eval +0.00]}
+27. ... Kf7 {[%eval +0.00]} 28. Rae1 {[%eval -0.22]} 28. ... Rad8 {[%eval 
+-0.18]} 29. Be5 {[%eval -0.21]} 29. ... Rhe8 {[%eval -0.12]} 30. Bxf6 {
+[%eval -0.07]} 30. ... Rxe4 {[%eval -0.06]} 31. Rxe4 {[%eval -0.16]} 
+31. ... gxf6 {[%eval +0.00]} 32. Kf2 {[%eval -0.06]} 32. ... Rd5 {[%eval 
+-0.10]} 33. Re2 {[%eval -0.02]} 33. ... c5 {[%eval +0.00]} 34. Ke3 {[%eval
++0.00]} 34. ... cxd4+ {[%eval +0.00]} 35. cxd4 {[%eval +0.00]} 35. ... Ke6
+{[%eval +0.00]} 36. Kd3+ {[%eval +0.00]} 36. ... Kd6 {[%eval +0.00]} 37. 
+Rf2 {[%eval +0.00]} 37. ... f5 {[%eval +0.18]} 38. a4 {[%eval +0.00]} 
+38. ... Ra5 {[%eval +0.00]} 39. Kc3 {[%eval +0.00]} 39. ... a6 {[%eval 
++0.00]} 40. Kb4 {[%eval +0.00]} 40. ... Ke6 {[%eval +0.00]} 41. Re2+ {
+[%eval +0.00]} 41. ... Kd7 {[%eval +0.00]} 42. Rf2 {[%eval +0.00]} 42. ...
+ Ke6 {[%eval +0.00]} 43. Re2+ {[%eval +0.00]} 43. ... Kd7 {[%eval +0.00]} 
+44. Rf2 {[%eval +0.00]} 1/2-1/2
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.16"]
+[Round "2.1"]
+[White "Carlsen, Magnus"]
+[Black "Giri, A"]
+[Result "1-0"]
+[WhiteElo "2865"]
+[BlackElo "2772"]
+[ECO "E06"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Catalan"]
+[Variation "closed, 5.Nf3"]
+[WhiteFideId "1503014"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.24]} 1. ... Nf6 {[%eval +0.40]} 2. c4 {[%eval +0.19]} 
+2. ... e6 {[%eval +0.35]} 3. Nf3 {[%eval +0.27]} 3. ... d5 {[%eval +0.33]}
+4. g3 {[%eval +0.16]} 4. ... Be7 {[%eval +0.54]} 5. Bg2 {[%eval +0.41]} 
+5. ... O-O {[%eval +0.45]} 6. O-O {[%eval +0.45]} 6. ... dxc4 {[%eval 
++0.37]} 7. Na3 {[%eval +0.00]} 7. ... Bxa3 {[%eval +0.00]} 8. bxa3 {[%eval
++0.00]} 8. ... Bd7 {[%eval +0.00]} 9. a4 {[%eval -0.20]} 9. ... Bc6 {
+[%eval -0.13]} 10. Ba3 {[%eval -0.19]} 10. ... Re8 {[%eval -0.14]} 11. Qc2
+{[%eval -0.29]} 11. ... Nbd7 {[%eval -0.05]} 12. Rac1 {[%eval -0.30]} 
+12. ... a6 {[%eval +0.00]} 13. Qxc4 {[%eval +0.00]} 13. ... Nb6 {[%eval 
++0.00]} 14. Qc3 {[%eval -0.17]} 14. ... Nxa4 {[%eval -0.25]} 15. Qb3 {
+[%eval -0.57]} 15. ... Qd5 {[%eval +0.00]} 16. Rxc6 {[%eval +0.00]} 
+16. ... Qxc6 {[%eval +0.00]} 17. Ne5 {[%eval +0.00]} 17. ... Qb5 {[%eval 
++0.00]} 18. Qc2 {[%eval +0.00]} 18. ... Nd5 {[%eval +2.14]} 19. Rb1 {
+[%eval +2.17]} 19. ... Qa5 {[%eval +2.35]} 20. Bxd5 {[%eval +0.83]} 
+20. ... exd5 {[%eval +2.22]} 21. Rxb7 {[%eval +2.39]} 21. ... c5 {[%eval 
++5.67]} 22. Qf5 {[%eval +6.33]} 22. ... Rf8 {[%eval +6.50]} 23. Nxf7 {
+[%eval +6.57]} 23. ... Qd8 {[%eval +6.53]} 24. dxc5 {[%eval +6.55]} 
+24. ... Qf6 {[%eval +6.83]} 25. Qxf6 {[%eval +6.88]} 25. ... gxf6 {[%eval 
++6.72]} 26. Nh6+ {[%eval +6.85]} 26. ... Kh8 {[%eval +6.93]} 27. c6 {
+[%eval +6.93]} 27. ... Rfc8 {[%eval +6.90]} 28. c7 {[%eval +6.75]} 28. ...
+ Nc3 {[%eval +7.02]} 29. Bb2 {[%eval +7.00]} 29. ... d4 {[%eval +7.08]} 
+30. Nf7+ {[%eval +7.17]} 30. ... Kg7 {[%eval +7.20]} 31. Nd6 {[%eval 
++7.24]} 31. ... Kg6 {[%eval +7.23]} 32. Kf1 {[%eval +6.75]} 32. ... Nb5 {
+[%eval +6.70]} 33. Nxc8 {[%eval +6.85]} 33. ... Rxc8 {[%eval +6.74]} 34. 
+a4 {[%eval +6.61]} 34. ... Nxc7 {[%eval +6.84]} 35. Bxd4 {[%eval +6.85]} 
+35. ... Ne6 {[%eval +6.69]} 36. Be3 {[%eval +6.71]} 1-0
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.17"]
+[Round "3.5"]
+[White "Giri, A"]
+[Black "Mamedyarov, Shakhriyar"]
+[Result "1/2-1/2"]
+[WhiteElo "2772"]
+[BlackElo "2767"]
+[ECO "D11"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "QGD Slav"]
+[Variation "4.e3"]
+[WhiteFideId "24116068"]
+[BlackFideId "13401319"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. Nf3 {[%eval +0.30]} 1. ... d5 {[%eval +0.27]} 2. d4 {[%eval +0.29]} 
+2. ... Nf6 {[%eval +0.29]} 3. c4 {[%eval +0.29]} 3. ... c6 {[%eval +0.37]}
+4. e3 {[%eval +0.29]} 4. ... e6 {[%eval +0.40]} 5. Bd3 {[%eval +0.30]} 
+5. ... Nbd7 {[%eval +0.56]} 6. O-O {[%eval +0.46]} 6. ... Be7 {[%eval 
++0.50]} 7. Nc3 {[%eval +0.43]} 7. ... dxc4 {[%eval +0.52]} 8. Bxc4 {[%eval
++0.50]} 8. ... b5 {[%eval +0.49]} 9. Bd3 {[%eval +0.40]} 9. ... b4 {[%eval
++0.68]} 10. Na4 {[%eval +0.65]} 10. ... Bb7 {[%eval +0.67]} 11. e4 {[%eval
++0.38]} 11. ... Rc8 {[%eval +0.27]} 12. a3 {[%eval +0.51]} 12. ... c5 {
+[%eval +1.31]} 13. Nxc5 {[%eval +1.62]} 13. ... Nxc5 {[%eval +1.15]} 14. 
+dxc5 {[%eval +1.37]} 14. ... Bxc5 {[%eval +1.40]} 15. axb4 {[%eval +1.12]}
+15. ... Bb6 {[%eval +0.96]} 16. Bb5+ {[%eval +0.55]} 16. ... Kf8 {[%eval 
++0.85]} 17. Qxd8+ {[%eval +0.46]} 17. ... Rxd8 {[%eval +0.52]} 18. Be3 {
+[%eval +0.32]} 18. ... Bxe4 {[%eval +0.61]} 19. Bxb6 {[%eval +0.16]} 
+19. ... axb6 {[%eval +0.11]} 20. Ne5 {[%eval +0.16]} 20. ... g5 {[%eval 
++0.16]} 21. Ra7 {[%eval +0.37]} 1/2-1/2
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.18"]
+[Round "4.6"]
+[White "Karjakin, Sergey"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2743"]
+[BlackElo "2772"]
+[ECO "D85"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Gruenfeld"]
+[Variation "modern exchange variation"]
+[WhiteFideId "14109603"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.36]} 1. ... Nf6 {[%eval +0.23]} 2. c4 {[%eval +0.19]} 
+2. ... g6 {[%eval +0.43]} 3. Nc3 {[%eval +0.28]} 3. ... d5 {[%eval +0.33]}
+4. cxd5 {[%eval +0.27]} 4. ... Nxd5 {[%eval +0.44]} 5. e4 {[%eval +0.38]} 
+5. ... Nxc3 {[%eval +0.39]} 6. bxc3 {[%eval +0.29]} 6. ... Bg7 {[%eval 
++0.47]} 7. Nf3 {[%eval +0.37]} 7. ... c5 {[%eval +0.46]} 8. Be3 {[%eval 
++0.20]} 8. ... Qa5 {[%eval +0.23]} 9. Nd2 {[%eval +0.00]} 9. ... O-O {
+[%eval +0.00]} 10. Nb3 {[%eval +0.00]} 10. ... Qxc3+ {[%eval +0.00]} 11. 
+Bd2 {[%eval +0.00]} 11. ... Qb2 {[%eval +0.00]} 12. Bc1 {[%eval +0.00]} 
+12. ... Qc3+ {[%eval +0.00]} 13. Bd2 {[%eval +0.00]} 13. ... Qb2 {[%eval 
++0.00]} 14. Bc1 {[%eval +0.00]} 1/2-1/2
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.20"]
+[Round "5.1"]
+[White "Giri, A"]
+[Black "Vidit, Santosh Gujrathi"]
+[Result "1/2-1/2"]
+[WhiteElo "2772"]
+[BlackElo "2727"]
+[ECO "C42"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Petrov"]
+[Variation "classical attack, Marshall variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "5029465"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.42]} 1. ... e5 {[%eval +0.37]} 2. Nf3 {[%eval +0.33]} 
+2. ... Nf6 {[%eval +0.54]} 3. Nxe5 {[%eval +0.35]} 3. ... d6 {[%eval 
++0.34]} 4. Nf3 {[%eval +0.43]} 4. ... Nxe4 {[%eval +0.35]} 5. d4 {[%eval 
++0.37]} 5. ... d5 {[%eval +0.35]} 6. Bd3 {[%eval +0.53]} 6. ... Bd6 {
+[%eval +0.70]} 7. O-O {[%eval +0.32]} 7. ... O-O {[%eval +0.49]} 8. c4 {
+[%eval +0.34]} 8. ... c6 {[%eval +0.31]} 9. Re1 {[%eval +0.38]} 9. ... Bf5
+{[%eval +0.46]} 10. Qb3 {[%eval +0.35]} 10. ... Qd7 {[%eval +0.37]} 11. c5
+{[%eval +0.02]} 11. ... Bc7 {[%eval +0.19]} 12. Nc3 {[%eval +0.00]} 
+12. ... Re8 {[%eval +0.22]} 13. Be3 {[%eval +0.29]} 13. ... Na6 {[%eval 
++0.28]} 14. Ne2 {[%eval +0.30]} 14. ... f6 {[%eval +0.41]} 15. a3 {[%eval 
++0.56]} 15. ... g5 {[%eval +0.87]} 16. Qc2 {[%eval +0.46]} 16. ... h5 {
+[%eval +1.25]} 17. Rad1 {[%eval +0.50]} 17. ... h4 {[%eval +0.57]} 18. Nd2
+{[%eval -0.19]} 18. ... Qh7 {[%eval -0.20]} 19. Nxe4 {[%eval -0.39]} 
+19. ... Bxe4 {[%eval -0.29]} 20. Bxe4 {[%eval -0.33]} 20. ... Qxe4 {[%eval
+-0.14]} 21. Qxe4 {[%eval -0.14]} 21. ... Rxe4 {[%eval -0.03]} 22. Nc3 {
+[%eval -0.33]} 22. ... Re7 {[%eval -0.34]} 23. h3 {[%eval -0.69]} 23. ... 
+Rae8 {[%eval -0.34]} 24. Kf1 {[%eval -0.45]} 24. ... Bb8 {[%eval -0.14]} 
+25. Bd2 {[%eval -0.17]} 25. ... Nc7 {[%eval -0.23]} 26. Rxe7 {[%eval 
+-0.23]} 26. ... Rxe7 {[%eval -0.09]} 27. a4 {[%eval -0.29]} 27. ... Ne6 {
+[%eval -0.12]} 28. Ne2 {[%eval -0.19]} 28. ... b6 {[%eval +0.16]} 29. cxb6
+{[%eval +0.18]} 29. ... axb6 {[%eval +0.16]} 30. b4 {[%eval -0.07]} 
+30. ... Ra7 {[%eval -0.13]} 31. Ra1 {[%eval -0.15]} 31. ... Kf7 {[%eval 
++0.00]} 32. Ke1 {[%eval -0.25]} 32. ... Ke8 {[%eval -0.21]} 33. Kd1 {
+[%eval -0.25]} 1/2-1/2
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.21"]
+[Round "6.5"]
+[White "Caruana, Fabiano"]
+[Black "Giri, A"]
+[Result "0-1"]
+[WhiteElo "2792"]
+[BlackElo "2772"]
+[ECO "A06"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Reti"]
+[Variation "Nimzovich-Larsen attack"]
+[WhiteFideId "2020009"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. Nf3 {[%eval +0.21]} 1. ... d5 {[%eval +0.43]} 2. b3 {[%eval -0.12]} 
+2. ... Bf5 {[%eval -0.05]} 3. Bb2 {[%eval -0.02]} 3. ... e6 {[%eval +0.07]
+} 4. g3 {[%eval +0.05]} 4. ... h6 {[%eval +0.08]} 5. Bg2 {[%eval -0.05]} 
+5. ... Nf6 {[%eval -0.05]} 6. O-O {[%eval -0.26]} 6. ... Be7 {[%eval 
++0.00]} 7. d3 {[%eval +0.00]} 7. ... O-O {[%eval -0.03]} 8. Nbd2 {[%eval 
+-0.10]} 8. ... a5 {[%eval -0.07]} 9. a3 {[%eval +0.00]} 9. ... c6 {[%eval 
++0.00]} 10. Re1 {[%eval +0.00]} 10. ... Bh7 {[%eval +0.00]} 11. e4 {[%eval
++0.00]} 11. ... Nbd7 {[%eval +0.00]} 12. Qe2 {[%eval -0.08]} 12. ... Qb6 {
+[%eval -0.03]} 13. a4 {[%eval +0.00]} 13. ... Rfc8 {[%eval +0.02]} 14. 
+Rac1 {[%eval -0.07]} 14. ... Bc5 {[%eval -0.07]} 15. e5 {[%eval -0.14]} 
+15. ... Ne8 {[%eval -0.08]} 16. Nf1 {[%eval -0.06]} 16. ... Qd8 {[%eval 
+-0.05]} 17. Ne3 {[%eval +0.00]} 17. ... Nc7 {[%eval +0.00]} 18. Kh1 {
+[%eval -1.27]} 18. ... b5 {[%eval -1.05]} 19. Nd4 {[%eval -1.46]} 19. ... 
+bxa4 {[%eval -1.32]} 20. bxa4 {[%eval -2.06]} 20. ... Nb6 {[%eval -1.44]} 
+21. Ra1 {[%eval -1.62]} 21. ... Na6 {[%eval -1.40]} 22. Nb3 {[%eval -1.69]
+} 22. ... Be7 {[%eval -0.96]} 23. f4 {[%eval -0.95]} 23. ... Qd7 {[%eval 
++0.79]} 24. f5 {[%eval +0.63]} 24. ... exf5 {[%eval +0.75]} 25. Qf3 {
+[%eval +0.52]} 25. ... Nc5 {[%eval +0.66]} 26. Nxc5 {[%eval +0.42]} 
+26. ... Bxc5 {[%eval +0.52]} 27. d4 {[%eval -0.04]} 27. ... Be7 {[%eval 
++0.38]} 28. Bh3 {[%eval +0.38]} 28. ... g6 {[%eval +1.23]} 29. g4 {[%eval 
++1.04]} 29. ... f4 {[%eval +1.07]} 30. g5 {[%eval +1.44]} 30. ... Qa7 {
+[%eval +2.68]} 31. Bxc8 {[%eval -0.30]} 31. ... fxe3 {[%eval -0.29]} 32. 
+e6 {[%eval -0.12]} 32. ... Bxg5 {[%eval -0.21]} 33. Bd7 {[%eval -1.10]} 
+33. ... fxe6 {[%eval -0.90]} 34. Bxe6+ {[%eval -1.84]} 34. ... Kh8 {[%eval
+-1.73]} 35. Ba3 {[%eval -2.73]} 35. ... Nc4 {[%eval -2.62]} 36. Bc5 {
+[%eval -2.92]} 36. ... Qg7 {[%eval -2.19]} 37. Qg4 {[%eval -3.35]} 37. ...
+ Bf6 {[%eval -0.67]} 38. Rab1 {[%eval -0.57]} 38. ... g5 {[%eval -0.62]} 
+39. Bf5 {[%eval -0.63]} 39. ... Re8 {[%eval +0.00]} 40. Rb6 {[%eval -6.62]
+} 40. ... Nxb6 {[%eval -6.72]} 41. Bxb6 {[%eval -6.73]} 41. ... Bxf5 {
+[%eval -6.76]} 42. Qxf5 {[%eval -6.78]} 42. ... Bxd4 {[%eval -6.87]} 43. 
+Bxa5 {[%eval -6.97]} 43. ... Bc3 {[%eval -7.86]} 44. Bxc3 {[%eval -7.99]} 
+44. ... Qxc3 {[%eval -8.13]} 45. Kg2 {[%eval -9.16]} 45. ... Qd2+ {[%eval 
+-9.76]} 46. Kf1 {[%eval -10.03]} 46. ... Kg7 {[%eval -11.13]} 47. Qd7+ {
+[%eval -11.27]} 47. ... Kf6 {[%eval -11.42]} 48. Qd6+ {[%eval -11.99]} 
+48. ... Kf5 {[%eval -12.58]} 49. Qd7+ {[%eval -51.90]} 49. ... Re6 {[%eval
+-51.90]} 50. Qh7+ {[%eval -59.71]} 50. ... Kg4 {[%eval -59.62]} 51. Qf7 {
+[%eval -327.15]} 51. ... Re4 {[%eval -48.56]} 0-1
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.22"]
+[Round "7.7"]
+[White "Giri, A"]
+[Black "Dubov, Daniil"]
+[Result "1-0"]
+[WhiteElo "2772"]
+[BlackElo "2720"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteFideId "24116068"]
+[BlackFideId "24126055"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+{ 25:+0.37} 
+1-0
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.23"]
+[Round "8.3"]
+[White "Esipenko, Andrey"]
+[Black "Giri, A"]
+[Result "0-1"]
+[WhiteElo "2714"]
+[BlackElo "2772"]
+[ECO "C50"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "24175439"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.43]} 1. ... e5 {[%eval +0.41]} 2. Nf3 {[%eval +0.28]} 
+2. ... Nc6 {[%eval +0.30]} 3. Bc4 {[%eval +0.16]} 3. ... Nf6 {[%eval 
++0.23]} 4. d3 {[%eval +0.23]} 4. ... Bc5 {[%eval +0.25]} 5. c3 {[%eval 
++0.26]} 5. ... O-O {[%eval +0.32]} 6. O-O {[%eval +0.10]} 6. ... d5 {
+[%eval +0.28]} 7. exd5 {[%eval +0.16]} 7. ... Nxd5 {[%eval +0.17]} 8. Re1 
+{[%eval +0.10]} 8. ... Bg4 {[%eval +0.13]} 9. Nbd2 {[%eval +0.13]} 9. ... 
+Nb6 {[%eval +0.24]} 10. h3 {[%eval +0.12]} 10. ... Bh5 {[%eval +0.07]} 11.
+ Bb3 {[%eval +0.21]} 11. ... Qxd3 {[%eval +0.16]} 12. Nxe5 {[%eval +0.23]}
+12. ... Qf5 {[%eval +0.14]} 13. Nef3 {[%eval +0.25]} 13. ... Rfe8 {[%eval 
++0.16]} 14. g4 {[%eval +0.24]} 14. ... Bxg4 {[%eval +0.48]} 15. hxg4 {
+[%eval +0.37]} 15. ... Qxg4+ {[%eval +0.43]} 16. Kh1 {[%eval +0.27]} 
+16. ... Ne5 {[%eval +0.25]} 17. Nh2 {[%eval +0.34]} 17. ... Qg6 {[%eval 
++0.31]} 18. Bc2 {[%eval +0.23]} 18. ... Nd3 {[%eval +0.57]} 19. Bxd3 {
+[%eval +0.49]} 19. ... Qxd3 {[%eval +0.60]} 20. Ndf3 {[%eval +0.06]} 
+20. ... Qxd1 {[%eval +0.11]} 21. Rxd1 {[%eval +0.00]} 21. ... Bxf2 {[%eval
++0.00]} 22. Bf4 {[%eval +0.00]} 22. ... c6 {[%eval +0.00]} 23. Rd2 {[%eval
+-0.17]} 23. ... Be3 {[%eval -0.05]} 24. Bxe3 {[%eval -0.14]} 24. ... Rxe3 
+{[%eval -0.20]} 25. Nd4 {[%eval -0.23]} 25. ... Nc4 {[%eval -0.27]} 26. 
+Rf2 {[%eval -0.27]} 26. ... Rae8 {[%eval -0.31]} 27. Raf1 {[%eval -0.55]} 
+27. ... Nd6 {[%eval -0.46]} 28. Nf5 {[%eval -0.50]} 28. ... Nxf5 {[%eval 
+-0.42]} 29. Rxf5 {[%eval -0.57]} 29. ... f6 {[%eval -0.42]} 30. Kg2 {
+[%eval -0.49]} 30. ... Kf7 {[%eval -0.39]} 31. Rd1 {[%eval -0.47]} 31. ...
+ h5 {[%eval -0.36]} 32. Rf2 {[%eval -0.70]} 32. ... g5 {[%eval -0.78]} 33.
+ Rd7+ {[%eval -0.62]} 33. ... R3e7 {[%eval -0.60]} 34. Rd6 {[%eval -0.59]}
+34. ... Re6 {[%eval -0.55]} 35. Rd7+ {[%eval -0.61]} 35. ... R8e7 {[%eval 
+-0.63]} 36. Rd8 {[%eval -0.71]} 36. ... g4 {[%eval -0.35]} 37. Rh8 {[%eval
+-1.20]} 37. ... Kg6 {[%eval -1.35]} 38. Rg8+ {[%eval -1.87]} 38. ... Rg7 {
+[%eval -1.04]} 39. Rf8 {[%eval -1.12]} 39. ... Kg5 {[%eval -1.12]} 40. Nf1
+{[%eval -1.10]} 40. ... h4 {[%eval -1.09]} 41. a4 {[%eval -1.10]} 41. ... 
+a5 {[%eval -0.40]} 42. b4 {[%eval -0.40]} 42. ... b6 {[%eval -0.40]} 43. 
+bxa5 {[%eval -0.97]} 43. ... bxa5 {[%eval -1.04]} 44. Ra8 {[%eval -0.97]} 
+44. ... Re5 {[%eval -0.68]} 45. Nd2 {[%eval -8.54]} 45. ... g3 {[%eval 
+-9.03]} 46. Nf3+ {[%eval -9.25]} 46. ... Kf4 {[%eval -9.63]} 47. Rf1 {
+[%eval -12.87]} 47. ... h3+ {[%eval -12.94]} 48. Kxh3 {[%eval -327.41]} 
+48. ... g2 {[%eval -327.42]} 49. Rf2 {[%eval -327.42]} 49. ... Ke3 {[%eval
+-327.43]} 0-1
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.25"]
+[Round "9.3"]
+[White "Giri, A"]
+[Black "Shankland, Sam"]
+[Result "1-0"]
+[WhiteElo "2772"]
+[BlackElo "2708"]
+[ECO "A07"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "24116068"]
+[BlackFideId "2004887"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. Nf3 {[%eval +0.24]} 1. ... d5 {[%eval +0.34]} 2. g3 {[%eval +0.18]} 
+2. ... g6 {[%eval +0.37]} 3. Bg2 {[%eval +0.16]} 3. ... Bg7 {[%eval +0.33]
+} 4. O-O {[%eval +0.00]} 4. ... e5 {[%eval +0.10]} 5. d3 {[%eval -0.04]} 
+5. ... Nc6 {[%eval +0.14]} 6. e4 {[%eval +0.12]} 6. ... dxe4 {[%eval 
++0.00]} 7. dxe4 {[%eval +0.00]} 7. ... Qxd1 {[%eval +0.16]} 8. Rxd1 {
+[%eval +0.16]} 8. ... Bg4 {[%eval +0.00]} 9. c3 {[%eval +0.01]} 9. ... Nf6
+{[%eval +0.06]} 10. Nbd2 {[%eval +0.00]} 10. ... O-O-O {[%eval +0.23]} 11.
+ Re1 {[%eval +0.00]} 11. ... Bh6 {[%eval +0.35]} 12. Nc4 {[%eval +0.27]} 
+12. ... Bxc1 {[%eval +0.19]} 13. Raxc1 {[%eval +0.29]} 13. ... Bxf3 {
+[%eval +0.24]} 14. Bxf3 {[%eval +0.17]} 14. ... Ne8 {[%eval +0.31]} 15. 
+Rcd1 {[%eval +0.37]} 15. ... Nd6 {[%eval +0.28]} 16. Bg4+ {[%eval +0.30]} 
+16. ... Kb8 {[%eval +0.31]} 17. Nxd6 {[%eval +0.20]} 17. ... Rxd6 {[%eval 
++0.28]} 18. Rxd6 {[%eval +0.13]} 18. ... cxd6 {[%eval +0.14]} 19. Re3 {
+[%eval +0.16]} 19. ... Kc7 {[%eval +0.50]} 20. Rf3 {[%eval +0.56]} 20. ...
+ Nd8 {[%eval +0.43]} 21. h4 {[%eval +0.49]} 21. ... d5 {[%eval +0.62]} 22.
+ exd5 {[%eval +0.63]} 22. ... f5 {[%eval +0.58]} 23. Bh3 {[%eval +0.54]} 
+23. ... Kd6 {[%eval +0.84]} 24. c4 {[%eval +0.62]} 24. ... b6 {[%eval 
++1.80]} 25. g4 {[%eval +2.01]} 25. ... Nf7 {[%eval +3.75]} 26. gxf5 {
+[%eval +3.95]} 26. ... g5 {[%eval +3.84]} 27. Ra3 {[%eval +4.08]} 27. ... 
+gxh4 {[%eval +5.12]} 28. Rxa7 {[%eval +5.69]} 28. ... Ng5 {[%eval +6.23]} 
+29. Kg2 {[%eval +5.14]} 29. ... Rc8 {[%eval +5.45]} 30. b3 {[%eval +5.77]}
+30. ... b5 {[%eval +10.22]} 31. Ra6+ {[%eval +10.73]} 31. ... Kd7 {[%eval 
++11.48]} 32. f6+ {[%eval +13.15]} 32. ... Nxh3 {[%eval +13.15]} 33. Kxh3 {
+[%eval +13.31]} 33. ... bxc4 {[%eval +14.67]} 34. Rc6 {[%eval +12.69]} 1-0
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.26"]
+[Round "10.2"]
+[White "Giri, A"]
+[Black "Duda, J"]
+[Result "1/2-1/2"]
+[WhiteElo "2772"]
+[BlackElo "2760"]
+[ECO "A18"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "English"]
+[Variation "Mikenas-Carls, Flohr variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "1170546"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. c4 {[%eval +0.34]} 1. ... Nf6 {[%eval +0.46]} 2. Nc3 {[%eval +0.15]} 
+2. ... e6 {[%eval +0.50]} 3. e4 {[%eval +0.30]} 3. ... d5 {[%eval +0.17]} 
+4. e5 {[%eval +0.11]} 4. ... d4 {[%eval +0.30]} 5. exf6 {[%eval +0.21]} 
+5. ... dxc3 {[%eval +0.22]} 6. bxc3 {[%eval +0.13]} 6. ... Qxf6 {[%eval 
++0.28]} 7. Nf3 {[%eval +0.19]} 7. ... c5 {[%eval +0.65]} 8. Bd3 {[%eval 
++0.25]} 8. ... Bd7 {[%eval +0.37]} 9. Be4 {[%eval -0.47]} 9. ... Bc6 {
+[%eval -0.20]} 10. Qc2 {[%eval -0.17]} 10. ... Bxe4 {[%eval -0.04]} 11. 
+Qxe4 {[%eval -0.12]} 11. ... Nc6 {[%eval -0.05]} 12. Rb1 {[%eval -0.12]} 
+12. ... O-O-O {[%eval -0.05]} 13. d4 {[%eval -0.14]} 13. ... Qg6 {[%eval 
+-0.35]} 14. Qxg6 {[%eval -0.05]} 14. ... hxg6 {[%eval -0.17]} 15. Be3 {
+[%eval -0.09]} 15. ... f6 {[%eval +0.00]} 16. Ke2 {[%eval -0.09]} 16. ... 
+g5 {[%eval +0.00]} 17. h3 {[%eval +0.00]} 17. ... Be7 {[%eval +0.00]} 18. 
+dxc5 {[%eval +0.00]} 18. ... e5 {[%eval +0.00]} 19. Rbd1 {[%eval -0.13]} 
+19. ... Na5 {[%eval +0.00]} 20. Nd2 {[%eval -0.46]} 20. ... Rd7 {[%eval 
+-0.36]} 21. Rb1 {[%eval -0.26]} 21. ... f5 {[%eval -0.25]} 22. f3 {[%eval 
+-0.26]} 22. ... Rhd8 {[%eval -0.21]} 23. Rb2 {[%eval -0.51]} 23. ... Rd3 {
+[%eval -0.25]} 24. Rc2 {[%eval -0.35]} 24. ... Bf6 {[%eval -0.14]} 25. g4 
+{[%eval -0.19]} 25. ... g6 {[%eval -0.16]} 26. gxf5 {[%eval -0.11]} 
+26. ... gxf5 {[%eval -0.04]} 27. Rg1 {[%eval -0.10]} 27. ... e4 {[%eval 
++0.00]} 28. Bxg5 {[%eval +0.04]} 28. ... Bxg5 {[%eval +0.03]} 29. Rxg5 {
+[%eval +0.05]} 29. ... e3 {[%eval +0.05]} 30. Nb3 {[%eval +0.04]} 30. ... 
+Nxc4 {[%eval +0.00]} 31. f4 {[%eval +0.00]} 31. ... Na3 {[%eval +0.00]} 
+32. Rc1 {[%eval +0.00]} 32. ... Nb5 {[%eval +0.00]} 33. Nd4 {[%eval +0.00]
+} 33. ... Rxc3 {[%eval +0.00]} 34. Rxc3 {[%eval +0.00]} 34. ... Nxc3+ {
+[%eval +0.00]} 35. Kxe3 {[%eval +0.00]} 35. ... Nd1+ {[%eval +0.00]} 36. 
+Kd3 {[%eval +0.00]} 36. ... Nb2+ {[%eval +0.00]} 37. Kc3 {[%eval +0.00]} 
+37. ... Nd1+ {[%eval +0.00]} 38. Kc4 {[%eval +0.00]} 38. ... Nb2+ {[%eval 
++0.00]} 1/2-1/2
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.28"]
+[Round "11.2"]
+[White "Van Foreest, Jorden"]
+[Black "Giri, A"]
+[Result "1-0"]
+[WhiteElo "2702"]
+[BlackElo "2772"]
+[ECO "E24"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Nimzo-Indian"]
+[Variation "Saemisch variation"]
+[WhiteFideId "1039784"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.36]} 1. ... Nf6 {[%eval +0.44]} 2. c4 {[%eval +0.28]} 
+2. ... e6 {[%eval +0.39]} 3. Nc3 {[%eval +0.03]} 3. ... Bb4 {[%eval +0.15]
+} 4. a3 {[%eval -0.01]} 4. ... Bxc3+ {[%eval +0.00]} 5. bxc3 {[%eval 
+-0.09]} 5. ... b6 {[%eval -0.03]} 6. f3 {[%eval -0.12]} 6. ... Nc6 {[%eval
+-0.02]} 7. e4 {[%eval +0.05]} 7. ... Na5 {[%eval +0.00]} 8. Bd3 {[%eval 
+-0.30]} 8. ... Ba6 {[%eval -0.26]} 9. Qe2 {[%eval -0.16]} 9. ... d6 {
+[%eval +0.16]} 10. f4 {[%eval +0.00]} 10. ... Qd7 {[%eval +0.80]} 11. Nf3 
+{[%eval +0.91]} 11. ... Qa4 {[%eval +1.18]} 12. Nd2 {[%eval +0.66]} 
+12. ... e5 {[%eval +0.66]} 13. O-O {[%eval +0.72]} 13. ... O-O {[%eval 
++0.75]} 14. fxe5 {[%eval +0.99]} 14. ... dxe5 {[%eval +0.95]} 15. Rb1 {
+[%eval +0.43]} 15. ... c5 {[%eval +1.20]} 16. Rxf6 {[%eval +0.88]} 16. ...
+ gxf6 {[%eval +1.18]} 17. Qf3 {[%eval +0.77]} 17. ... Qc6 {[%eval +1.10]} 
+18. d5 {[%eval +1.18]} 18. ... Qd6 {[%eval +0.85]} 19. Nf1 {[%eval +0.56]}
+19. ... Kh8 {[%eval +0.46]} 20. Ne3 {[%eval +0.68]} 20. ... Bc8 {[%eval 
++0.78]} 21. Bd2 {[%eval +0.95]} 21. ... Rg8 {[%eval +1.32]} 22. Be1 {
+[%eval +1.05]} 22. ... Rg6 {[%eval +1.26]} 23. Bh4 {[%eval +1.09]} 23. ...
+ Rh6 {[%eval +1.52]} 24. Qf2 {[%eval +1.46]} 24. ... Bd7 {[%eval +1.57]} 
+25. Rf1 {[%eval +1.46]} 25. ... Kg7 {[%eval +4.59]} 26. Be2 {[%eval +5.34]
+} 26. ... Rg6 {[%eval +5.21]} 27. h3 {[%eval +3.42]} 27. ... Bxh3 {[%eval 
++6.62]} 28. Bh5 {[%eval +6.60]} 28. ... Bd7 {[%eval +7.03]} 29. Bxg6 {
+[%eval +6.99]} 29. ... fxg6 {[%eval +7.12]} 30. Bxf6+ {[%eval +7.12]} 
+30. ... Kg8 {[%eval +7.16]} 31. Qh4 {[%eval +7.18]} 31. ... Rf8 {[%eval 
++7.26]} 32. Rf3 {[%eval +6.65]} 32. ... Rf7 {[%eval +6.89]} 33. Qg5 {
+[%eval +5.52]} 33. ... Qf8 {[%eval +5.87]} 34. Qxe5 {[%eval +5.97]} 
+34. ... Nb7 {[%eval +7.00]} 35. Qf4 {[%eval +7.44]} 35. ... Nd6 {[%eval 
++7.84]} 36. e5 {[%eval +8.00]} 36. ... Ne8 {[%eval +8.20]} 37. d6 {[%eval 
++8.39]} 37. ... Nxf6 {[%eval +9.23]} 38. exf6 {[%eval +9.95]} 38. ... Qe8 
+{[%eval +10.39]} 39. Nd5 {[%eval +10.88]} 39. ... Qe1+ {[%eval +11.16]} 
+40. Kh2 {[%eval +11.21]} 40. ... Qd1 {[%eval +11.24]} 41. Ne7+ {[%eval 
++9.88]} 41. ... Kh8 {[%eval +12.06]} 42. Rh3 {[%eval +18.86]} 1-0
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.29"]
+[Round "12.4"]
+[White "Giri, A"]
+[Black "Grandelius, Nils"]
+[Result "1/2-1/2"]
+[WhiteElo "2772"]
+[BlackElo "2672"]
+[ECO "E60"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "King's Indian, 3.Nf3"]
+[WhiteFideId "24116068"]
+[BlackFideId "1710400"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.33]} 1. ... Nf6 {[%eval +0.39]} 2. c4 {[%eval +0.36]} 
+2. ... g6 {[%eval +0.48]} 3. Nf3 {[%eval +0.38]} 3. ... Bg7 {[%eval +0.40]
+} 4. g3 {[%eval +0.23]} 4. ... c6 {[%eval +0.42]} 5. Nc3 {[%eval +0.21]} 
+5. ... d5 {[%eval +0.22]} 6. Qb3 {[%eval +0.21]} 6. ... O-O {[%eval +0.29]
+} 7. Bg2 {[%eval +0.12]} 7. ... dxc4 {[%eval +0.45]} 8. Qxc4 {[%eval 
++0.33]} 8. ... Bf5 {[%eval +0.41]} 9. O-O {[%eval +0.17]} 9. ... Nbd7 {
+[%eval +0.33]} 10. a4 {[%eval +0.21]} 10. ... Rc8 {[%eval +0.61]} 11. a5 {
+[%eval +0.51]} 11. ... b5 {[%eval +0.40]} 12. axb6 {[%eval +0.39]} 12. ...
+ axb6 {[%eval +0.46]} 13. Bf4 {[%eval +0.47]} 13. ... Be6 {[%eval +0.66]} 
+14. Qd3 {[%eval +0.65]} 14. ... Bf5 {[%eval +0.56]} 15. Qa6 {[%eval +0.41]
+} 15. ... h6 {[%eval +0.62]} 16. Rfd1 {[%eval +0.42]} 16. ... Nd5 {[%eval 
++0.83]} 17. Nxd5 {[%eval +0.77]} 17. ... cxd5 {[%eval +0.72]} 18. Qb7 {
+[%eval +0.44]} 18. ... g5 {[%eval +0.28]} 19. Bd2 {[%eval +0.38]} 19. ... 
+g4 {[%eval +0.34]} 20. Ne1 {[%eval +0.43]} 20. ... e6 {[%eval +0.38]} 21. 
+Bf4 {[%eval +0.35]} 21. ... Nf6 {[%eval +0.41]} 22. Ra7 {[%eval +0.29]} 
+22. ... Rc4 {[%eval +0.44]} 23. Bf1 {[%eval +0.26]} 23. ... Rb4 {[%eval 
++1.44]} 24. Qc6 {[%eval -0.53]} 24. ... Ne4 {[%eval -0.38]} 25. Nd3 {
+[%eval -1.49]} 1/2-1/2
+
+[Event "84th Tata Steel Masters"]
+[Site "Wijk aan Zee NED"]
+[Date "2022.01.30"]
+[Round "13.1"]
+[White "Rapport, Richard"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2763"]
+[BlackElo "2772"]
+[ECO "D85"]
+[EventDate "2022.01.15"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Gruenfeld"]
+[Variation "modern exchange variation"]
+[WhiteFideId "738590"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.26]} 1. ... Nf6 {[%eval +0.32]} 2. c4 {[%eval +0.28]} 
+2. ... g6 {[%eval +0.43]} 3. Nc3 {[%eval +0.31]} 3. ... d5 {[%eval +0.46]}
+4. Nf3 {[%eval +0.30]} 4. ... Bg7 {[%eval +0.45]} 5. cxd5 {[%eval +0.25]} 
+5. ... Nxd5 {[%eval +0.35]} 6. e4 {[%eval +0.27]} 6. ... Nxc3 {[%eval 
++0.26]} 7. bxc3 {[%eval +0.15]} 7. ... c5 {[%eval +0.32]} 8. Be3 {[%eval 
++0.25]} 8. ... Qa5 {[%eval +0.22]} 9. Nd2 {[%eval +0.00]} 9. ... O-O {
+[%eval +0.00]} 10. Nb3 {[%eval +0.00]} 10. ... Qxc3+ {[%eval +0.00]} 11. 
+Bd2 {[%eval +0.00]} 11. ... Qb2 {[%eval +0.00]} 12. Bc1 {[%eval +0.00]} 
+12. ... Qc3+ {[%eval +0.00]} 13. Bd2 {[%eval +0.00]} 13. ... Qb2 {[%eval 
++0.00]} 14. Bc1 {[%eval +0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 2 Pool B"]
+[Site "Belgrade SRB"]
+[Date "2022.03.01"]
+[Round "1.2"]
+[White "Giri, A"]
+[Black "Tabatabaei, M"]
+[Result "1-0"]
+[WhiteElo "2772"]
+[BlackElo "2623"]
+[ECO "C50"]
+[EventDate "2022.03.01"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "24116068"]
+[BlackFideId "12521213"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.31]} 1. ... e5 {[%eval +0.39]} 2. Nf3 {[%eval +0.37]} 
+2. ... Nc6 {[%eval +0.31]} 3. Bc4 {[%eval +0.11]} 3. ... Nf6 {[%eval 
++0.25]} 4. d3 {[%eval +0.26]} 4. ... Bc5 {[%eval +0.34]} 5. O-O {[%eval 
++0.28]} 5. ... O-O {[%eval +0.18]} 6. h3 {[%eval +0.18]} 6. ... d5 {[%eval
++0.16]} 7. exd5 {[%eval +0.15]} 7. ... Nxd5 {[%eval +0.50]} 8. Nbd2 {
+[%eval +0.44]} 8. ... Be6 {[%eval +0.41]} 9. Ne4 {[%eval +0.13]} 9. ... 
+Bb6 {[%eval +0.22]} 10. b4 {[%eval +0.13]} 10. ... Ndxb4 {[%eval +0.30]} 
+11. Bxe6 {[%eval +0.05]} 11. ... fxe6 {[%eval +0.06]} 12. Rb1 {[%eval 
++0.23]} 12. ... h6 {[%eval +0.33]} 13. Nxe5 {[%eval +0.19]} 13. ... Nxe5 {
+[%eval +0.21]} 14. Rxb4 {[%eval +0.21]} 14. ... a5 {[%eval +0.29]} 15. Rb1
+{[%eval +0.26]} 15. ... Qh4 {[%eval +1.16]} 16. Qe2 {[%eval +1.02]} 
+16. ... Rad8 {[%eval +1.20]} 17. Kh2 {[%eval +0.92]} 17. ... Qe7 {[%eval 
++1.22]} 18. f4 {[%eval +1.09]} 18. ... Nd7 {[%eval +1.45]} 19. Rf3 {[%eval
++1.13]} 19. ... Nf6 {[%eval +1.38]} 20. Bd2 {[%eval +0.76]} 20. ... Qa3 {
+[%eval +1.10]} 21. Nc3 {[%eval +0.57]} 21. ... Rde8 {[%eval +0.51]} 22. 
+Qe5 {[%eval +0.51]} 22. ... Nd7 {[%eval +0.94]} 23. Qb5 {[%eval +0.56]} 
+23. ... Qe7 {[%eval +1.10]} 24. Qc4 {[%eval +0.72]} 24. ... Kh8 {[%eval 
++1.01]} 25. Ne4 {[%eval +0.92]} 25. ... c6 {[%eval +1.87]} 26. d4 {[%eval 
++2.00]} 26. ... Rb8 {[%eval +2.21]} 27. Rfb3 {[%eval +2.13]} 27. ... Qd8 {
+[%eval +2.29]} 28. Qxe6 {[%eval +1.79]} 28. ... Bxd4 {[%eval +3.42]} 29. 
+Rxb7 {[%eval +4.00]} 29. ... Rxb7 {[%eval +5.18]} 30. Rxb7 {[%eval +5.21]}
+30. ... Nc5 {[%eval +5.35]} 31. Nxc5 {[%eval +5.55]} 31. ... Bxc5 {[%eval 
++5.74]} 32. Rd7 {[%eval +5.66]} 32. ... Qf6 {[%eval +5.91]} 33. Qxf6 {
+[%eval +5.91]} 33. ... Rxf6 {[%eval +5.99]} 34. Bc3 {[%eval +3.71]} 
+34. ... Rxf4 {[%eval +4.42]} 35. Bxg7+ {[%eval +4.20]} 35. ... Kg8 {[%eval
++4.07]} 36. Bxh6 {[%eval +4.72]} 36. ... Ra4 {[%eval +4.98]} 37. g4 {
+[%eval +5.83]} 37. ... Rxa2 {[%eval +6.01]} 38. g5 {[%eval +6.02]} 38. ...
+ Rxc2+ {[%eval +6.48]} 39. Kg3 {[%eval +6.81]} 39. ... Be3 {[%eval +7.58]}
+40. Rd8+ {[%eval +6.68]} 40. ... Kh7 {[%eval +7.62]} 41. Kg4 {[%eval 
++7.68]} 41. ... Rd2 {[%eval +8.30]} 42. Re8 {[%eval +7.63]} 42. ... Bc5 {
+[%eval +8.14]} 43. Kh5 {[%eval +8.11]} 43. ... Rd5 {[%eval +8.04]} 44. Ra8
+{[%eval +8.01]} 44. ... Bd4 {[%eval +9.13]} 45. h4 {[%eval +10.34]} 
+45. ... Bc3 {[%eval +9.86]} 46. Bf8 {[%eval +11.91]} 46. ... Bd4 {[%eval 
++11.91]} 47. Rc8 {[%eval +11.91]} 47. ... a4 {[%eval +11.91]} 48. Ra8 {
+[%eval +11.84]} 48. ... c5 {[%eval +11.92]} 49. Rxa4 {[%eval +12.55]} 
+49. ... Rd8 {[%eval +29.09]} 50. Ra7+ {[%eval +54.09]} 50. ... Kg8 {[%eval
++54.09]} 51. Be7 {[%eval +54.24]} 51. ... Rc8 {[%eval +54.47]} 52. Kg6 {
+[%eval +34.80]} 52. ... c4 {[%eval +51.60]} 53. Rd7 {[%eval +53.96]} 
+53. ... Bh8 {[%eval +56.22]} 54. Bf6 {[%eval +56.14]} 54. ... c3 {[%eval 
++327.28]} 55. Rh7 {[%eval +327.33]} 55. ... Bxf6 {[%eval +327.34]} 56. 
+gxf6 {[%eval +327.35]} 56. ... Rc6 {[%eval +327.35]} 57. Rd7 {[%eval 
++327.36]} 57. ... Rc8 {[%eval +327.36]} 58. Rg7+ {[%eval +327.37]} 1-0
+
+[Event "FIDE Grand Prix 2 Pool B"]
+[Site "Belgrade SRB"]
+[Date "2022.03.02"]
+[Round "2.1"]
+[White "Giri, A"]
+[Black "Vitiugov, Nikita"]
+[Result "1-0"]
+[WhiteElo "2772"]
+[BlackElo "2726"]
+[ECO "C50"]
+[EventDate "2022.03.01"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "24116068"]
+[BlackFideId "4152956"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.42]} 1. ... e5 {[%eval +0.43]} 2. Nf3 {[%eval +0.39]} 
+2. ... Nc6 {[%eval +0.34]} 3. Bc4 {[%eval +0.19]} 3. ... Bc5 {[%eval 
++0.18]} 4. O-O {[%eval +0.20]} 4. ... Nf6 {[%eval +0.26]} 5. d3 {[%eval 
++0.25]} 5. ... d6 {[%eval +0.27]} 6. c3 {[%eval +0.12]} 6. ... h6 {[%eval 
++0.25]} 7. Re1 {[%eval +0.26]} 7. ... O-O {[%eval +0.35]} 8. Nbd2 {[%eval 
++0.21]} 8. ... a5 {[%eval +0.28]} 9. h3 {[%eval +0.16]} 9. ... Be6 {[%eval
++0.35]} 10. b3 {[%eval +0.03]} 10. ... d5 {[%eval +0.26]} 11. exd5 {[%eval
++0.37]} 11. ... Nxd5 {[%eval +0.17]} 12. Ne4 {[%eval +0.04]} 12. ... Bb6 {
+[%eval +0.11]} 13. Qd2 {[%eval +0.25]} 13. ... Qc8 {[%eval +0.77]} 14. Ng3
+{[%eval +0.50]} 14. ... f6 {[%eval +1.77]} 15. d4 {[%eval +1.76]} 15. ... 
+Qd7 {[%eval +1.76]} 16. Ba3 {[%eval +1.63]} 16. ... Rf7 {[%eval +1.75]} 
+17. Re4 {[%eval +0.80]} 17. ... a4 {[%eval +0.77]} 18. b4 {[%eval +0.47]} 
+18. ... Nf4 {[%eval +0.69]} 19. Bxe6 {[%eval +0.77]} 19. ... Nxe6 {[%eval 
++0.77]} 20. Rae1 {[%eval +0.12]} 20. ... Ng5 {[%eval +0.10]} 21. Nxg5 {
+[%eval +0.35]} 21. ... hxg5 {[%eval +0.50]} 22. b5 {[%eval +0.00]} 22. ...
+ Na7 {[%eval +0.00]} 23. h4 {[%eval +0.00]} 23. ... Nxb5 {[%eval +0.00]} 
+24. hxg5 {[%eval +0.00]} 24. ... fxg5 {[%eval +0.00]} 25. Qxg5 {[%eval 
++0.00]} 25. ... Nxa3 {[%eval +1.01]} 26. Rh4 {[%eval +0.82]} 26. ... Re8 {
+[%eval +1.00]} 27. Qh5 {[%eval +0.98]} 27. ... Rf6 {[%eval +1.29]} 28. Ne4
+{[%eval +0.88]} 28. ... Rf5 {[%eval +1.17]} 29. Ng5 {[%eval +0.99]} 
+29. ... Rxg5 {[%eval +1.03]} 30. Qxg5 {[%eval +1.21]} 30. ... c5 {[%eval 
++6.16]} 31. Qg6 {[%eval +5.68]} 31. ... Bd8 {[%eval +8.11]} 32. Rh7 {
+[%eval +8.14]} 1-0
+
+[Event "FIDE Grand Prix 2 Pool B"]
+[Site "Belgrade SRB"]
+[Date "2022.03.03"]
+[Round "3.2"]
+[White "Harikrishna, Pentala"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2719"]
+[BlackElo "2772"]
+[ECO "C80"]
+[EventDate "2022.03.01"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Ruy Lopez"]
+[Variation "open, Bernstein variation"]
+[WhiteFideId "5007003"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.32]} 1. ... e5 {[%eval +0.31]} 2. Nf3 {[%eval +0.30]} 
+2. ... Nc6 {[%eval +0.47]} 3. Bb5 {[%eval +0.36]} 3. ... a6 {[%eval +0.47]
+} 4. Ba4 {[%eval +0.44]} 4. ... Nf6 {[%eval +0.35]} 5. O-O {[%eval +0.28]}
+5. ... Nxe4 {[%eval +0.48]} 6. d4 {[%eval +0.27]} 6. ... b5 {[%eval +0.52]
+} 7. Bb3 {[%eval +0.59]} 7. ... d5 {[%eval +0.35]} 8. dxe5 {[%eval +0.37]}
+8. ... Be6 {[%eval +0.36]} 9. Nbd2 {[%eval +0.18]} 9. ... Nc5 {[%eval 
++0.42]} 10. c3 {[%eval +0.22]} 10. ... Be7 {[%eval +0.65]} 11. Bc2 {[%eval
++0.56]} 11. ... d4 {[%eval +0.65]} 12. Nb3 {[%eval +0.63]} 12. ... d3 {
+[%eval +0.62]} 13. Bb1 {[%eval +0.50]} 13. ... Nxb3 {[%eval +0.74]} 14. 
+axb3 {[%eval +0.62]} 14. ... Bf5 {[%eval +0.63]} 15. Be3 {[%eval +0.27]} 
+15. ... O-O {[%eval +0.50]} 16. Bd4 {[%eval +0.05]} 16. ... Qd5 {[%eval 
++0.24]} 17. Re1 {[%eval +0.31]} 17. ... b4 {[%eval +0.16]} 18. Bxd3 {
+[%eval +0.12]} 18. ... Bxd3 {[%eval +0.24]} 19. Qxd3 {[%eval +0.18]} 
+19. ... bxc3 {[%eval +0.24]} 20. bxc3 {[%eval +0.21]} 20. ... Qxb3 {[%eval
++0.09]} 21. e6 {[%eval +0.04]} 21. ... fxe6 {[%eval +0.05]} 22. Qe2 {
+[%eval -0.08]} 22. ... a5 {[%eval -0.04]} 23. c4 {[%eval -0.03]} 23. ... 
+Qxf3 {[%eval +0.00]} 24. gxf3 {[%eval +0.00]} 24. ... Nxd4 {[%eval +0.00]}
+25. Qe4 {[%eval +0.00]} 25. ... Nxf3+ {[%eval -0.09]} 26. Kh1 {[%eval 
+-0.10]} 26. ... Nxe1 {[%eval -0.08]} 27. Qxe6+ {[%eval -0.08]} 27. ... Rf7
+{[%eval -0.06]} 28. Rxe1 {[%eval -0.08]} 28. ... Rf8 {[%eval +0.00]} 29. 
+Rd1 {[%eval +0.00]} 29. ... Kh8 {[%eval +0.00]} 30. Rd7 {[%eval +0.00]} 
+30. ... Rxf2 {[%eval +0.00]} 31. Qxe7 {[%eval +0.00]} 31. ... Rf1+ {[%eval
++0.00]} 32. Kg2 {[%eval +0.00]} 32. ... R1f2+ {[%eval +0.00]} 33. Kg1 {
+[%eval +0.00]} 33. ... Rf1+ {[%eval +0.00]} 34. Kg2 {[%eval +0.00]} 
+34. ... R1f2+ {[%eval +0.00]} 35. Kg1 {[%eval +0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 2 Pool B"]
+[Site "Belgrade SRB"]
+[Date "2022.03.04"]
+[Round "4.2"]
+[White "Tabatabaei, M"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2623"]
+[BlackElo "2772"]
+[ECO "B30"]
+[EventDate "2022.03.01"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "12521213"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.29]} 1. ... c5 {[%eval +0.52]} 2. Nf3 {[%eval +0.35]} 
+2. ... Nc6 {[%eval +0.45]} 3. Bb5 {[%eval +0.38]} 3. ... e6 {[%eval +0.40]
+} 4. O-O {[%eval +0.48]} 4. ... Nge7 {[%eval +0.46]} 5. d4 {[%eval +0.34]}
+5. ... cxd4 {[%eval +0.44]} 6. Nxd4 {[%eval +0.46]} 6. ... Ng6 {[%eval 
++0.43]} 7. Be3 {[%eval +0.36]} 7. ... Be7 {[%eval +0.46]} 8. c3 {[%eval 
++0.28]} 8. ... O-O {[%eval +0.39]} 9. Nd2 {[%eval +0.38]} 9. ... a6 {
+[%eval +0.67]} 10. Be2 {[%eval +0.46]} 10. ... Nxd4 {[%eval +0.58]} 11. 
+cxd4 {[%eval +0.38]} 11. ... b5 {[%eval +0.47]} 12. a4 {[%eval +0.00]} 
+12. ... bxa4 {[%eval +0.05]} 13. d5 {[%eval +0.00]} 13. ... exd5 {[%eval 
++0.00]} 14. exd5 {[%eval +0.00]} 14. ... Bg5 {[%eval +0.16]} 15. Bxg5 {
+[%eval +0.00]} 15. ... Qxg5 {[%eval +0.11]} 16. Rxa4 {[%eval +0.00]} 
+16. ... Bb7 {[%eval +0.00]} 17. Bf3 {[%eval +0.00]} 17. ... Bxd5 {[%eval 
++0.00]} 18. Ne4 {[%eval +0.00]} 18. ... Bxe4 {[%eval +0.00]} 19. Bxe4 {
+[%eval +0.00]} 19. ... Rab8 {[%eval +0.00]} 20. Rxa6 {[%eval +0.00]} 
+20. ... Rxb2 {[%eval +0.00]} 21. Qxd7 {[%eval +0.00]} 21. ... Nf4 {[%eval 
++0.00]} 22. g3 {[%eval +0.00]} 22. ... Rd2 {[%eval +0.00]} 23. Qf5 {[%eval
++0.00]} 23. ... Qxf5 {[%eval +0.00]} 24. Bxf5 {[%eval +0.00]} 24. ... Rd5 
+{[%eval +0.00]} 25. Bxh7+ {[%eval +0.00]} 25. ... Kxh7 {[%eval +0.00]} 26.
+ gxf4 {[%eval +0.00]} 26. ... Rd4 {[%eval +0.00]} 27. Ra3 {[%eval +0.00]} 
+27. ... Rxf4 {[%eval +0.00]} 28. Rh3+ {[%eval +0.00]} 28. ... Kg8 {[%eval 
++0.00]} 29. Kg2 {[%eval +0.00]} 29. ... g6 {[%eval +0.00]} 30. Rf3 {[%eval
++0.00]} 30. ... Rxf3 {[%eval +0.00]} 31. Kxf3 {[%eval +0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 2 Pool B"]
+[Site "Belgrade SRB"]
+[Date "2022.03.06"]
+[Round "5.2"]
+[White "Giri, A"]
+[Black "Harikrishna, Pentala"]
+[Result "1/2-1/2"]
+[WhiteElo "2772"]
+[BlackElo "2719"]
+[ECO "D38"]
+[EventDate "2022.03.01"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "5007003"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.26]} 1. ... Nf6 {[%eval +0.32]} 2. c4 {[%eval +0.25]} 
+2. ... e6 {[%eval +0.37]} 3. Nf3 {[%eval +0.20]} 3. ... d5 {[%eval +0.25]}
+4. Nc3 {[%eval +0.26]} 4. ... Bb4 {[%eval +0.28]} 5. Qa4+ {[%eval +0.12]} 
+5. ... Nc6 {[%eval +0.27]} 6. e3 {[%eval +0.37]} 6. ... O-O {[%eval +0.37]
+} 7. Qc2 {[%eval +0.13]} 7. ... Re8 {[%eval +0.32]} 8. Bd2 {[%eval +0.23]}
+8. ... Bf8 {[%eval +0.26]} 9. a3 {[%eval +0.24]} 9. ... a6 {[%eval +0.59]}
+10. Rd1 {[%eval +0.11]} 10. ... b6 {[%eval +0.37]} 11. Bd3 {[%eval +0.26]}
+11. ... Bb7 {[%eval +0.49]} 12. O-O {[%eval +0.28]} 12. ... h6 {[%eval 
++0.41]} 13. Bc1 {[%eval +0.18]} 13. ... Na5 {[%eval +0.64]} 14. cxd5 {
+[%eval +0.57]} 14. ... exd5 {[%eval +0.69]} 15. b4 {[%eval +0.50]} 15. ...
+ Nc6 {[%eval +0.70]} 16. Bb2 {[%eval +0.30]} 16. ... Nb8 {[%eval +0.42]} 
+17. Ne5 {[%eval +0.00]} 17. ... c5 {[%eval +0.26]} 18. bxc5 {[%eval +0.00]
+} 18. ... bxc5 {[%eval +0.00]} 19. Ne2 {[%eval -0.67]} 19. ... c4 {[%eval 
+-0.62]} 20. Bf5 {[%eval -0.59]} 20. ... Bc8 {[%eval -0.61]} 21. Nc3 {
+[%eval -0.78]} 21. ... Ra7 {[%eval -0.62]} 22. Bxc8 {[%eval -0.93]} 
+22. ... Qxc8 {[%eval -0.85]} 23. e4 {[%eval -1.05]} 23. ... dxe4 {[%eval 
+-1.09]} 24. Rfe1 {[%eval -1.80]} 24. ... Nbd7 {[%eval -1.08]} 25. Nxe4 {
+[%eval -1.19]} 25. ... Nxe4 {[%eval -1.34]} 26. Rxe4 {[%eval -1.16]} 
+26. ... Nf6 {[%eval -0.91]} 27. Ree1 {[%eval -1.10]} 27. ... Rc7 {[%eval 
+-0.69]} 28. Bc3 {[%eval -0.78]} 28. ... Bxa3 {[%eval +0.00]} 29. Ba5 {
+[%eval +0.00]} 29. ... Rce7 {[%eval +0.00]} 30. Nxc4 {[%eval -0.07]} 
+30. ... Rxe1+ {[%eval -0.06]} 31. Bxe1 {[%eval +0.00]} 31. ... Bf8 {[%eval
++0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 2 Pool B"]
+[Site "Belgrade SRB"]
+[Date "2022.03.07"]
+[Round "6.1"]
+[White "Vitiugov, Nikita"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2726"]
+[BlackElo "2772"]
+[ECO "D33"]
+[EventDate "2022.03.01"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "QGD"]
+[Variation "Tarrasch, Prague variation"]
+[WhiteFideId "4152956"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. c4 {[%eval +0.28]} 1. ... Nf6 {[%eval +0.30]} 2. Nc3 {[%eval +0.12]} 
+2. ... c5 {[%eval +0.49]} 3. g3 {[%eval +0.25]} 3. ... e6 {[%eval +0.54]} 
+4. Nf3 {[%eval +0.33]} 4. ... d5 {[%eval +0.43]} 5. cxd5 {[%eval +0.34]} 
+5. ... exd5 {[%eval +0.45]} 6. d4 {[%eval +0.41]} 6. ... Nc6 {[%eval 
++0.37]} 7. a3 {[%eval +0.00]} 7. ... cxd4 {[%eval +0.28]} 8. Nxd4 {[%eval 
++0.14]} 8. ... Bc5 {[%eval +0.21]} 9. Be3 {[%eval +0.26]} 9. ... Bb6 {
+[%eval +0.38]} 10. Bg2 {[%eval +0.10]} 10. ... O-O {[%eval +0.12]} 11. Qd2
+{[%eval +0.00]} 11. ... Na5 {[%eval +0.05]} 12. Rd1 {[%eval +0.00]} 
+12. ... Nc4 {[%eval +0.08]} 13. Qc1 {[%eval +0.05]} 13. ... Nxe3 {[%eval 
++0.16]} 14. Qxe3 {[%eval +0.13]} 14. ... Re8 {[%eval +0.15]} 15. Qf4 {
+[%eval +0.03]} 15. ... Bg4 {[%eval +0.05]} 16. O-O {[%eval +0.04]} 16. ...
+ Bxd4 {[%eval +0.32]} 17. Rxd4 {[%eval +0.25]} 17. ... Bxe2 {[%eval +0.27]
+} 18. Rb1 {[%eval +0.23]} 18. ... Rc8 {[%eval +0.21]} 19. Nxd5 {[%eval 
++0.11]} 19. ... Nxd5 {[%eval +0.15]} 20. Bxd5 {[%eval +0.14]} 20. ... Qc7 
+{[%eval +0.19]} 21. Re1 {[%eval +0.00]} 21. ... Qxf4 {[%eval +0.05]} 22. 
+Rxf4 {[%eval +0.00]} 22. ... Rc7 {[%eval +0.00]} 23. Rc4 {[%eval +0.00]} 
+23. ... Rce7 {[%eval +0.00]} 24. Rc2 {[%eval +0.00]} 24. ... b6 {[%eval 
++0.02]} 25. Bc6 {[%eval +0.00]} 25. ... Bg4 {[%eval +0.06]} 26. Rxe7 {
+[%eval +0.01]} 26. ... Rxe7 {[%eval +0.09]} 27. f3 {[%eval +0.05]} 27. ...
+ Be6 {[%eval +0.00]} 28. Kf2 {[%eval +0.00]} 28. ... g5 {[%eval +0.00]} 
+29. Bb5 {[%eval +0.00]} 29. ... Kg7 {[%eval +0.00]} 30. Rc3 {[%eval +0.00]
+} 30. ... Kf6 {[%eval +0.00]} 31. Bd3 {[%eval +0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 2 playoff"]
+[Site "Belgrade SRB"]
+[Date "2022.03.09"]
+[Round "1.1"]
+[White "Giri, A"]
+[Black "Andreikin, Dmitry"]
+[Result "1/2-1/2"]
+[WhiteElo "2771"]
+[BlackElo "2724"]
+[ECO "B40"]
+[EventDate "2022.03.09"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Sicilian defence"]
+[WhiteFideId "24116068"]
+[BlackFideId "4158814"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.35]} 1. ... c5 {[%eval +0.38]} 2. Nf3 {[%eval +0.35]} 
+2. ... e6 {[%eval +0.39]} 3. b3 {[%eval +0.20]} 3. ... b6 {[%eval +0.34]} 
+4. Bb2 {[%eval +0.30]} 4. ... Bb7 {[%eval +0.36]} 5. Nc3 {[%eval +0.19]} 
+5. ... Nf6 {[%eval +0.48]} 6. e5 {[%eval +0.21]} 6. ... Ne4 {[%eval +0.40]
+} 7. Nxe4 {[%eval +0.21]} 7. ... Bxe4 {[%eval +0.27]} 8. Qe2 {[%eval 
+-0.03]} 8. ... Bb7 {[%eval +0.68]} 9. h4 {[%eval +0.42]} 9. ... Nc6 {
+[%eval +0.50]} 10. h5 {[%eval +0.00]} 10. ... Nb4 {[%eval +0.15]} 11. d3 {
+[%eval -0.04]} 11. ... b5 {[%eval +0.44]} 12. a3 {[%eval +0.18]} 12. ... 
+Nc6 {[%eval +0.68]} 13. Qd2 {[%eval +0.65]} 13. ... Rc8 {[%eval +0.70]} 
+14. Rh3 {[%eval +0.58]} 14. ... Qc7 {[%eval +0.96]} 15. O-O-O {[%eval 
++0.38]} 15. ... Na5 {[%eval +1.16]} 16. Ng5 {[%eval +0.31]} 16. ... Be7 {
+[%eval +0.65]} 17. Rg3 {[%eval +0.49]} 17. ... c4 {[%eval +2.93]} 18. dxc4
+{[%eval +2.95]} 18. ... bxc4 {[%eval +3.85]} 19. b4 {[%eval +3.95]} 
+19. ... h6 {[%eval +3.72]} 20. Nxf7 {[%eval +0.83]} 20. ... Kxf7 {[%eval 
++0.83]} 21. bxa5 {[%eval +0.14]} 21. ... Bd5 {[%eval +0.49]} 22. Qf4+ {
+[%eval +0.30]} 22. ... Kg8 {[%eval +1.57]} 23. Rxd5 {[%eval +0.00]} 
+23. ... Bg5 {[%eval +0.00]} 24. Rxg5 {[%eval +0.00]} 24. ... hxg5 {[%eval 
++0.00]} 25. Qd4 {[%eval -0.51]} 25. ... exd5 {[%eval -0.52]} 26. Qxd5+ {
+[%eval -0.62]} 26. ... Kf8 {[%eval -0.46]} 27. Bd4 {[%eval -0.89]} 27. ...
+ Qc6 {[%eval -0.82]} 28. Qxc6 {[%eval -0.72]} 28. ... Rxc6 {[%eval -0.78]}
+29. Be2 {[%eval -0.83]} 29. ... a6 {[%eval -0.36]} 30. Kd2 {[%eval -0.50]}
+30. ... Ke7 {[%eval -0.46]} 31. Kc3 {[%eval -0.88]} 31. ... Rb8 {[%eval 
+-0.41]} 32. a4 {[%eval -0.49]} 32. ... Rb1 {[%eval -0.24]} 33. Bf3 {[%eval
+-0.31]} 1/2-1/2
+
+[Event "FIDE Grand Prix 2 playoff"]
+[Site "Belgrade SRB"]
+[Date "2022.03.10"]
+[Round "1.2"]
+[White "Andreikin, Dmitry"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2724"]
+[BlackElo "2771"]
+[ECO "A48"]
+[EventDate "2022.03.09"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "King's Indian"]
+[Variation "East Indian defence"]
+[WhiteFideId "4158814"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.35]} 1. ... Nf6 {[%eval +0.35]} 2. Nf3 {[%eval +0.32]} 
+2. ... g6 {[%eval +0.53]} 3. b3 {[%eval +0.08]} 3. ... Bg7 {[%eval +0.11]}
+4. Bb2 {[%eval +0.09]} 4. ... c5 {[%eval +0.24]} 5. dxc5 {[%eval +0.10]} 
+5. ... Qa5+ {[%eval +0.25]} 6. Nbd2 {[%eval +0.25]} 6. ... Qxc5 {[%eval 
++0.27]} 7. e3 {[%eval +0.13]} 7. ... O-O {[%eval +0.36]} 8. c4 {[%eval 
++0.17]} 8. ... b6 {[%eval +0.31]} 9. Be2 {[%eval +0.17]} 9. ... Bb7 {
+[%eval +0.25]} 10. O-O {[%eval +0.29]} 10. ... d6 {[%eval +0.28]} 11. Rc1 
+{[%eval +0.25]} 11. ... Nbd7 {[%eval +0.10]} 12. Nb1 {[%eval +0.12]} 
+12. ... Ne4 {[%eval +0.21]} 13. Bxg7 {[%eval +0.06]} 13. ... Kxg7 {[%eval 
++0.03]} 14. Nfd2 {[%eval +0.04]} 14. ... Nxd2 {[%eval +0.10]} 15. Qxd2 {
+[%eval +0.00]} 15. ... Qg5 {[%eval +0.00]} 16. f3 {[%eval +0.00]} 16. ... 
+Nf6 {[%eval +0.11]} 17. e4 {[%eval +0.13]} 17. ... Qxd2 {[%eval +0.09]} 
+18. Nxd2 {[%eval +0.00]} 18. ... Rac8 {[%eval +0.17]} 19. Nb1 {[%eval 
++0.00]} 19. ... Rc5 {[%eval +0.03]} 20. Nc3 {[%eval +0.00]} 20. ... Rfc8 {
+[%eval +0.20]} 21. Kf2 {[%eval +0.00]} 21. ... a6 {[%eval +0.12]} 22. Na4 
+{[%eval +0.11]} 22. ... R5c6 {[%eval +0.04]} 23. Nb2 {[%eval +0.00]} 
+23. ... b5 {[%eval +0.16]} 24. Ra1 {[%eval +0.00]} 24. ... bxc4 {[%eval 
++0.00]} 25. Nxc4 {[%eval +0.00]} 25. ... Rc5 {[%eval +0.00]} 26. Rfd1 {
+[%eval +0.00]} 26. ... a5 {[%eval +0.00]} 27. Ne3 {[%eval -0.11]} 27. ... 
+d5 {[%eval +0.00]} 28. exd5 {[%eval -0.04]} 28. ... Nxd5 {[%eval -0.09]} 
+29. Bc4 {[%eval -0.09]} 29. ... Nb6 {[%eval +0.00]} 30. Bf1 {[%eval -0.12]
+} 30. ... Nd5 {[%eval +0.00]} 31. Bc4 {[%eval -0.02]} 31. ... Nb6 {[%eval 
+-0.07]} 32. Bf1 {[%eval -0.11]} 32. ... Nd5 {[%eval +0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 2 playoff"]
+[Site "Belgrade SRB"]
+[Date "2022.03.11"]
+[Round "1.3"]
+[White "Andreikin, Dmitry"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2724"]
+[BlackElo "2771"]
+[ECO "C24"]
+[EventDate "2022.03.09"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Bishop's opening"]
+[Variation "Berlin defence"]
+[WhiteFideId "4158814"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.43]} 1. ... e5 {[%eval +0.27]} 2. Bc4 {[%eval +0.00]} 
+2. ... Nf6 {[%eval +0.06]} 3. d3 {[%eval +0.13]} 3. ... Nc6 {[%eval +0.25]
+} 4. Nc3 {[%eval +0.15]} 4. ... Bb4 {[%eval +0.23]} 5. Ne2 {[%eval +0.14]}
+5. ... d5 {[%eval +0.08]} 6. exd5 {[%eval +0.00]} 6. ... Nxd5 {[%eval 
++0.16]} 7. O-O {[%eval +0.14]} 7. ... Be6 {[%eval +0.11]} 8. Bxd5 {[%eval 
++0.03]} 8. ... Bxd5 {[%eval +0.00]} 9. f4 {[%eval +0.00]} 9. ... f6 {
+[%eval +0.04]} 10. fxe5 {[%eval +0.00]} 10. ... Nxe5 {[%eval +0.00]} 11. 
+Nxd5 {[%eval +0.00]} 11. ... Qxd5 {[%eval +0.00]} 12. Nf4 {[%eval -0.23]} 
+12. ... Qd7 {[%eval -0.11]} 13. c3 {[%eval -0.22]} 13. ... Bd6 {[%eval 
+-0.06]} 14. d4 {[%eval -0.25]} 14. ... O-O-O {[%eval -0.06]} 15. Qb3 {
+[%eval -0.45]} 15. ... Ng6 {[%eval -0.38]} 16. Ne6 {[%eval -1.39]} 16. ...
+ Rde8 {[%eval -1.66]} 17. d5 {[%eval -1.66]} 17. ... Nf8 {[%eval -1.67]} 
+18. Nd4 {[%eval -1.76]} 18. ... Ng6 {[%eval -1.58]} 19. Ne6 {[%eval -1.50]
+} 19. ... Nf8 {[%eval -1.51]} 20. Nd4 {[%eval -1.36]} 20. ... Ng6 {[%eval 
++0.00]} 21. Ne6 {[%eval -0.24]} 1/2-1/2
+
+[Event "FIDE Grand Prix 2 playoff"]
+[Site "Belgrade SRB"]
+[Date "2022.03.11"]
+[Round "1.4"]
+[White "Giri, A"]
+[Black "Andreikin, Dmitry"]
+[Result "0-1"]
+[WhiteElo "2771"]
+[BlackElo "2724"]
+[ECO "B46"]
+[EventDate "2022.03.09"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "4158814"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.38]} 1. ... c5 {[%eval +0.41]} 2. Nf3 {[%eval +0.42]} 
+2. ... e6 {[%eval +0.62]} 3. d4 {[%eval +0.48]} 3. ... cxd4 {[%eval +0.51]
+} 4. Nxd4 {[%eval +0.40]} 4. ... Nc6 {[%eval +0.60]} 5. Nc3 {[%eval +0.48]
+} 5. ... a6 {[%eval +0.57]} 6. Nxc6 {[%eval +0.45]} 6. ... bxc6 {[%eval 
++0.37]} 7. Bd3 {[%eval +0.28]} 7. ... d5 {[%eval +0.51]} 8. O-O {[%eval 
++0.24]} 8. ... Nf6 {[%eval +0.36]} 9. Qf3 {[%eval +0.26]} 9. ... Bb7 {
+[%eval +0.82]} 10. Re1 {[%eval +0.73]} 10. ... Be7 {[%eval +0.56]} 11. Qg3
+{[%eval +0.78]} 11. ... h5 {[%eval +1.11]} 12. h3 {[%eval +0.90]} 12. ... 
+Kf8 {[%eval +0.90]} 13. Bf4 {[%eval +0.82]} 13. ... h4 {[%eval +0.95]} 14.
+ Qf3 {[%eval +0.88]} 14. ... Kg8 {[%eval +1.01]} 15. Rad1 {[%eval +0.95]} 
+15. ... Nh5 {[%eval +1.32]} 16. Bh2 {[%eval +0.87]} 16. ... Bd6 {[%eval 
++1.27]} 17. Bxd6 {[%eval +1.20]} 17. ... Qxd6 {[%eval +1.16]} 18. e5 {
+[%eval +1.03]} 18. ... Qb4 {[%eval +1.13]} 19. Ne2 {[%eval +1.11]} 19. ...
+ g6 {[%eval +1.42]} 20. c3 {[%eval +1.03]} 20. ... Qe7 {[%eval +1.09]} 21.
+ b4 {[%eval +0.62]} 21. ... a5 {[%eval +0.55]} 22. a3 {[%eval +0.64]} 
+22. ... Ba6 {[%eval +0.95]} 23. Nd4 {[%eval +1.12]} 23. ... Bxd3 {[%eval 
++1.23]} 24. Qxd3 {[%eval +0.15]} 24. ... Qb7 {[%eval +1.72]} 25. Rb1 {
+[%eval +1.55]} 25. ... Qa6 {[%eval +1.94]} 26. b5 {[%eval +0.93]} 26. ... 
+cxb5 {[%eval +1.13]} 27. Rxb5 {[%eval +0.90]} 27. ... Ng7 {[%eval +1.53]} 
+28. Reb1 {[%eval +1.63]} 28. ... Qc8 {[%eval +1.65]} 29. Rb6 {[%eval 
++0.60]} 29. ... Qc5 {[%eval +1.37]} 30. Qf3 {[%eval +1.30]} 30. ... Rf8 {
+[%eval +1.60]} 31. Rb8 {[%eval +1.39]} 31. ... Qxa3 {[%eval +3.57]} 32. 
+Rxf8+ {[%eval +1.12]} 32. ... Qxf8 {[%eval +1.55]} 33. Nc6 {[%eval +0.00]}
+33. ... Qc5 {[%eval +0.00]} 34. Rb7 {[%eval +0.00]} 34. ... Nf5 {[%eval 
++0.00]} 35. Ne7+ {[%eval +0.00]} 35. ... Kg7 {[%eval +0.00]} 36. Nxg6 {
+[%eval -4.93]} 36. ... Qc6 {[%eval -5.01]} 37. Rxf7+ {[%eval -7.28]} 
+37. ... Kxf7 {[%eval -7.32]} 38. Nxh8+ {[%eval -7.38]} 38. ... Kg7 {[%eval
+-7.39]} 39. Qh5 {[%eval -8.06]} 39. ... Qxc3 {[%eval -8.92]} 40. Nf7 {
+[%eval -12.76]} 40. ... Qe1+ {[%eval -12.77]} 41. Kh2 {[%eval -12.77]} 
+41. ... Qxf2 {[%eval -15.42]} 42. Ng5 {[%eval -28.16]} 42. ... Qg3+ {
+[%eval -28.32]} 43. Kg1 {[%eval -28.34]} 43. ... Qe1+ {[%eval -28.16]} 44.
+ Kh2 {[%eval -28.41]} 44. ... Qxe5+ {[%eval -28.44]} 45. Kg1 {[%eval 
+-28.61]} 45. ... Qe3+ {[%eval -28.61]} 46. Kh2 {[%eval -28.64]} 46. ... 
+Qg3+ {[%eval -28.80]} 47. Kg1 {[%eval -28.80]} 47. ... Qe1+ {[%eval 
+-28.80]} 48. Kh2 {[%eval -29.07]} 48. ... Qh1+ {[%eval -10.49]} 49. Kxh1 {
+[%eval -11.40]} 49. ... Ng3+ {[%eval -12.97]} 50. Kg1 {[%eval -12.97]} 
+50. ... Nxh5 {[%eval -12.98]} 51. Nxe6+ {[%eval -13.12]} 51. ... Kf6 {
+[%eval -13.16]} 52. Nc5 {[%eval -13.20]} 52. ... Ke5 {[%eval -13.16]} 53. 
+Kf2 {[%eval -13.20]} 53. ... d4 {[%eval -13.20]} 54. Ke2 {[%eval -13.20]} 
+54. ... Nf4+ {[%eval -13.20]} 55. Kf3 {[%eval -13.20]} 55. ... Kd5 {[%eval
+-13.20]} 56. Na4 {[%eval -23.29]} 56. ... Ne6 {[%eval -34.94]} 57. g3 {
+[%eval -55.74]} 57. ... hxg3 {[%eval -55.74]} 58. h4 {[%eval -55.74]} 
+58. ... d3 {[%eval -55.74]} 59. Kxg3 {[%eval -55.74]} 59. ... Kc4 {[%eval 
+-55.74]} 60. h5 {[%eval -55.74]} 60. ... Kb3 {[%eval -55.74]} 61. h6 {
+[%eval -55.74]} 61. ... Nf8 {[%eval -55.74]} 62. Nc5+ {[%eval -55.74]} 
+62. ... Kc2 {[%eval -55.74]} 63. Ne6 {[%eval -55.74]} 63. ... d2 {[%eval 
+-152.65]} 0-1
+
+[Event "FIDE Grand Prix 3 Pool D"]
+[Site "Berlin GER"]
+[Date "2022.03.22"]
+[Round "1.1"]
+[White "Giri, A"]
+[Black "Yu, Yangyi"]
+[Result "1/2-1/2"]
+[WhiteElo "2771"]
+[BlackElo "2713"]
+[ECO "C43"]
+[EventDate "2022.03.22"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Petrov"]
+[Variation "modern attack, Symmetrical variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "8603820"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.28]} 1. ... e5 {[%eval +0.31]} 2. Nf3 {[%eval +0.23]} 
+2. ... Nf6 {[%eval +0.45]} 3. d4 {[%eval +0.37]} 3. ... Nxe4 {[%eval 
++0.29]} 4. Bd3 {[%eval +0.31]} 4. ... Nc6 {[%eval +0.49]} 5. Nxe5 {[%eval 
++0.42]} 5. ... Nxe5 {[%eval +0.41]} 6. dxe5 {[%eval +0.30]} 6. ... Nc5 {
+[%eval +0.50]} 7. Bc4 {[%eval +0.48]} 7. ... d6 {[%eval +0.58]} 8. Qf3 {
+[%eval +0.38]} 8. ... Ne6 {[%eval +0.42]} 9. Be3 {[%eval +0.23]} 9. ... 
+dxe5 {[%eval +0.21]} 10. Nd2 {[%eval +0.11]} 10. ... Bd6 {[%eval +0.22]} 
+11. O-O-O {[%eval +0.17]} 11. ... O-O {[%eval +0.19]} 12. Ne4 {[%eval 
++0.21]} 12. ... Qe7 {[%eval +0.15]} 13. Rhe1 {[%eval +0.11]} 13. ... Bd7 {
+[%eval +1.16]} 14. Nxd6 {[%eval +1.14]} 14. ... cxd6 {[%eval +1.00]} 15. 
+Qxb7 {[%eval +0.97]} 15. ... Rac8 {[%eval +1.06]} 16. Bd5 {[%eval +0.46]} 
+16. ... a5 {[%eval +1.53]} 17. Qb6 {[%eval +1.53]} 17. ... a4 {[%eval 
++1.59]} 18. Be4 {[%eval +1.38]} 18. ... Qh4 {[%eval +1.69]} 19. f3 {[%eval
++1.46]} 19. ... a3 {[%eval +2.03]} 20. Qxd6 {[%eval +2.27]} 20. ... axb2+ 
+{[%eval +2.55]} 21. Kb1 {[%eval +2.57]} 21. ... Bb5 {[%eval +2.71]} 22. 
+Qxe5 {[%eval +2.62]} 22. ... Bc4 {[%eval +2.63]} 23. Qa5 {[%eval +1.99]} 
+23. ... Rfe8 {[%eval +3.37]} 24. g3 {[%eval +3.26]} 24. ... Qe7 {[%eval 
++3.48]} 25. h4 {[%eval +2.54]} 25. ... Rb8 {[%eval +4.06]} 26. h5 {[%eval 
++0.51]} 26. ... Rb5 {[%eval +1.10]} 27. Qa4 {[%eval +0.78]} 27. ... Rc8 {
+[%eval +0.61]} 28. Bd3 {[%eval +0.00]} 28. ... Rb4 {[%eval +0.00]} 29. Qa3
+{[%eval +0.00]} 29. ... Qb7 {[%eval +0.00]} 30. c3 {[%eval -0.57]} 30. ...
+ Bxd3+ {[%eval -0.42]} 31. Rxd3 {[%eval -0.50]} 31. ... Rb5 {[%eval -0.19]
+} 32. h6 {[%eval -0.45]} 1/2-1/2
+
+[Event "FIDE Grand Prix 3 Pool D"]
+[Site "Berlin GER"]
+[Date "2022.03.23"]
+[Round "2.2"]
+[White "Tabatabaei, M"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2623"]
+[BlackElo "2771"]
+[ECO "D15"]
+[EventDate "2022.03.22"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "QGD Slav"]
+[Variation "4.Nc3"]
+[WhiteFideId "12521213"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.31]} 1. ... d5 {[%eval +0.45]} 2. c4 {[%eval +0.28]} 
+2. ... c6 {[%eval +0.31]} 3. Nf3 {[%eval +0.25]} 3. ... Nf6 {[%eval +0.37]
+} 4. Nc3 {[%eval +0.25]} 4. ... a6 {[%eval +0.61]} 5. cxd5 {[%eval +0.20]}
+5. ... cxd5 {[%eval +0.37]} 6. Bf4 {[%eval +0.32]} 6. ... Nc6 {[%eval 
++0.17]} 7. e3 {[%eval +0.22]} 7. ... Bg4 {[%eval +0.29]} 8. h3 {[%eval 
++0.20]} 8. ... Bxf3 {[%eval +0.24]} 9. Qxf3 {[%eval +0.21]} 9. ... e6 {
+[%eval +0.26]} 10. Bd3 {[%eval +0.16]} 10. ... Bd6 {[%eval +0.32]} 11. Bg5
+{[%eval +0.16]} 11. ... Nb4 {[%eval +0.31]} 12. Bb1 {[%eval +0.28]} 
+12. ... Be7 {[%eval +0.25]} 13. O-O {[%eval +0.20]} 13. ... O-O {[%eval 
++0.32]} 14. a3 {[%eval +0.29]} 14. ... Nc6 {[%eval +0.27]} 15. Bd3 {[%eval
++0.39]} 15. ... Ne8 {[%eval +0.54]} 16. Bf4 {[%eval +0.34]} 16. ... Bd6 {
+[%eval +0.48]} 17. Rac1 {[%eval +0.40]} 17. ... Qf6 {[%eval +0.38]} 18. 
+Bxd6 {[%eval +0.11]} 18. ... Qxf3 {[%eval +0.25]} 19. gxf3 {[%eval +0.20]}
+19. ... Nxd6 {[%eval +0.21]} 20. Na4 {[%eval +0.18]} 20. ... Rfd8 {[%eval 
++0.17]} 21. Rc3 {[%eval +0.19]} 21. ... g6 {[%eval +0.30]} 22. Rfc1 {
+[%eval +0.23]} 22. ... e5 {[%eval +0.43]} 23. dxe5 {[%eval +0.30]} 23. ...
+ Nxe5 {[%eval +0.34]} 24. Be2 {[%eval +0.11]} 24. ... d4 {[%eval +0.24]} 
+25. Rc5 {[%eval +0.00]} 25. ... d3 {[%eval +0.00]} 26. Rxe5 {[%eval +0.00]
+} 26. ... dxe2 {[%eval -0.01]} 27. Nc3 {[%eval +0.00]} 27. ... Nc4 {[%eval
++0.23]} 28. Re4 {[%eval +0.00]} 28. ... Nxb2 {[%eval +0.00]} 29. Nxe2 {
+[%eval +0.00]} 29. ... b5 {[%eval +0.00]} 30. Re7 {[%eval -0.05]} 30. ... 
+Nc4 {[%eval -0.10]} 31. a4 {[%eval -0.14]} 31. ... Kf8 {[%eval -0.07]} 32.
+ Rc7 {[%eval -0.08]} 32. ... Nd2 {[%eval +0.00]} 33. axb5 {[%eval +0.00]} 
+33. ... Nxf3+ {[%eval +0.00]} 34. Kg2 {[%eval +0.00]} 34. ... Nh4+ {[%eval
++0.00]} 35. Kf1 {[%eval +0.00]} 35. ... axb5 {[%eval +0.00]} 36. Nd4 {
+[%eval +0.00]} 36. ... Rdb8 {[%eval +0.00]} 37. Rb1 {[%eval -0.02]} 
+37. ... Rb6 {[%eval +0.00]} 38. Rc5 {[%eval +0.00]} 38. ... b4 {[%eval 
++0.00]} 39. Rc4 {[%eval +0.00]} 39. ... Ra4 {[%eval +0.00]} 40. Nc2 {
+[%eval +0.00]} 40. ... Nf3 {[%eval +0.00]} 41. Rcxb4 {[%eval +0.00]} 
+41. ... Rbxb4 {[%eval +0.00]} 42. Rxb4 {[%eval +0.00]} 42. ... Ra2 {[%eval
++0.00]} 43. Kg2 {[%eval +0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 3 Pool D"]
+[Site "Berlin GER"]
+[Date "2022.03.24"]
+[Round "3.2"]
+[White "Giri, A"]
+[Black "Vitiugov, Nikita"]
+[Result "1/2-1/2"]
+[WhiteElo "2771"]
+[BlackElo "2726"]
+[ECO "B42"]
+[EventDate "2022.03.22"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Sicilian"]
+[Variation "Kan, Polugaievsky variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "4152956"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.25]} 1. ... c5 {[%eval +0.34]} 2. Nf3 {[%eval +0.34]} 
+2. ... e6 {[%eval +0.42]} 3. d4 {[%eval +0.51]} 3. ... cxd4 {[%eval +0.45]
+} 4. Nxd4 {[%eval +0.42]} 4. ... a6 {[%eval +0.65]} 5. Bd3 {[%eval +0.47]}
+5. ... Bc5 {[%eval +0.45]} 6. Nb3 {[%eval +0.43]} 6. ... Ba7 {[%eval 
++0.44]} 7. Qe2 {[%eval +0.45]} 7. ... Ne7 {[%eval +0.56]} 8. Be3 {[%eval 
++0.63]} 8. ... O-O {[%eval +0.51]} 9. Bxa7 {[%eval +0.51]} 9. ... Rxa7 {
+[%eval +0.58]} 10. e5 {[%eval +0.08]} 10. ... Nbc6 {[%eval +0.17]} 11. Nc3
+{[%eval +0.19]} 11. ... d6 {[%eval +0.59]} 12. exd6 {[%eval +0.62]} 
+12. ... Qxd6 {[%eval +0.57]} 13. O-O-O {[%eval +0.52]} 13. ... Qf4+ {
+[%eval +0.46]} 14. Kb1 {[%eval +0.43]} 14. ... b5 {[%eval +0.51]} 15. g3 {
+[%eval +0.40]} 15. ... Qe5 {[%eval +0.86]} 16. Be4 {[%eval +0.71]} 16. ...
+ Qc7 {[%eval +0.56]} 17. f4 {[%eval +0.30]} 17. ... Na5 {[%eval +0.90]} 
+18. Nxa5 {[%eval +0.77]} 18. ... Qxa5 {[%eval +0.64]} 19. Qh5 {[%eval 
++0.22]} 19. ... f5 {[%eval +0.16]} 20. Bf3 {[%eval +0.00]} 20. ... Rc7 {
+[%eval +0.58]} 21. Ne2 {[%eval +0.41]} 21. ... e5 {[%eval +0.00]} 22. fxe5
+{[%eval +0.00]} 22. ... Be6 {[%eval +0.00]} 23. Nc1 {[%eval +0.00]} 
+23. ... Rfc8 {[%eval +0.00]} 24. Nb3 {[%eval +0.00]} 24. ... Bxb3 {[%eval 
++0.00]} 25. cxb3 {[%eval +0.00]} 25. ... Rc2 {[%eval +0.00]} 26. Qg5 {
+[%eval +0.00]} 26. ... Rxb2+ {[%eval +0.00]} 27. Kxb2 {[%eval +0.00]} 
+27. ... Qc3+ {[%eval +0.00]} 28. Kb1 {[%eval +0.00]} 28. ... Qc2+ {[%eval 
++0.00]} 29. Ka1 {[%eval +0.00]} 29. ... Qc3+ {[%eval +0.00]} 30. Kb1 {
+[%eval +0.00]} 30. ... Qc2+ {[%eval +0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 3 Pool D"]
+[Site "Berlin GER"]
+[Date "2022.03.25"]
+[Round "4.1"]
+[White "Yu, Yangyi"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2713"]
+[BlackElo "2771"]
+[ECO "D97"]
+[EventDate "2022.03.22"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Gruenfeld"]
+[Variation "Russian, Alekhine (Hungarian) variation"]
+[WhiteFideId "8603820"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.25]} 1. ... Nf6 {[%eval +0.26]} 2. c4 {[%eval +0.32]} 
+2. ... g6 {[%eval +0.58]} 3. Nc3 {[%eval +0.25]} 3. ... d5 {[%eval +0.36]}
+4. Nf3 {[%eval +0.38]} 4. ... Bg7 {[%eval +0.40]} 5. Qb3 {[%eval +0.26]} 
+5. ... dxc4 {[%eval +0.24]} 6. Qxc4 {[%eval +0.08]} 6. ... O-O {[%eval 
++0.07]} 7. e4 {[%eval +0.11]} 7. ... a6 {[%eval +0.20]} 8. e5 {[%eval 
++0.09]} 8. ... b5 {[%eval +0.15]} 9. Qb3 {[%eval +0.03]} 9. ... Nfd7 {
+[%eval +0.20]} 10. Ng5 {[%eval -0.04]} 10. ... Nb6 {[%eval +0.22]} 11. Be3
+{[%eval +0.00]} 11. ... Nc6 {[%eval +0.00]} 12. Rd1 {[%eval +0.00]} 
+12. ... Na5 {[%eval +0.20]} 13. Qc2 {[%eval +0.01]} 13. ... Nac4 {[%eval 
++0.50]} 14. Bc1 {[%eval +0.12]} 14. ... f6 {[%eval +0.82]} 15. Nge4 {
+[%eval +0.85]} 15. ... Bf5 {[%eval +1.00]} 16. Be2 {[%eval +0.94]} 16. ...
+ Qc8 {[%eval +1.06]} 17. f4 {[%eval +1.06]} 17. ... c5 {[%eval +1.40]} 18.
+ dxc5 {[%eval +1.34]} 18. ... Qxc5 {[%eval +1.19]} 19. g4 {[%eval +1.38]} 
+19. ... Bxe4 {[%eval +1.51]} 20. Nxe4 {[%eval +1.44]} 20. ... Qc6 {[%eval 
++1.33]} 21. Bf3 {[%eval +0.81]} 21. ... Nxe5 {[%eval +0.87]} 22. Qb3+ {
+[%eval +0.46]} 22. ... Nec4 {[%eval +0.52]} 23. Nd6 {[%eval +0.07]} 
+23. ... Qc5 {[%eval +0.30]} 24. Bxa8 {[%eval +0.00]} 24. ... exd6 {[%eval 
++0.00]} 25. Bf3 {[%eval +0.00]} 25. ... f5 {[%eval +0.00]} 26. g5 {[%eval 
++0.00]} 26. ... Re8+ {[%eval +1.14]} 27. Kf1 {[%eval +1.30]} 27. ... Kf8 {
+[%eval +1.14]} 28. Kg2 {[%eval +1.22]} 28. ... Ne3+ {[%eval +1.16]} 29. 
+Bxe3 {[%eval +1.31]} 29. ... Rxe3 {[%eval +1.01]} 30. Rd3 {[%eval +0.83]} 
+30. ... Nc4 {[%eval +1.15]} 31. Rxe3 {[%eval +1.29]} 31. ... Nxe3+ {[%eval
++2.46]} 32. Kg3 {[%eval +1.86]} 32. ... Nc4 {[%eval +2.56]} 33. Qd3 {
+[%eval +1.06]} 33. ... Bxb2 {[%eval +2.73]} 34. Qd5 {[%eval +0.00]} 
+34. ... Qe3 {[%eval +0.00]} 35. Rd1 {[%eval +0.00]} 35. ... Bc3 {[%eval 
++0.00]} 36. Qa8+ {[%eval +0.00]} 36. ... Ke7 {[%eval +0.00]} 37. Qb7+ {
+[%eval +0.00]} 37. ... Kd8 {[%eval +0.00]} 38. Qb8+ {[%eval +0.00]} 
+38. ... Kd7 {[%eval +0.00]} 39. Qb7+ {[%eval +0.00]} 39. ... Kd8 {[%eval 
++0.00]} 40. Qb8+ {[%eval +0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 3 Pool D"]
+[Site "Berlin GER"]
+[Date "2022.03.27"]
+[Round "5.2"]
+[White "Vitiugov, Nikita"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2726"]
+[BlackElo "2771"]
+[ECO "D31"]
+[EventDate "2022.03.22"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "QGD"]
+[Variation "Charousek (Petrosian) variation"]
+[WhiteFideId "4152956"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.34]} 1. ... d5 {[%eval +0.35]} 2. c4 {[%eval +0.24]} 
+2. ... e6 {[%eval +0.28]} 3. Nc3 {[%eval +0.16]} 3. ... Be7 {[%eval +0.37]
+} 4. Nf3 {[%eval +0.24]} 4. ... Nf6 {[%eval +0.32]} 5. Bg5 {[%eval +0.14]}
+5. ... h6 {[%eval +0.21]} 6. Bxf6 {[%eval +0.11]} 6. ... Bxf6 {[%eval 
++0.17]} 7. e3 {[%eval +0.11]} 7. ... O-O {[%eval +0.19]} 8. Rc1 {[%eval 
++0.17]} 8. ... c6 {[%eval +0.12]} 9. h4 {[%eval +0.00]} 9. ... g6 {[%eval 
++0.17]} 10. Bd3 {[%eval +0.13]} 10. ... Bg7 {[%eval +0.15]} 11. O-O {
+[%eval +0.24]} 11. ... dxc4 {[%eval +0.25]} 12. Bxc4 {[%eval +0.22]} 
+12. ... Nd7 {[%eval +0.29]} 13. Ne4 {[%eval +0.18]} 13. ... b6 {[%eval 
++0.33]} 14. Nd6 {[%eval +0.11]} 14. ... Qe7 {[%eval +0.17]} 15. Nxc8 {
+[%eval +0.26]} 15. ... Raxc8 {[%eval +0.19]} 16. Ba6 {[%eval +0.12]} 
+16. ... Rc7 {[%eval +0.08]} 17. Qe2 {[%eval +0.00]} 17. ... Nb8 {[%eval 
++0.26]} 18. Bd3 {[%eval -0.06]} 18. ... c5 {[%eval -0.04]} 19. dxc5 {
+[%eval -0.02]} 19. ... Rxc5 {[%eval -0.01]} 20. Rxc5 {[%eval -0.01]} 
+20. ... Qxc5 {[%eval -0.08]} 21. Rd1 {[%eval -0.01]} 21. ... Rd8 {[%eval 
++0.00]} 22. b3 {[%eval +0.00]} 22. ... Nc6 {[%eval +0.00]} 23. Be4 {[%eval
++0.00]} 23. ... Rxd1+ {[%eval -0.02]} 24. Qxd1 {[%eval +0.00]} 24. ... Ne5
+{[%eval +0.00]} 25. Nxe5 {[%eval +0.00]} 25. ... Qxe5 {[%eval +0.00]} 26. 
+Bd3 {[%eval +0.00]} 26. ... Qa1 {[%eval +0.00]} 27. Qxa1 {[%eval +0.00]} 
+27. ... Bxa1 {[%eval +0.00]} 28. g3 {[%eval +0.00]} 28. ... Bb2 {[%eval 
++0.00]} 29. a4 {[%eval -0.03]} 29. ... h5 {[%eval +0.00]} 30. Kf1 {[%eval 
++0.00]} 30. ... Kf8 {[%eval +0.00]} 1/2-1/2
+
+[Event "FIDE Grand Prix 3 Pool D"]
+[Site "Berlin GER"]
+[Date "2022.03.28"]
+[Round "6.2"]
+[White "Giri, A"]
+[Black "Tabatabaei, M"]
+[Result "0-1"]
+[WhiteElo "2771"]
+[BlackElo "2623"]
+[ECO "C50"]
+[EventDate "2022.03.22"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "24116068"]
+[BlackFideId "12521213"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.34]} 1. ... e5 {[%eval +0.39]} 2. Nf3 {[%eval +0.25]} 
+2. ... Nc6 {[%eval +0.25]} 3. Bc4 {[%eval +0.13]} 3. ... Nf6 {[%eval 
++0.24]} 4. d3 {[%eval +0.15]} 4. ... Bc5 {[%eval +0.25]} 5. O-O {[%eval 
++0.17]} 5. ... O-O {[%eval +0.27]} 6. Nbd2 {[%eval +0.16]} 6. ... d6 {
+[%eval +0.25]} 7. c3 {[%eval +0.18]} 7. ... a6 {[%eval +0.25]} 8. b4 {
+[%eval +0.19]} 8. ... Ba7 {[%eval +0.13]} 9. a4 {[%eval +0.09]} 9. ... Ne7
+{[%eval +0.13]} 10. Re1 {[%eval +0.17]} 10. ... Ng6 {[%eval +0.40]} 11. d4
+{[%eval +0.27]} 11. ... Re8 {[%eval +0.27]} 12. h3 {[%eval +0.13]} 12. ...
+ h6 {[%eval +0.30]} 13. Bd3 {[%eval +0.27]} 13. ... c6 {[%eval +0.45]} 14.
+ Ra3 {[%eval +0.07]} 14. ... Qc7 {[%eval +0.21]} 15. Bb2 {[%eval +0.00]} 
+15. ... Bd7 {[%eval +0.00]} 16. Qc2 {[%eval -0.21]} 16. ... Rad8 {[%eval 
++0.00]} 17. Raa1 {[%eval -0.23]} 17. ... Nh5 {[%eval -0.22]} 18. Bf1 {
+[%eval -0.25]} 18. ... Nhf4 {[%eval -0.19]} 19. h4 {[%eval -1.44]} 19. ...
+ d5 {[%eval -1.56]} 20. g3 {[%eval -2.41]} 20. ... Nh3+ {[%eval -2.35]} 
+21. Kg2 {[%eval -2.60]} 21. ... exd4 {[%eval -2.33]} 22. cxd4 {[%eval 
+-2.61]} 22. ... Ngf4+ {[%eval -2.80]} 23. gxf4 {[%eval -5.13]} 23. ... 
+Qxf4 {[%eval -4.98]} 24. e5 {[%eval -5.16]} 24. ... Bf5 {[%eval -5.21]} 
+25. Qc3 {[%eval -6.66]} 25. ... Re6 {[%eval -6.67]} 26. Qe3 {[%eval -7.67]
+} 26. ... Rg6+ {[%eval -8.24]} 27. Kh1 {[%eval -9.55]} 27. ... Qg4 {[%eval
+-10.09]} 28. Ra3 {[%eval -10.29]} 28. ... f6 {[%eval -10.51]} 29. exf6 {
+[%eval -48.69]} 29. ... gxf6 {[%eval -48.69]} 30. h5 {[%eval -49.76]} 
+30. ... Rg7 {[%eval -74.00]} 0-1
+
+[Event "10th Norway Chess 2022"]
+[Site "Stavanger NOR"]
+[Date "2022.05.31"]
+[Round "1.3"]
+[White "Giri, A"]
+[Black "Topalov, Veselin"]
+[Result "1/2-1/2"]
+[WhiteElo "2761"]
+[BlackElo "2730"]
+[ECO "E10"]
+[EventDate "2022.05.31"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "24116068"]
+[BlackFideId "2900084"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.19]} 1. ... Nf6 {[%eval +0.27]} 2. c4 {[%eval +0.15]} 
+2. ... e6 {[%eval +0.29]} 3. Nf3 {[%eval +0.24]} 3. ... d5 {[%eval +0.16]}
+4. g3 {[%eval +0.05]} 4. ... Bb4+ {[%eval +0.08]} 5. Bd2 {[%eval +0.22]} 
+5. ... Be7 {[%eval +0.36]} 6. Bg2 {[%eval +0.18]} 6. ... O-O {[%eval 
++0.23]} 7. O-O {[%eval +0.26]} 7. ... Nbd7 {[%eval +0.26]} 8. Qc2 {[%eval 
++0.15]} 8. ... c6 {[%eval +0.15]} 9. Bf4 {[%eval +0.00]} 9. ... b6 {[%eval
++0.17]} 10. Nbd2 {[%eval +0.10]} 10. ... Nh5 {[%eval +0.26]} 11. e3 {
+[%eval +0.09]} 11. ... Nxf4 {[%eval +0.13]} 12. exf4 {[%eval +0.23]} 
+12. ... Bb7 {[%eval +0.19]} 13. cxd5 {[%eval +0.17]} 13. ... cxd5 {[%eval 
++0.17]} 14. Rfc1 {[%eval +0.03]} 14. ... Rc8 {[%eval +0.36]} 15. Qa4 {
+[%eval +0.25]} 15. ... a6 {[%eval +0.22]} 16. Qb3 {[%eval +0.16]} 16. ... 
+b5 {[%eval +0.30]} 17. Rxc8 {[%eval +0.00]} 17. ... Qxc8 {[%eval +0.22]} 
+18. a4 {[%eval +0.00]} 18. ... bxa4 {[%eval +0.00]} 19. Qxa4 {[%eval 
++0.00]} 19. ... Nb6 {[%eval -0.01]} 20. Qd1 {[%eval -0.12]} 20. ... Nc4 {
+[%eval +0.00]} 21. Rc1 {[%eval -0.11]} 21. ... Qb8 {[%eval -0.09]} 22. 
+Nxc4 {[%eval -0.14]} 22. ... dxc4 {[%eval -0.11]} 23. Qe2 {[%eval -0.11]} 
+23. ... Bf6 {[%eval +0.07]} 24. Rxc4 {[%eval -0.01]} 24. ... Bd5 {[%eval 
++0.00]} 25. Rc1 {[%eval -0.15]} 25. ... Bxf3 {[%eval +0.00]} 26. Bxf3 {
+[%eval +0.00]} 26. ... Bxd4 {[%eval +0.00]} 27. Ra1 {[%eval +0.00]} 
+27. ... Qxb2 {[%eval +0.00]} 28. Qxb2 {[%eval +0.00]} 28. ... Bxb2 {[%eval
++0.00]} 29. Rxa6 {[%eval +0.00]} 29. ... g6 {[%eval +0.00]} 30. Kg2 {
+[%eval +0.00]} 30. ... Kg7 {[%eval +0.00]} 31. Ra8 {[%eval +0.00]} 31. ...
+ Rxa8 {[%eval +0.00]} 32. Bxa8 {[%eval +0.00]} 1/2-1/2
+
+[Event "10th Norway Chess 2022"]
+[Site "Stavanger NOR"]
+[Date "2022.06.01"]
+[Round "2.3"]
+[White "Wang, Hao"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2744"]
+[BlackElo "2761"]
+[ECO "B90"]
+[EventDate "2022.05.31"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Adams attack"]
+[WhiteFideId "8602883"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.39]} 1. ... c5 {[%eval +0.46]} 2. Nf3 {[%eval +0.46]} 
+2. ... d6 {[%eval +0.48]} 3. d4 {[%eval +0.32]} 3. ... cxd4 {[%eval +0.46]
+} 4. Nxd4 {[%eval +0.34]} 4. ... Nf6 {[%eval +0.46]} 5. Nc3 {[%eval +0.30]
+} 5. ... a6 {[%eval +0.34]} 6. h3 {[%eval +0.25]} 6. ... e5 {[%eval +0.41]
+} 7. Nb3 {[%eval +0.25]} 7. ... Be7 {[%eval +0.45]} 8. Be3 {[%eval +0.22]}
+8. ... Be6 {[%eval +0.08]} 9. f4 {[%eval -0.06]} 9. ... exf4 {[%eval 
++0.34]} 10. Bxf4 {[%eval +0.41]} 10. ... Nc6 {[%eval +0.35]} 11. Qe2 {
+[%eval +0.19]} 11. ... Ne5 {[%eval +0.19]} 12. O-O-O {[%eval +0.14]} 
+12. ... Nfd7 {[%eval +0.24]} 13. Kb1 {[%eval +0.07]} 13. ... Rc8 {[%eval 
++0.17]} 14. Qe3 {[%eval +0.28]} 14. ... O-O {[%eval +0.29]} 15. g4 {[%eval
++0.20]} 15. ... Re8 {[%eval +0.23]} 16. Nd4 {[%eval +0.00]} 16. ... Qa5 {
+[%eval +0.31]} 17. a3 {[%eval +0.16]} 17. ... b5 {[%eval +0.33]} 18. Nf5 {
+[%eval +0.10]} 18. ... b4 {[%eval +0.40]} 19. axb4 {[%eval +0.02]} 19. ...
+ Qxb4 {[%eval +0.11]} 20. Qd4 {[%eval +0.00]} 20. ... Qa5 {[%eval +0.00]} 
+21. Nxe7+ {[%eval +0.06]} 21. ... Rxe7 {[%eval +0.11]} 22. Qxd6 {[%eval 
++0.11]} 22. ... Rxc3 {[%eval +0.04]} 23. Bxe5 {[%eval +0.00]} 23. ... Ba2+
+{[%eval +0.00]} 24. Kc1 {[%eval +0.01]} 24. ... Rxc2+ {[%eval +0.00]} 25. 
+Kxc2 {[%eval +0.04]} 25. ... Rxe5 {[%eval +0.00]} 26. Bc4 {[%eval +0.00]} 
+26. ... Rc5 {[%eval +0.00]} 27. Qxd7 {[%eval +0.00]} 27. ... Rxc4+ {[%eval
++0.00]} 28. Kd3 {[%eval +0.00]} 28. ... h6 {[%eval +0.00]} 29. Rc1 {[%eval
++0.00]} 29. ... Qb4 {[%eval +0.00]} 30. Rxc4 {[%eval +0.00]} 30. ... Bxc4+
+{[%eval +0.00]} 31. Kc2 {[%eval +0.00]} 31. ... Bb3+ {[%eval +0.00]} 32. 
+Kd3 {[%eval +0.00]} 32. ... Bc4+ {[%eval +0.00]} 1/2-1/2
+
+[Event "10th Norway Chess 2022"]
+[Site "Stavanger NOR"]
+[Date "2022.06.02"]
+[Round "3.2"]
+[White "Giri, A"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[WhiteElo "2761"]
+[BlackElo "2776"]
+[ECO "E32"]
+[EventDate "2022.05.31"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "5202213"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.21]} 1. ... Nf6 {[%eval +0.18]} 2. c4 {[%eval +0.17]} 
+2. ... e6 {[%eval +0.21]} 3. Nc3 {[%eval +0.15]} 3. ... Bb4 {[%eval +0.17]
+} 4. Qc2 {[%eval +0.06]} 4. ... O-O {[%eval +0.07]} 5. a3 {[%eval +0.12]} 
+5. ... Bxc3+ {[%eval +0.11]} 6. Qxc3 {[%eval -0.03]} 6. ... d5 {[%eval 
++0.07]} 7. Nf3 {[%eval -0.01]} 7. ... b6 {[%eval +0.00]} 8. Bg5 {[%eval 
++0.00]} 8. ... dxc4 {[%eval +0.00]} 9. Qxc4 {[%eval +0.08]} 9. ... Ba6 {
+[%eval +0.20]} 10. Qa4 {[%eval +0.11]} 10. ... h6 {[%eval +0.10]} 11. Bh4 
+{[%eval +0.00]} 11. ... c5 {[%eval +0.06]} 12. dxc5 {[%eval +0.00]} 
+12. ... bxc5 {[%eval +0.00]} 13. Rd1 {[%eval +0.00]} 13. ... Qb6 {[%eval 
++0.00]} 14. Bxf6 {[%eval +0.00]} 14. ... gxf6 {[%eval +0.00]} 15. e3 {
+[%eval +0.00]} 15. ... Bxf1 {[%eval +0.00]} 16. Kxf1 {[%eval +0.00]} 
+16. ... Nc6 {[%eval +0.00]} 17. Rb1 {[%eval +0.00]} 17. ... Rad8 {[%eval 
++0.12]} 18. Ke2 {[%eval +0.00]} 18. ... Rd5 {[%eval +0.15]} 19. Rhc1 {
+[%eval +0.00]} 19. ... Rb8 {[%eval +0.08]} 20. b4 {[%eval +0.00]} 20. ... 
+Ne5 {[%eval +0.00]} 21. Nxe5 {[%eval +0.00]} 21. ... Rxe5 {[%eval +0.00]} 
+22. Kf1 {[%eval +0.00]} 22. ... Qb5+ {[%eval +0.00]} 23. Qxb5 {[%eval 
++0.00]} 23. ... Rxb5 {[%eval +0.00]} 24. Ke2 {[%eval +0.00]} 24. ... cxb4 
+{[%eval +0.00]} 25. Rxb4 {[%eval +0.00]} 25. ... Rxb4 {[%eval +0.00]} 26. 
+axb4 {[%eval +0.00]} 26. ... Rb5 {[%eval +0.00]} 27. Rc4 {[%eval +0.00]} 
+27. ... a5 {[%eval +0.00]} 28. bxa5 {[%eval +0.00]} 28. ... Rxa5 {[%eval 
++0.00]} 29. g3 {[%eval +0.00]} 29. ... Kg7 {[%eval +0.00]} 30. Rg4+ {
+[%eval +0.00]} 30. ... Kf8 {[%eval +0.00]} 31. Rc4 {[%eval +0.00]} 1/2-1/2
+
+[Event "10th Norway Chess 2022"]
+[Site "Stavanger NOR"]
+[Date "2022.06.03"]
+[Round "4.1"]
+[White "Carlsen, Magnus"]
+[Black "Giri, A"]
+[Result "1-0"]
+[WhiteElo "2864"]
+[BlackElo "2761"]
+[ECO "D41"]
+[EventDate "2022.05.31"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "QGD"]
+[Variation "Semi-Tarrasch, 5.cd"]
+[WhiteFideId "1503014"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.15]} 1. ... Nf6 {[%eval +0.16]} 2. c4 {[%eval +0.17]} 
+2. ... e6 {[%eval +0.15]} 3. Nf3 {[%eval +0.17]} 3. ... d5 {[%eval +0.20]}
+4. Nc3 {[%eval +0.15]} 4. ... c5 {[%eval +0.48]} 5. cxd5 {[%eval +0.25]} 
+5. ... cxd4 {[%eval +0.45]} 6. Qxd4 {[%eval +0.37]} 6. ... exd5 {[%eval 
++0.37]} 7. Bg5 {[%eval +0.11]} 7. ... Be7 {[%eval +0.12]} 8. e3 {[%eval 
++0.11]} 8. ... O-O {[%eval +0.25]} 9. Be2 {[%eval +0.02]} 9. ... Nc6 {
+[%eval +0.25]} 10. Qd3 {[%eval +0.15]} 10. ... h6 {[%eval +0.19]} 11. Bh4 
+{[%eval +0.16]} 11. ... Be6 {[%eval +0.22]} 12. O-O {[%eval +0.08]} 
+12. ... Qb6 {[%eval +0.13]} 13. Bxf6 {[%eval +0.00]} 13. ... Bxf6 {[%eval 
++0.01]} 14. Nxd5 {[%eval +0.07]} 14. ... Bxd5 {[%eval +0.08]} 15. Qxd5 {
+[%eval +0.05]} 15. ... Qxb2 {[%eval +0.03]} 16. Bc4 {[%eval +0.10]} 
+16. ... Qxa1 {[%eval +2.20]} 17. Rxa1 {[%eval +2.09]} 17. ... Bxa1 {[%eval
++2.21]} 18. g4 {[%eval +2.27]} 18. ... Rae8 {[%eval +2.30]} 19. h4 {[%eval
++1.97]} 19. ... Re7 {[%eval +3.34]} 20. g5 {[%eval +3.48]} 20. ... hxg5 {
+[%eval +3.75]} 21. Nxg5 {[%eval +1.19]} 21. ... Bf6 {[%eval +1.12]} 22. 
+Qf5 {[%eval +0.99]} 22. ... Bxg5 {[%eval +1.01]} 23. hxg5 {[%eval +1.04]} 
+23. ... Re5 {[%eval +2.40]} 24. Qf4 {[%eval +2.18]} 24. ... Rc5 {[%eval 
++4.87]} 25. g6 {[%eval +5.13]} 25. ... Ne5 {[%eval +5.09]} 26. gxf7+ {
+[%eval +5.25]} 26. ... Nxf7 {[%eval +5.32]} 27. Be6 {[%eval +2.87]} 
+27. ... Rh5 {[%eval +6.02]} 28. Qc7 {[%eval +6.15]} 28. ... g5 {[%eval 
++8.26]} 29. Qxb7 {[%eval +6.22]} 29. ... Rh6 {[%eval +7.62]} 30. Bb3 {
+[%eval +7.64]} 30. ... g4 {[%eval +8.69]} 31. Qxa7 {[%eval +7.92]} 31. ...
+ Kg7 {[%eval +9.54]} 32. e4 {[%eval +10.62]} 32. ... Rh5 {[%eval +11.56]} 
+33. Qc7 {[%eval +11.61]} 33. ... Kf6 {[%eval +12.37]} 34. a4 {[%eval 
++11.82]} 1-0
+
+[Event "10th Norway Chess 2022"]
+[Site "Stavanger NOR"]
+[Date "2022.06.05"]
+[Round "5.5"]
+[White "Giri, A"]
+[Black "Radjabov, Teimour"]
+[Result "1-0"]
+[WhiteElo "2761"]
+[BlackElo "2753"]
+[ECO "C65"]
+[EventDate "2022.05.31"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "24116068"]
+[BlackFideId "13400924"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.29]} 1. ... e5 {[%eval +0.35]} 2. Nf3 {[%eval +0.33]} 
+2. ... Nc6 {[%eval +0.36]} 3. Bb5 {[%eval +0.30]} 3. ... Nf6 {[%eval 
++0.36]} 4. d3 {[%eval +0.20]} 4. ... Bc5 {[%eval +0.26]} 5. c3 {[%eval 
++0.05]} 5. ... d6 {[%eval +0.23]} 6. d4 {[%eval +0.23]} 6. ... exd4 {
+[%eval +0.35]} 7. cxd4 {[%eval +0.32]} 7. ... Bb4+ {[%eval +0.36]} 8. Bd2 
+{[%eval +0.26]} 8. ... Bxd2+ {[%eval +0.82]} 9. Nbxd2 {[%eval +0.63]} 
+9. ... Bd7 {[%eval +1.01]} 10. O-O {[%eval +0.90]} 10. ... O-O {[%eval 
++1.01]} 11. Re1 {[%eval +0.84]} 11. ... Re8 {[%eval +1.03]} 12. h3 {[%eval
++0.92]} 12. ... Ne7 {[%eval +1.12]} 13. Bf1 {[%eval +1.08]} 13. ... c6 {
+[%eval +1.43]} 14. Qb3 {[%eval +1.00]} 14. ... Qb6 {[%eval +1.57]} 15. Qa3
+{[%eval +1.15]} 15. ... Qc7 {[%eval +1.57]} 16. Nc4 {[%eval +1.50]} 
+16. ... Nc8 {[%eval +1.74]} 17. e5 {[%eval +1.94]} 17. ... dxe5 {[%eval 
++2.00]} 18. dxe5 {[%eval +1.65]} 18. ... Nd5 {[%eval +1.77]} 19. Rac1 {
+[%eval +1.62]} 19. ... h6 {[%eval +2.22]} 20. b4 {[%eval +1.48]} 20. ... 
+Qd8 {[%eval +2.06]} 21. Qb2 {[%eval +1.73]} 21. ... Rb8 {[%eval +1.84]} 
+22. a3 {[%eval +1.58]} 22. ... a6 {[%eval +2.22]} 23. Rcd1 {[%eval +1.93]}
+23. ... Qc7 {[%eval +2.73]} 24. Qd4 {[%eval +1.69]} 24. ... Bf5 {[%eval 
++1.84]} 25. Nh4 {[%eval +1.87]} 25. ... Bh7 {[%eval +2.01]} 26. Bd3 {
+[%eval +1.87]} 26. ... b5 {[%eval +1.99]} 27. Bxh7+ {[%eval +2.24]} 
+27. ... Kxh7 {[%eval +2.26]} 28. Na5 {[%eval +2.03]} 28. ... Nce7 {[%eval 
++1.90]} 29. Rc1 {[%eval +2.05]} 29. ... Rbd8 {[%eval +1.90]} 30. Qe4+ {
+[%eval +1.65]} 30. ... Kh8 {[%eval +2.02]} 31. Nf3 {[%eval +2.51]} 31. ...
+ Qd7 {[%eval +2.71]} 32. Rc2 {[%eval +1.93]} 32. ... Ng6 {[%eval +2.67]} 
+33. Nxc6 {[%eval +2.73]} 33. ... Rc8 {[%eval +3.27]} 34. Rec1 {[%eval 
++2.23]} 34. ... Ngf4 {[%eval +4.76]} 35. Ncd4 {[%eval +4.02]} 35. ... Rxc2
+{[%eval +4.20]} 36. Rxc2 {[%eval +4.27]} 36. ... f6 {[%eval +6.61]} 37. 
+Rc5 {[%eval +6.74]} 37. ... fxe5 {[%eval +7.50]} 38. Nxe5 {[%eval +7.38]} 
+38. ... Nc3 {[%eval +10.50]} 39. Rxc3 {[%eval +10.97]} 39. ... Qxd4 {
+[%eval +70.65]} 40. Nf7+ {[%eval +327.38]} 1-0
+
+[Event "10th Norway Chess 2022"]
+[Site "Stavanger NOR"]
+[Date "2022.06.06"]
+[Round "6.3"]
+[White "Giri, A"]
+[Black "Anand V"]
+[Result "1/2-1/2"]
+[WhiteElo "2761"]
+[BlackElo "2751"]
+[ECO "A30"]
+[EventDate "2022.05.31"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "English"]
+[Variation "symmetrical variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "5000017"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. c4 {[%eval +0.19]} 1. ... c5 {[%eval +0.41]} 2. Nf3 {[%eval +0.36]} 
+2. ... Nf6 {[%eval +0.50]} 3. g3 {[%eval +0.13]} 3. ... d5 {[%eval +0.19]}
+4. cxd5 {[%eval +0.32]} 4. ... Nxd5 {[%eval +0.24]} 5. Bg2 {[%eval +0.22]}
+5. ... Nc6 {[%eval +0.27]} 6. Nc3 {[%eval +0.00]} 6. ... g6 {[%eval +0.27]
+} 7. h4 {[%eval +0.17]} 7. ... h6 {[%eval +0.38]} 8. O-O {[%eval +0.21]} 
+8. ... Bg7 {[%eval +0.18]} 9. d3 {[%eval -0.41]} 9. ... Be6 {[%eval -0.27]
+} 10. Bd2 {[%eval -0.28]} 10. ... Rc8 {[%eval +0.12]} 11. Rc1 {[%eval 
++0.00]} 11. ... b6 {[%eval +0.48]} 12. a3 {[%eval +0.02]} 12. ... O-O {
+[%eval +0.03]} 13. Nxd5 {[%eval +0.01]} 13. ... Bxd5 {[%eval +0.13]} 14. 
+b4 {[%eval +0.00]} 14. ... cxb4 {[%eval +0.00]} 15. axb4 {[%eval +0.03]} 
+15. ... Bxf3 {[%eval +0.05]} 16. Bxf3 {[%eval +0.00]} 16. ... Nd4 {[%eval 
++0.00]} 17. Be4 {[%eval -0.03]} 17. ... Rxc1 {[%eval +0.00]} 18. Bxc1 {
+[%eval +0.00]} 18. ... Qd6 {[%eval +0.00]} 19. Bd2 {[%eval +0.00]} 19. ...
+ Rc8 {[%eval +0.43]} 20. e3 {[%eval +0.25]} 20. ... Nb5 {[%eval +0.32]} 
+21. h5 {[%eval +0.31]} 21. ... g5 {[%eval +0.29]} 22. Qa4 {[%eval +0.00]} 
+22. ... Nc3 {[%eval +0.40]} 23. Bxc3 {[%eval +0.36]} 23. ... Bxc3 {[%eval 
++0.42]} 24. Qxa7 {[%eval +0.27]} 24. ... Bxb4 {[%eval +0.28]} 25. Rb1 {
+[%eval +0.19]} 25. ... Ba5 {[%eval +0.17]} 26. d4 {[%eval +0.10]} 26. ... 
+Kg7 {[%eval +0.11]} 27. Qa6 {[%eval +0.17]} 27. ... Qe6 {[%eval +0.17]} 
+28. Bd3 {[%eval +0.10]} 28. ... Qc6 {[%eval +0.10]} 29. Bf5 {[%eval +0.10]
+} 29. ... Rc7 {[%eval +0.11]} 30. Qe2 {[%eval +0.24]} 30. ... Qd5 {[%eval 
++0.54]} 31. Bd3 {[%eval +0.13]} 31. ... Rc3 {[%eval +0.05]} 32. Rd1 {
+[%eval +0.04]} 32. ... Bb4 {[%eval +0.08]} 33. Qb2 {[%eval +0.03]} 33. ...
+ Qb3 {[%eval +0.03]} 34. Qe2 {[%eval +0.00]} 34. ... Qd5 {[%eval +0.02]} 
+35. Qb2 {[%eval +0.00]} 35. ... Qb3 {[%eval +0.00]} 1/2-1/2
+
+[Event "10th Norway Chess 2022"]
+[Site "Stavanger NOR"]
+[Date "2022.06.07"]
+[Round "7.4"]
+[White "Mamedyarov, Shakhriyar"]
+[Black "Giri, A"]
+[Result "1-0"]
+[WhiteElo "2759"]
+[BlackElo "2761"]
+[ECO "E94"]
+[EventDate "2022.05.31"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "King's Indian"]
+[Variation "orthodox variation"]
+[WhiteFideId "13401319"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.27]} 1. ... Nf6 {[%eval +0.43]} 2. c4 {[%eval +0.24]} 
+2. ... g6 {[%eval +0.46]} 3. Nc3 {[%eval +0.31]} 3. ... Bg7 {[%eval +0.75]
+} 4. e4 {[%eval +0.66]} 4. ... d6 {[%eval +0.74]} 5. Nf3 {[%eval +0.55]} 
+5. ... O-O {[%eval +0.76]} 6. Be2 {[%eval +0.62]} 6. ... e5 {[%eval +0.62]
+} 7. O-O {[%eval +0.50]} 7. ... exd4 {[%eval +0.59]} 8. Nxd4 {[%eval 
++0.58]} 8. ... Re8 {[%eval +0.76]} 9. f3 {[%eval +0.54]} 9. ... c6 {[%eval
++0.60]} 10. Kh1 {[%eval +0.60]} 10. ... d5 {[%eval +0.65]} 11. exd5 {
+[%eval +0.00]} 11. ... cxd5 {[%eval +0.00]} 12. Bg5 {[%eval +0.00]} 
+12. ... Nc6 {[%eval +0.00]} 13. Nxc6 {[%eval -0.01]} 13. ... bxc6 {[%eval 
++0.00]} 14. cxd5 {[%eval +0.00]} 14. ... cxd5 {[%eval +0.15]} 15. Bb5 {
+[%eval +0.00]} 15. ... Re6 {[%eval +0.20]} 16. Bc4 {[%eval +0.00]} 16. ...
+ Bb7 {[%eval +0.02]} 17. Bb3 {[%eval +0.00]} 17. ... Qa5 {[%eval +0.25]} 
+18. Qd2 {[%eval +0.16]} 18. ... Rae8 {[%eval +0.39]} 19. Nxd5 {[%eval 
++0.27]} 19. ... Qxd2 {[%eval +0.23]} 20. Nxf6+ {[%eval +0.17]} 20. ... 
+Bxf6 {[%eval +0.23]} 21. Bxd2 {[%eval +0.24]} 21. ... Re2 {[%eval +0.17]} 
+22. Bc3 {[%eval +0.26]} 22. ... Bxc3 {[%eval +0.24]} 23. bxc3 {[%eval 
++0.16]} 23. ... a5 {[%eval +0.25]} 24. Kg1 {[%eval +0.12]} 24. ... Bc8 {
+[%eval +0.78]} 25. Rf2 {[%eval +0.35]} 25. ... Re1+ {[%eval +0.33]} 26. 
+Rxe1 {[%eval +0.28]} 26. ... Rxe1+ {[%eval +0.30]} 27. Rf1 {[%eval +0.30]}
+27. ... Re2 {[%eval +0.41]} 28. Rc1 {[%eval +0.32]} 28. ... Be6 {[%eval 
++0.20]} 29. c4 {[%eval +0.17]} 29. ... Rb2 {[%eval +0.23]} 30. Rc3 {[%eval
++0.25]} 30. ... Kf8 {[%eval +0.15]} 31. a3 {[%eval +0.23]} 31. ... Ke7 {
+[%eval +0.21]} 32. Ba4 {[%eval +0.19]} 32. ... Kd6 {[%eval +0.41]} 33. c5+
+{[%eval +0.26]} 33. ... Kc7 {[%eval +0.52]} 34. h3 {[%eval +0.07]} 34. ...
+ h5 {[%eval +0.75]} 35. Kh2 {[%eval +0.00]} 35. ... h4 {[%eval +0.00]} 36.
+ Re3 {[%eval +0.00]} 36. ... Ra2 {[%eval +0.00]} 37. Bb5 {[%eval +0.00]} 
+37. ... Rc2 {[%eval +0.00]} 38. Re5 {[%eval +0.27]} 38. ... Rc3 {[%eval 
++0.27]} 39. a4 {[%eval +0.35]} 39. ... Rb3 {[%eval +0.34]} 40. Kg1 {[%eval
++0.36]} 40. ... Rc3 {[%eval +0.77]} 41. Kh2 {[%eval +0.19]} 41. ... Rb3 {
+[%eval +0.11]} 42. Be8 {[%eval +0.00]} 42. ... Kd8 {[%eval +0.00]} 43. Bc6
+{[%eval +0.00]} 43. ... Rb4 {[%eval +0.06]} 44. Bb5 {[%eval +0.07]} 
+44. ... Rd4 {[%eval +0.00]} 45. Kg1 {[%eval +0.00]} 45. ... Kc7 {[%eval 
++0.17]} 46. Kf2 {[%eval +0.18]} 46. ... Rb4 {[%eval +0.21]} 47. Re2 {
+[%eval +0.15]} 47. ... Rb3 {[%eval +0.16]} 48. Rc2 {[%eval +0.13]} 48. ...
+ Ra3 {[%eval +0.17]} 49. Re2 {[%eval +0.10]} 49. ... Rc3 {[%eval +0.68]} 
+50. Re4 {[%eval +0.62]} 50. ... Rxc5 {[%eval +0.75]} 51. Rxh4 {[%eval 
++0.71]} 51. ... Rc2+ {[%eval +0.59]} 52. Kg3 {[%eval +0.63]} 52. ... Kd6 {
+[%eval +1.45]} 53. Rh8 {[%eval +1.42]} 53. ... Kc5 {[%eval +2.13]} 54. Rb8
+{[%eval +2.81]} 54. ... Rb2 {[%eval +3.12]} 55. h4 {[%eval +3.35]} 55. ...
+ Bd5 {[%eval +3.85]} 56. Rf8 {[%eval +1.17]} 56. ... Rb4 {[%eval +3.47]} 
+57. Rc8+ {[%eval +0.57]} 57. ... Kb6 {[%eval +4.70]} 58. Rd8 {[%eval 
++3.75]} 58. ... Kc5 {[%eval +4.16]} 59. Rd7 {[%eval +4.23]} 59. ... Rxb5 {
+[%eval +9.45]} 60. axb5 {[%eval +12.93]} 60. ... Bc4 {[%eval +13.86]} 61. 
+Kf4 {[%eval +13.86]} 61. ... a4 {[%eval +13.86]} 62. g4 {[%eval +13.86]} 
+62. ... Bxb5 {[%eval +16.01]} 63. Rxf7 {[%eval +34.94]} 63. ... a3 {[%eval
++51.60]} 64. Re7 {[%eval +51.60]} 64. ... Bd3 {[%eval +54.83]} 65. Ra7 {
+[%eval +152.65]} 65. ... Kb4 {[%eval +152.65]} 66. h5 {[%eval +152.65]} 
+66. ... gxh5 {[%eval +152.65]} 67. gxh5 {[%eval +152.65]} 1-0
+
+[Event "10th Norway Chess 2022"]
+[Site "Stavanger NOR"]
+[Date "2022.06.09"]
+[Round "8.3"]
+[White "Giri, A"]
+[Black "Tari, Aryan"]
+[Result "1-0"]
+[WhiteElo "2761"]
+[BlackElo "2654"]
+[ECO "D02"]
+[EventDate "2022.05.31"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Queen's bishop game"]
+[WhiteFideId "24116068"]
+[BlackFideId "1510045"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. Nf3 {[%eval +0.29]} 1. ... d5 {[%eval +0.40]} 2. d4 {[%eval +0.28]} 
+2. ... Nf6 {[%eval +0.35]} 3. Bf4 {[%eval +0.00]} 3. ... c5 {[%eval +0.19]
+} 4. e3 {[%eval +0.19]} 4. ... Nc6 {[%eval +0.36]} 5. Nbd2 {[%eval +0.09]}
+5. ... Bg4 {[%eval +0.29]} 6. c3 {[%eval +0.27]} 6. ... e6 {[%eval +0.15]}
+7. Qb3 {[%eval +0.13]} 7. ... Qc8 {[%eval +0.26]} 8. h3 {[%eval +0.25]} 
+8. ... Bh5 {[%eval +0.26]} 9. Be2 {[%eval +0.11]} 9. ... Be7 {[%eval 
++0.16]} 10. dxc5 {[%eval +0.15]} 10. ... Bxc5 {[%eval +0.87]} 11. g4 {
+[%eval +0.81]} 11. ... Bg6 {[%eval +0.76]} 12. Nh4 {[%eval +0.81]} 12. ...
+ Qd7 {[%eval +0.92]} 13. Nxg6 {[%eval +0.72]} 13. ... hxg6 {[%eval +0.85]}
+14. g5 {[%eval +0.83]} 14. ... Nh5 {[%eval +0.65]} 15. Bh2 {[%eval +0.75]}
+15. ... a6 {[%eval +0.85]} 16. O-O-O {[%eval +0.64]} 16. ... b5 {[%eval 
++0.63]} 17. Kb1 {[%eval +0.58]} 17. ... Bd6 {[%eval +0.72]} 18. Bxd6 {
+[%eval +0.69]} 18. ... Qxd6 {[%eval +0.67]} 19. c4 {[%eval +0.59]} 19. ...
+ O-O {[%eval +1.22]} 20. cxd5 {[%eval +1.09]} 20. ... exd5 {[%eval +1.00]}
+21. Nf3 {[%eval +1.00]} 21. ... Rad8 {[%eval +1.12]} 22. h4 {[%eval +1.17]
+} 22. ... Rfe8 {[%eval +1.50]} 23. Nd4 {[%eval +1.39]} 23. ... Ne5 {[%eval
++1.56]} 24. Qa3 {[%eval +0.66]} 24. ... Qb6 {[%eval +1.53]} 25. b3 {[%eval
++1.17]} 25. ... Rc8 {[%eval +1.77]} 26. Qb2 {[%eval +2.06]} 26. ... Qd6 {
+[%eval +2.33]} 27. Rc1 {[%eval +2.27]} 27. ... Qd7 {[%eval +2.43]} 28. 
+Rxc8 {[%eval +1.60]} 28. ... Rxc8 {[%eval +1.85]} 29. Qd2 {[%eval +1.54]} 
+29. ... Ng4 {[%eval +2.13]} 30. Bf1 {[%eval +1.69]} 30. ... Qe7 {[%eval 
++1.87]} 31. Bg2 {[%eval +2.09]} 31. ... Qe5 {[%eval +2.07]} 32. a3 {[%eval
++1.89]} 32. ... Kh7 {[%eval +2.24]} 33. Ka2 {[%eval +2.11]} 33. ... f5 {
+[%eval +2.39]} 34. Bf3 {[%eval +2.46]} 34. ... Qd6 {[%eval +2.67]} 35. Bd1
+{[%eval +1.94]} 35. ... Re8 {[%eval +2.18]} 36. Bf3 {[%eval +2.53]} 
+36. ... Rc8 {[%eval +2.58]} 37. Qe2 {[%eval +2.00]} 37. ... Rf8 {[%eval 
++3.60]} 38. b4 {[%eval +2.14]} 38. ... Qe5 {[%eval +3.86]} 39. Qd2 {[%eval
++1.82]} 39. ... Rc8 {[%eval +1.85]} 40. Nb3 {[%eval +1.49]} 40. ... Rc4 {
+[%eval +2.08]} 41. Rd1 {[%eval +1.99]} 41. ... f4 {[%eval +2.81]} 42. exf4
+{[%eval +0.00]} 42. ... Rxf4 {[%eval +0.00]} 43. Nd4 {[%eval +0.00]} 
+43. ... Qc7 {[%eval +0.04]} 44. Kb1 {[%eval +0.00]} 44. ... Qf7 {[%eval 
++0.00]} 45. Qe2 {[%eval +0.00]} 45. ... Nh2 {[%eval +0.00]} 46. Bxh5 {
+[%eval -0.21]} 46. ... gxh5 {[%eval -0.15]} 47. Qd3+ {[%eval -0.92]} 
+47. ... Qg6 {[%eval -0.90]} 48. Ne6 {[%eval -0.85]} 48. ... Rxf2 {[%eval 
++0.00]} 49. Qxg6+ {[%eval +0.00]} 49. ... Kxg6 {[%eval +0.00]} 50. Rxd5 {
+[%eval +0.00]} 50. ... Kf7 {[%eval +0.00]} 51. Nc7 {[%eval +0.04]} 51. ...
+ Nf3 {[%eval +0.00]} 52. Rd7+ {[%eval +0.00]} 52. ... Kg6 {[%eval +0.00]} 
+53. Ne8 {[%eval +0.00]} 53. ... Re2 {[%eval +0.06]} 54. Rxg7+ {[%eval 
++0.05]} 54. ... Kf5 {[%eval +0.00]} 55. Rf7+ {[%eval +0.03]} 55. ... Kg4 {
+[%eval +0.06]} 56. Nf6+ {[%eval +0.00]} 56. ... Kxh4 {[%eval +0.02]} 57. 
+g6 {[%eval +0.00]} 57. ... Nd2+ {[%eval +4.25]} 58. Kc1 {[%eval +5.05]} 
+58. ... Ne4 {[%eval +5.20]} 59. Re7 {[%eval +5.51]} 59. ... Nc3 {[%eval 
++20.01]} 60. Rxe2 {[%eval +22.95]} 60. ... Nxe2+ {[%eval +23.45]} 61. Kd2 
+{[%eval +55.96]} 1-0
+
+[Event "10th Norway Chess 2022"]
+[Site "Stavanger NOR"]
+[Date "2022.06.10"]
+[Round "9.4"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2750"]
+[BlackElo "2761"]
+[ECO "B30"]
+[EventDate "2022.05.31"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "623539"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.32]} 1. ... c5 {[%eval +0.48]} 2. Nf3 {[%eval +0.39]} 
+2. ... Nc6 {[%eval +0.39]} 3. Bb5 {[%eval +0.43]} 3. ... e6 {[%eval +0.46]
+} 4. O-O {[%eval +0.44]} 4. ... Nge7 {[%eval +0.56]} 5. Re1 {[%eval +0.47]
+} 5. ... h6 {[%eval +0.57]} 6. b3 {[%eval +0.39]} 6. ... a6 {[%eval +0.56]
+} 7. Bxc6 {[%eval +0.39]} 7. ... Nxc6 {[%eval +0.28]} 8. Bb2 {[%eval 
++0.26]} 8. ... b5 {[%eval +0.44]} 9. Nc3 {[%eval +0.11]} 9. ... Be7 {
+[%eval +0.23]} 10. a4 {[%eval +0.18]} 10. ... bxa4 {[%eval +0.20]} 11. 
+Nxa4 {[%eval -0.04]} 11. ... O-O {[%eval +0.00]} 12. d4 {[%eval +0.00]} 
+12. ... cxd4 {[%eval +0.02]} 13. Nxd4 {[%eval -0.02]} 13. ... Bb7 {[%eval 
++0.00]} 14. Nxc6 {[%eval -0.04]} 14. ... Bxc6 {[%eval +0.00]} 15. Qd4 {
+[%eval +0.00]} 15. ... Bf6 {[%eval +0.00]} 16. Qd3 {[%eval -0.04]} 16. ...
+ Bxb2 {[%eval +0.00]} 17. Nxb2 {[%eval +0.00]} 17. ... f5 {[%eval +0.00]} 
+18. e5 {[%eval +0.00]} 18. ... a5 {[%eval +0.00]} 19. Qd2 {[%eval +0.00]} 
+19. ... Qh4 {[%eval +0.00]} 20. f3 {[%eval +0.00]} 20. ... Rfb8 {[%eval 
++0.00]} 21. Qf2 {[%eval -0.13]} 21. ... Qb4 {[%eval +0.00]} 22. Nd3 {
+[%eval +0.00]} 22. ... Qc3 {[%eval +0.00]} 23. Qc5 {[%eval +0.00]} 23. ...
+ Qxc5+ {[%eval +0.00]} 24. Nxc5 {[%eval +0.00]} 24. ... Kf7 {[%eval +0.00]
+} 25. Ra2 {[%eval +0.00]} 25. ... g5 {[%eval +0.00]} 26. Kf2 {[%eval 
++0.00]} 26. ... Ke7 {[%eval +0.00]} 27. h4 {[%eval -0.01]} 27. ... g4 {
+[%eval +0.00]} 28. Nd3 {[%eval +0.00]} 28. ... a4 {[%eval +0.00]} 29. bxa4
+{[%eval +0.00]} 29. ... Rxa4 {[%eval +0.00]} 30. Rxa4 {[%eval +0.00]} 
+30. ... Bxa4 {[%eval +0.00]} 31. c3 {[%eval -0.16]} 31. ... Rc8 {[%eval 
+-0.12]} 32. Rc1 {[%eval +0.00]} 32. ... Bb5 {[%eval +0.00]} 1/2-1/2
+
+[Event "44th Olympiad 2022"]
+[Site "Chennai IND"]
+[Date "2022.07.31"]
+[Round "3.7"]
+[White "Grandelius, Nils"]
+[Black "Giri, A"]
+[Result "0-1"]
+[WhiteElo "2655"]
+[BlackElo "2760"]
+[ECO "D02"]
+[EventDate "2022.07.29"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Queen's pawn game"]
+[WhiteTeam "Sweden"]
+[BlackTeam "Netherlands"]
+[WhiteFideId "1710400"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.35]} 1. ... Nf6 {[%eval +0.48]} 2. Nf3 {[%eval +0.28]} 
+2. ... d5 {[%eval +0.32]} 3. c4 {[%eval +0.13]} 3. ... e6 {[%eval +0.29]} 
+4. g3 {[%eval +0.15]} 4. ... Bb4+ {[%eval +0.36]} 5. Bd2 {[%eval +0.21]} 
+5. ... Be7 {[%eval +0.31]} 6. Bg2 {[%eval +0.25]} 6. ... O-O {[%eval 
++0.32]} 7. O-O {[%eval +0.32]} 7. ... c6 {[%eval +0.20]} 8. Qc2 {[%eval 
++0.11]} 8. ... Nbd7 {[%eval +0.20]} 9. Bf4 {[%eval +0.05]} 9. ... b6 {
+[%eval +0.21]} 10. cxd5 {[%eval +0.04]} 10. ... cxd5 {[%eval +0.19]} 11. 
+Rc1 {[%eval +0.15]} 11. ... Bb7 {[%eval +0.11]} 12. Bc7 {[%eval +0.11]} 
+12. ... Qe8 {[%eval +0.12]} 13. Qb3 {[%eval +0.00]} 13. ... Rc8 {[%eval 
++0.32]} 14. Na3 {[%eval +0.19]} 14. ... Ne4 {[%eval +0.16]} 15. Bf4 {
+[%eval -0.15]} 15. ... g5 {[%eval -0.22]} 16. Be3 {[%eval -0.16]} 16. ... 
+h6 {[%eval +0.03]} 17. Rxc8 {[%eval -0.06]} 17. ... Qxc8 {[%eval +0.25]} 
+18. Rc1 {[%eval +0.00]} 18. ... Qb8 {[%eval +0.00]} 19. Nb5 {[%eval +0.00]
+} 19. ... a6 {[%eval +0.04]} 20. Nc3 {[%eval +0.00]} 20. ... Rc8 {[%eval 
++0.09]} 21. Nxe4 {[%eval -0.25]} 21. ... dxe4 {[%eval -0.17]} 22. Ne5 {
+[%eval -0.33]} 22. ... Rxc1+ {[%eval -0.31]} 23. Bxc1 {[%eval -0.28]} 
+23. ... Nxe5 {[%eval -0.03]} 24. dxe5 {[%eval +0.00]} 24. ... Qc7 {[%eval 
++0.00]} 25. Be3 {[%eval -0.26]} 25. ... b5 {[%eval -0.18]} 26. Qd1 {[%eval
+-0.17]} 26. ... Bf8 {[%eval +0.00]} 27. Qd4 {[%eval -0.53]} 27. ... Bg7 {
+[%eval -0.63]} 28. Bxe4 {[%eval -0.63]} 28. ... Bxe5 {[%eval -0.56]} 29. 
+Qd3 {[%eval -0.43]} 29. ... Bxb2 {[%eval -0.36]} 30. Bxb7 {[%eval -0.38]} 
+30. ... Qxb7 {[%eval -0.38]} 31. Qd8+ {[%eval -0.45]} 31. ... Kh7 {[%eval 
+-0.39]} 32. h4 {[%eval -0.61]} 32. ... gxh4 {[%eval -0.64]} 33. Qxh4 {
+[%eval -0.74]} 33. ... Bg7 {[%eval -0.71]} 34. Qb4 {[%eval -0.70]} 34. ...
+ Qd5 {[%eval -0.74]} 35. Qa3 {[%eval -0.61]} 35. ... Qc6 {[%eval -0.45]} 
+36. Qd3+ {[%eval -0.41]} 36. ... f5 {[%eval -0.43]} 37. Qa3 {[%eval -0.46]
+} 37. ... Kg6 {[%eval -0.37]} 38. Kh2 {[%eval -0.83]} 38. ... Kf7 {[%eval 
+-0.47]} 39. Qa5 {[%eval -0.95]} 39. ... e5 {[%eval -0.29]} 40. Bb6 {[%eval
+-0.32]} 40. ... Qb7 {[%eval -0.28]} 41. Be3 {[%eval -0.43]} 41. ... Qc8 {
+[%eval -0.15]} 42. Qb6 {[%eval -0.29]} 42. ... Qe6 {[%eval -0.22]} 43. Qa5
+{[%eval -0.62]} 43. ... Kg6 {[%eval -0.48]} 44. Bb6 {[%eval -0.65]} 
+44. ... Bf8 {[%eval -0.30]} 45. Be3 {[%eval -0.75]} 45. ... Be7 {[%eval 
+-0.44]} 46. Qc7 {[%eval -0.63]} 46. ... Bf6 {[%eval -0.40]} 47. Qa5 {
+[%eval -1.23]} 47. ... h5 {[%eval -0.90]} 48. Bc1 {[%eval -1.42]} 48. ... 
+h4 {[%eval -1.41]} 49. gxh4 {[%eval -1.51]} 49. ... Bxh4 {[%eval -1.81]} 
+50. Kg1 {[%eval -1.61]} 50. ... f4 {[%eval -1.61]} 51. Bb2 {[%eval -6.11]}
+51. ... Qg4+ {[%eval -8.16]} 52. Kf1 {[%eval -7.99]} 52. ... Qh3+ {[%eval 
+-9.37]} 53. Kg1 {[%eval -13.25]} 53. ... Bg3 {[%eval -15.94]} 54. Qb6+ {
+[%eval -15.96]} 54. ... Kh5 {[%eval -16.26]} 55. f3 {[%eval -17.47]} 
+55. ... Qd7 {[%eval -24.82]} 56. Kg2 {[%eval -26.47]} 56. ... Qd2 {[%eval 
+-28.25]} 57. Kh3 {[%eval -327.44]} 57. ... Qxe2 {[%eval -327.45]} 0-1
+
+[Event "44th Olympiad 2022"]
+[Site "Chennai IND"]
+[Date "2022.08.01"]
+[Round "4.6"]
+[White "Boruchovsky, Avital"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2551"]
+[BlackElo "2760"]
+[ECO "C41"]
+[EventDate "2022.07.29"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Philidor"]
+[Variation "Improved Hanham variation"]
+[WhiteTeam "Israel"]
+[BlackTeam "Netherlands"]
+[WhiteFideId "2800055"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.23]} 1. ... d6 {[%eval +0.68]} 2. d4 {[%eval +0.51]} 
+2. ... Nf6 {[%eval +0.58]} 3. Nc3 {[%eval +0.51]} 3. ... e5 {[%eval +0.62]
+} 4. Nf3 {[%eval +0.47]} 4. ... Nbd7 {[%eval +0.68]} 5. Bc4 {[%eval +0.62]
+} 5. ... Be7 {[%eval +0.71]} 6. O-O {[%eval +0.59]} 6. ... O-O {[%eval 
++0.64]} 7. Re1 {[%eval +0.42]} 7. ... c6 {[%eval +0.59]} 8. a4 {[%eval 
++0.70]} 8. ... h6 {[%eval +0.60]} 9. Bf1 {[%eval +0.43]} 9. ... Re8 {
+[%eval +0.45]} 10. h3 {[%eval +0.36]} 10. ... b6 {[%eval +0.47]} 11. Be3 {
+[%eval +0.47]} 11. ... a6 {[%eval +0.58]} 12. Nh4 {[%eval +0.17]} 12. ... 
+Bf8 {[%eval +0.36]} 13. dxe5 {[%eval +0.00]} 13. ... Nxe5 {[%eval +0.00]} 
+14. f4 {[%eval +0.00]} 14. ... Ned7 {[%eval +0.00]} 15. Bf2 {[%eval +0.00]
+} 15. ... Nc5 {[%eval +0.33]} 16. Qf3 {[%eval +0.00]} 16. ... d5 {[%eval 
++0.00]} 17. Rad1 {[%eval +0.00]} 17. ... Bb7 {[%eval +1.00]} 18. e5 {
+[%eval +0.99]} 18. ... Nfe4 {[%eval +1.17]} 19. Nf5 {[%eval -0.33]} 
+19. ... Nxf2 {[%eval -0.24]} 20. Qxf2 {[%eval -0.15]} 20. ... Qd7 {[%eval 
++0.03]} 21. Ne3 {[%eval -0.31]} 21. ... Rad8 {[%eval +0.00]} 22. Qg3 {
+[%eval -0.03]} 22. ... Kh8 {[%eval +0.00]} 23. f5 {[%eval -1.42]} 23. ... 
+Qc7 {[%eval -0.80]} 24. Ng4 {[%eval -0.88]} 24. ... Bc8 {[%eval -0.27]} 
+25. b4 {[%eval -0.25]} 25. ... Ne4 {[%eval -0.38]} 26. Nxe4 {[%eval -0.33]
+} 26. ... dxe4 {[%eval -0.27]} 27. Rxd8 {[%eval -0.39]} 27. ... Qxd8 {
+[%eval -0.19]} 28. e6 {[%eval -0.43]} 28. ... fxe6 {[%eval -0.28]} 29. f6 
+{[%eval -0.49]} 29. ... gxf6 {[%eval -0.27]} 30. Rxe4 {[%eval -0.36]} 
+30. ... f5 {[%eval +0.00]} 31. Ne5 {[%eval +0.00]} 31. ... Qf6 {[%eval 
++0.00]} 32. Ng6+ {[%eval +0.00]} 32. ... Kh7 {[%eval +0.00]} 33. Nxf8+ {
+[%eval +0.00]} 33. ... Rxf8 {[%eval +0.00]} 34. Re5 {[%eval +0.00]} 
+34. ... Rg8 {[%eval +0.19]} 35. Qe3 {[%eval +0.15]} 35. ... Rg7 {[%eval 
++0.13]} 36. a5 {[%eval +0.11]} 36. ... b5 {[%eval +0.23]} 37. Bd3 {[%eval 
++0.00]} 37. ... Bd7 {[%eval +0.16]} 38. Kh2 {[%eval +0.00]} 38. ... Kg8 {
+[%eval +0.00]} 39. Qf4 {[%eval +0.00]} 39. ... Qg5 {[%eval +0.00]} 40. Qf2
+{[%eval +0.00]} 40. ... Qf6 {[%eval +0.00]} 41. Qf4 {[%eval +0.00]} 
+41. ... Qg5 {[%eval +0.00]} 42. Qf2 {[%eval +0.00]} 42. ... Qf6 {[%eval 
++0.00]} 1/2-1/2
+
+[Event "44th Olympiad 2022"]
+[Site "Chennai IND"]
+[Date "2022.08.02"]
+[Round "5.9"]
+[White "Giri, A"]
+[Black "Hansen, Eric"]
+[Result "1-0"]
+[WhiteElo "2760"]
+[BlackElo "2606"]
+[ECO "D30"]
+[EventDate "2022.07.29"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Queen's gambit declined"]
+[WhiteTeam "Netherlands"]
+[BlackTeam "Canada"]
+[WhiteFideId "24116068"]
+[BlackFideId "2606771"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.20]} 1. ... d5 {[%eval +0.43]} 2. c4 {[%eval +0.33]} 
+2. ... e6 {[%eval +0.34]} 3. Nf3 {[%eval +0.10]} 3. ... Nf6 {[%eval +0.17]
+} 4. g3 {[%eval +0.20]} 4. ... Bb4+ {[%eval +0.12]} 5. Bd2 {[%eval +0.10]}
+5. ... Be7 {[%eval +0.17]} 6. Bg2 {[%eval +0.13]} 6. ... O-O {[%eval 
++0.12]} 7. O-O {[%eval +0.14]} 7. ... dxc4 {[%eval +0.59]} 8. Qa4 {[%eval 
++0.60]} 8. ... Bd7 {[%eval +0.55]} 9. Qxc4 {[%eval +0.50]} 9. ... Bc6 {
+[%eval +0.63]} 10. Rc1 {[%eval +0.49]} 10. ... Nbd7 {[%eval +0.52]} 11. 
+Nc3 {[%eval +0.50]} 11. ... a6 {[%eval +0.67]} 12. Bf4 {[%eval +0.28]} 
+12. ... Rc8 {[%eval +0.43]} 13. a3 {[%eval +0.24]} 13. ... Nd5 {[%eval 
++0.64]} 14. b4 {[%eval +0.05]} 14. ... N7b6 {[%eval +0.00]} 15. Qd3 {
+[%eval -0.08]} 15. ... Nxc3 {[%eval +0.34]} 16. Rxc3 {[%eval +0.16]} 
+16. ... Nd5 {[%eval +0.31]} 17. Rxc6 {[%eval +0.11]} 17. ... Nxf4 {[%eval 
++0.27]} 18. gxf4 {[%eval +0.07]} 18. ... bxc6 {[%eval +0.05]} 19. Rc1 {
+[%eval +0.00]} 19. ... Bd6 {[%eval +0.71]} 20. e3 {[%eval +0.61]} 20. ... 
+h6 {[%eval +0.53]} 21. Qxa6 {[%eval +0.59]} 21. ... Ra8 {[%eval +0.52]} 
+22. Qd3 {[%eval +0.66]} 22. ... g5 {[%eval +0.64]} 23. fxg5 {[%eval +0.46]
+} 23. ... hxg5 {[%eval +0.74]} 24. h3 {[%eval +0.37]} 24. ... f5 {[%eval 
++0.27]} 25. Rxc6 {[%eval +0.15]} 25. ... Qf6 {[%eval +0.15]} 26. Nd2 {
+[%eval +0.00]} 26. ... g4 {[%eval +0.00]} 27. hxg4 {[%eval +0.00]} 27. ...
+ fxg4 {[%eval +0.00]} 28. Ne4 {[%eval +0.00]} 28. ... Qf5 {[%eval +0.33]} 
+29. Rc2 {[%eval +0.30]} 29. ... Ra7 {[%eval +0.71]} 30. Rd2 {[%eval +0.51]
+} 30. ... Be7 {[%eval +1.50]} 31. Ng3 {[%eval +0.74]} 31. ... Qg5 {[%eval 
++2.40]} 32. Qb3 {[%eval +0.66]} 32. ... Kh8 {[%eval +2.08]} 33. d5 {[%eval
++2.54]} 33. ... Rd8 {[%eval +2.70]} 34. Rd3 {[%eval +2.26]} 34. ... exd5 {
+[%eval +2.43]} 35. Bxd5 {[%eval +2.62]} 35. ... Qe5 {[%eval +2.84]} 36. 
+Qc4 {[%eval +0.81]} 36. ... Bh4 {[%eval +0.93]} 37. Ne2 {[%eval +0.00]} 
+37. ... Bg5 {[%eval +2.52]} 38. Kg2 {[%eval +1.35]} 38. ... Rd6 {[%eval 
++4.42]} 39. Nf4 {[%eval +3.72]} 39. ... Bxf4 {[%eval +6.83]} 40. exf4 {
+[%eval +7.04]} 40. ... Qf6 {[%eval +7.55]} 1-0
+
+[Event "44th Olympiad 2022"]
+[Site "Chennai IND"]
+[Date "2022.08.03"]
+[Round "6.6"]
+[White "Giri, A"]
+[Black "Jobava, Baadur"]
+[Result "1-0"]
+[WhiteElo "2760"]
+[BlackElo "2585"]
+[ECO "A56"]
+[EventDate "2022.07.29"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Benoni defence"]
+[WhiteTeam "Netherlands"]
+[BlackTeam "Georgia"]
+[WhiteFideId "24116068"]
+[BlackFideId "13601520"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.23]} 1. ... Nf6 {[%eval +0.23]} 2. c4 {[%eval +0.25]} 
+2. ... c5 {[%eval +0.93]} 3. d5 {[%eval +0.62]} 3. ... g6 {[%eval +0.91]} 
+4. Nc3 {[%eval +0.89]} 4. ... Bg7 {[%eval +0.91]} 5. e4 {[%eval +0.87]} 
+5. ... d6 {[%eval +0.88]} 6. Nf3 {[%eval +0.87]} 6. ... O-O {[%eval +0.93]
+} 7. Be2 {[%eval +0.83]} 7. ... e6 {[%eval +0.87]} 8. O-O {[%eval +0.82]} 
+8. ... exd5 {[%eval +0.98]} 9. exd5 {[%eval +1.00]} 9. ... Bg4 {[%eval 
++0.91]} 10. h3 {[%eval +0.76]} 10. ... Bxf3 {[%eval +0.87]} 11. Bxf3 {
+[%eval +0.88]} 11. ... Nbd7 {[%eval +0.94]} 12. Bf4 {[%eval +0.50]} 
+12. ... Ne8 {[%eval +0.59]} 13. Qd2 {[%eval +0.59]} 13. ... Ne5 {[%eval 
++0.67]} 14. Be2 {[%eval +0.52]} 14. ... f5 {[%eval +0.68]} 15. Rfe1 {
+[%eval +0.19]} 15. ... Nf7 {[%eval +0.44]} 16. Rab1 {[%eval +0.00]} 
+16. ... g5 {[%eval +0.00]} 17. Bh2 {[%eval +0.20]} 17. ... Be5 {[%eval 
++0.72]} 18. Bh5 {[%eval +0.28]} 18. ... Bxh2+ {[%eval +0.79]} 19. Kxh2 {
+[%eval +0.68]} 19. ... Ng7 {[%eval +1.76]} 20. Bxf7+ {[%eval +1.94]} 
+20. ... Rxf7 {[%eval +2.20]} 21. Re6 {[%eval +1.99]} 21. ... Nxe6 {[%eval 
++2.69]} 22. dxe6 {[%eval +3.17]} 22. ... Rg7 {[%eval +3.67]} 23. Nd5 {
+[%eval +3.73]} 23. ... g4 {[%eval +7.14]} 24. Re1 {[%eval +7.17]} 24. ... 
+Rg6 {[%eval +7.07]} 25. Qf4 {[%eval +7.25]} 25. ... gxh3 {[%eval +7.46]} 
+26. g3 {[%eval +6.83]} 26. ... Rc8 {[%eval +9.15]} 27. Qxf5 {[%eval +6.45]
+} 27. ... Qf8 {[%eval +6.38]} 28. Qxf8+ {[%eval +6.44]} 28. ... Kxf8 {
+[%eval +6.64]} 29. f4 {[%eval +6.77]} 29. ... Re8 {[%eval +6.85]} 30. f5 {
+[%eval +6.79]} 30. ... Rg5 {[%eval +6.97]} 31. Rf1 {[%eval +6.97]} 31. ...
+ Rg4 {[%eval +7.20]} 32. Rf4 {[%eval +6.87]} 1-0
+
+[Event "44th Olympiad 2022"]
+[Site "Chennai IND"]
+[Date "2022.08.05"]
+[Round "7.3"]
+[White "Moussard, Jules"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2672"]
+[BlackElo "2760"]
+[ECO "B30"]
+[EventDate "2022.07.29"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteTeam "France"]
+[BlackTeam "Netherlands"]
+[WhiteFideId "642908"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.36]} 1. ... c5 {[%eval +0.38]} 2. Nf3 {[%eval +0.24]} 
+2. ... Nc6 {[%eval +0.48]} 3. Bb5 {[%eval +0.39]} 3. ... e6 {[%eval +0.37]
+} 4. O-O {[%eval +0.45]} 4. ... Nge7 {[%eval +0.50]} 5. c3 {[%eval +0.18]}
+5. ... a6 {[%eval +0.24]} 6. Ba4 {[%eval +0.23]} 6. ... b5 {[%eval +0.14]}
+7. Bc2 {[%eval +0.23]} 7. ... Bb7 {[%eval +0.22]} 8. Re1 {[%eval +0.19]} 
+8. ... Rc8 {[%eval +0.33]} 9. a4 {[%eval +0.27]} 9. ... Ng6 {[%eval +0.12]
+} 10. axb5 {[%eval +0.19]} 10. ... axb5 {[%eval +0.20]} 11. d4 {[%eval 
++0.09]} 11. ... cxd4 {[%eval +0.19]} 12. Nxd4 {[%eval +0.16]} 12. ... Nxd4
+{[%eval +0.23]} 13. Qxd4 {[%eval +0.25]} 13. ... Qf6 {[%eval +0.58]} 14. 
+Be3 {[%eval +0.34]} 14. ... Qxd4 {[%eval +0.81]} 15. Bxd4 {[%eval +0.58]} 
+15. ... Be7 {[%eval +0.59]} 16. Ra7 {[%eval +0.49]} 16. ... Bc6 {[%eval 
++0.58]} 17. Nd2 {[%eval +0.53]} 17. ... O-O {[%eval +0.43]} 18. Nb3 {
+[%eval +0.17]} 18. ... Ra8 {[%eval +0.23]} 19. Rea1 {[%eval +0.26]} 
+19. ... Rxa7 {[%eval +0.41]} 20. Rxa7 {[%eval +0.38]} 20. ... Ra8 {[%eval 
++0.38]} 21. Rxa8+ {[%eval +0.40]} 21. ... Bxa8 {[%eval +0.37]} 22. f3 {
+[%eval +0.35]} 22. ... e5 {[%eval +0.36]} 23. Bc5 {[%eval +0.36]} 23. ... 
+Kf8 {[%eval +0.40]} 24. Bd3 {[%eval +0.30]} 24. ... Bc6 {[%eval +0.35]} 
+25. g3 {[%eval +0.27]} 25. ... Bxc5+ {[%eval +0.27]} 26. Nxc5 {[%eval 
++0.28]} 26. ... Ke7 {[%eval +0.37]} 27. Kf2 {[%eval +0.23]} 27. ... f6 {
+[%eval +0.31]} 28. Ke3 {[%eval +0.25]} 28. ... Kd8 {[%eval +0.26]} 29. b4 
+{[%eval +0.24]} 29. ... Kc7 {[%eval +0.18]} 30. f4 {[%eval +0.22]} 30. ...
+ Ne7 {[%eval +0.28]} 31. h4 {[%eval +0.00]} 31. ... Nc8 {[%eval +0.12]} 
+32. c4 {[%eval +0.00]} 32. ... Nd6 {[%eval +0.10]} 33. Na6+ {[%eval +0.00]
+} 33. ... Kb7 {[%eval +0.00]} 34. Nc5+ {[%eval +0.00]} 34. ... Kc7 {[%eval
++0.00]} 35. Na6+ {[%eval +0.00]} 35. ... Kb7 {[%eval +0.00]} 36. Nc5+ {
+[%eval +0.00]} 1/2-1/2
+
+[Event "44th Olympiad 2022"]
+[Site "Chennai IND"]
+[Date "2022.08.06"]
+[Round "8.5"]
+[White "Giri, A"]
+[Black "Erdos, Viktor"]
+[Result "1-0"]
+[WhiteElo "2760"]
+[BlackElo "2586"]
+[ECO "D27"]
+[EventDate "2022.07.29"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "QGA"]
+[Variation "classical, 6...a6"]
+[WhiteTeam "Netherlands"]
+[BlackTeam "Hungary"]
+[WhiteFideId "24116068"]
+[BlackFideId "719978"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. Nf3 {[%eval +0.25]} 1. ... d5 {[%eval +0.24]} 2. d4 {[%eval +0.26]} 
+2. ... Nf6 {[%eval +0.28]} 3. c4 {[%eval +0.19]} 3. ... dxc4 {[%eval 
++0.37]} 4. e3 {[%eval +0.32]} 4. ... e6 {[%eval +0.37]} 5. Bxc4 {[%eval 
++0.36]} 5. ... c5 {[%eval +0.44]} 6. O-O {[%eval +0.40]} 6. ... a6 {[%eval
++0.46]} 7. Bd3 {[%eval +0.00]} 7. ... Nbd7 {[%eval +0.17]} 8. e4 {[%eval 
++0.00]} 8. ... cxd4 {[%eval +0.12]} 9. e5 {[%eval +0.16]} 9. ... Nd5 {
+[%eval +0.12]} 10. Bc4 {[%eval -0.59]} 10. ... Nb4 {[%eval -0.49]} 11. a3 
+{[%eval -0.75]} 11. ... Nc6 {[%eval -0.53]} 12. Re1 {[%eval -0.52]} 
+12. ... b5 {[%eval -0.67]} 13. Bf1 {[%eval -0.62]} 13. ... Bb7 {[%eval 
+-0.35]} 14. Nbd2 {[%eval -0.32]} 14. ... Be7 {[%eval -0.21]} 15. Nb3 {
+[%eval -0.26]} 15. ... O-O {[%eval -0.19]} 16. Bf4 {[%eval -0.71]} 16. ...
+ Rc8 {[%eval -0.51]} 17. Bd3 {[%eval -0.79]} 17. ... Re8 {[%eval -0.34]} 
+18. Qe2 {[%eval -0.28]} 18. ... f5 {[%eval +0.18]} 19. exf6 {[%eval +0.00]
+} 19. ... Bxf6 {[%eval +0.15]} 20. Be4 {[%eval -0.32]} 20. ... Na5 {[%eval
+-0.14]} 21. Nxa5 {[%eval -0.12]} 21. ... Bxe4 {[%eval -0.11]} 22. Qxe4 {
+[%eval -0.10]} 22. ... Qxa5 {[%eval -0.07]} 23. Rac1 {[%eval -0.05]} 
+23. ... Qb6 {[%eval +0.00]} 24. Rxc8 {[%eval -0.26]} 24. ... Rxc8 {[%eval 
+-0.18]} 25. b4 {[%eval -0.19]} 25. ... Rc3 {[%eval -0.10]} 26. g4 {[%eval 
+-0.44]} 26. ... h6 {[%eval -0.19]} 27. h4 {[%eval -0.07]} 27. ... Rc4 {
+[%eval +0.54]} 28. g5 {[%eval +0.00]} 28. ... hxg5 {[%eval +0.00]} 29. 
+hxg5 {[%eval +0.00]} 29. ... d3 {[%eval +0.00]} 30. Qxd3 {[%eval +0.01]} 
+30. ... Qc6 {[%eval +0.00]} 31. Qd6 {[%eval +0.00]} 31. ... Bb2 {[%eval 
++0.84]} 32. Rxe6 {[%eval +0.93]} 32. ... Qxd6 {[%eval +0.77]} 33. Bxd6 {
+[%eval +0.64]} 33. ... Rc8 {[%eval +2.97]} 34. Kg2 {[%eval +2.58]} 34. ...
+ Nb6 {[%eval +6.19]} 35. Bc5 {[%eval +5.46]} 35. ... Nc4 {[%eval +7.17]} 
+36. Rxa6 {[%eval +6.95]} 36. ... Nxa3 {[%eval +7.47]} 37. g6 {[%eval 
++7.37]} 37. ... Nc4 {[%eval +7.59]} 38. Nd4 {[%eval +7.75]} 38. ... Ne5 {
+[%eval +7.79]} 39. Nxb5 {[%eval +8.06]} 39. ... Nd3 {[%eval +8.98]} 40. 
+Bd6 {[%eval +9.24]} 40. ... Bc1 {[%eval +10.54]} 41. Nd4 {[%eval +12.00]} 
+41. ... Nf4+ {[%eval +39.40]} 42. Bxf4 {[%eval +54.82]} 42. ... Bxf4 {
+[%eval +56.09]} 43. b5 {[%eval +13.95]} 1-0
+
+[Event "44th Olympiad 2022"]
+[Site "Chennai IND"]
+[Date "2022.08.07"]
+[Round "9.3"]
+[White "Giri, A"]
+[Black "Maghsoodloo, Parham"]
+[Result "1/2-1/2"]
+[WhiteElo "2760"]
+[BlackElo "2701"]
+[ECO "E48"]
+[EventDate "2022.07.29"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Nimzo-Indian"]
+[Variation "4.e3 O-O, 5.Bd3 d5"]
+[WhiteTeam "Netherlands"]
+[BlackTeam "Iran"]
+[WhiteFideId "24116068"]
+[BlackFideId "12539929"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.23]} 1. ... Nf6 {[%eval +0.33]} 2. c4 {[%eval +0.24]} 
+2. ... e6 {[%eval +0.25]} 3. Nc3 {[%eval +0.06]} 3. ... Bb4 {[%eval +0.18]
+} 4. e3 {[%eval +0.13]} 4. ... O-O {[%eval +0.28]} 5. Bd3 {[%eval +0.23]} 
+5. ... d5 {[%eval +0.37]} 6. a3 {[%eval +0.12]} 6. ... dxc4 {[%eval +0.35]
+} 7. Bxc4 {[%eval +0.20]} 7. ... Be7 {[%eval +0.53]} 8. b4 {[%eval -0.17]}
+8. ... b6 {[%eval +0.20]} 9. Nf3 {[%eval +0.08]} 9. ... Bb7 {[%eval +0.11]
+} 10. O-O {[%eval +0.14]} 10. ... Nbd7 {[%eval +0.25]} 11. Bb2 {[%eval 
++0.06]} 11. ... a5 {[%eval +0.74]} 12. b5 {[%eval +0.69]} 12. ... Bd6 {
+[%eval +0.47]} 13. Nd2 {[%eval +0.45]} 13. ... e5 {[%eval +0.49]} 14. d5 {
+[%eval +0.28]} 14. ... Nc5 {[%eval +0.40]} 15. e4 {[%eval +0.30]} 15. ... 
+Nfd7 {[%eval +0.55]} 16. Qc2 {[%eval +0.48]} 16. ... Qh4 {[%eval +0.64]} 
+17. Rae1 {[%eval +0.68]} 17. ... Rae8 {[%eval +0.92]} 18. Ne2 {[%eval 
++0.15]} 18. ... Bc8 {[%eval +0.41]} 19. Ng3 {[%eval +0.39]} 19. ... g6 {
+[%eval +0.60]} 20. Bc1 {[%eval +0.10]} 20. ... Nb7 {[%eval +0.58]} 21. Ba2
+{[%eval +0.53]} 21. ... Kh8 {[%eval +0.71]} 22. Kh1 {[%eval +0.49]} 
+22. ... Bc5 {[%eval +1.05]} 23. Nb3 {[%eval +0.68]} 23. ... Bd6 {[%eval 
++0.51]} 24. Nd2 {[%eval +0.46]} 24. ... Qe7 {[%eval +1.01]} 25. Nc4 {
+[%eval +0.74]} 25. ... Bc5 {[%eval +1.07]} 26. f4 {[%eval +1.06]} 26. ... 
+f6 {[%eval +1.10]} 27. f5 {[%eval +0.87]} 27. ... Nd6 {[%eval +1.04]} 28. 
+a4 {[%eval +0.50]} 28. ... Rg8 {[%eval +0.69]} 29. Rf3 {[%eval +0.50]} 
+29. ... Bb4 {[%eval +0.93]} 30. Ref1 {[%eval +0.76]} 30. ... g5 {[%eval 
++1.16]} 31. Nb2 {[%eval +0.60]} 31. ... Nc5 {[%eval +1.34]} 32. Re3 {
+[%eval +0.88]} 32. ... Bd7 {[%eval +1.05]} 33. Nd3 {[%eval +1.00]} 33. ...
+ Nxd3 {[%eval +1.14]} 34. Rxd3 {[%eval +1.03]} 34. ... Rc8 {[%eval +1.45]}
+35. Rc3 {[%eval -0.18]} 35. ... Bxc3 {[%eval +0.00]} 36. Qxc3 {[%eval 
++0.00]} 36. ... h5 {[%eval +0.00]} 37. Qd3 {[%eval -0.25]} 37. ... h4 {
+[%eval -0.12]} 38. Ne2 {[%eval +0.00]} 38. ... Qh7 {[%eval +0.00]} 39. Nc3
+{[%eval +0.00]} 39. ... g4 {[%eval +0.00]} 40. Nd1 {[%eval +0.00]} 40. ...
+ Be8 {[%eval +0.00]} 41. Ne3 {[%eval -0.09]} 41. ... g3 {[%eval +0.00]} 
+42. h3 {[%eval +0.00]} 42. ... Bh5 {[%eval -0.06]} 43. Bb1 {[%eval -0.01]}
+43. ... Rg7 {[%eval +0.00]} 44. Ba3 {[%eval +0.00]} 44. ... Qh6 {[%eval 
++0.00]} 45. Bc1 {[%eval +0.00]} 45. ... Qh7 {[%eval +0.00]} 46. Kg1 {
+[%eval +0.00]} 46. ... Kg8 {[%eval +0.00]} 47. Bc2 {[%eval +0.00]} 47. ...
+ Rd8 {[%eval +0.32]} 48. Bd1 {[%eval +0.20]} 48. ... Bxd1 {[%eval +0.89]} 
+49. Nxd1 {[%eval +0.79]} 49. ... Qh5 {[%eval +0.91]} 50. Nc3 {[%eval 
++0.00]} 50. ... Kh8 {[%eval +0.87]} 51. Re1 {[%eval +0.00]} 51. ... Rdd7 {
+[%eval +0.85]} 52. Be3 {[%eval +0.00]} 52. ... Kh7 {[%eval +0.75]} 53. Qd1
+{[%eval +0.00]} 53. ... Qxd1 {[%eval +0.00]} 54. Rxd1 {[%eval +0.04]} 
+54. ... Kg8 {[%eval +0.10]} 55. Kf1 {[%eval +0.18]} 55. ... Kf7 {[%eval 
++0.48]} 56. Ke2 {[%eval +0.32]} 56. ... Ke8 {[%eval +0.50]} 57. Kd3 {
+[%eval +0.51]} 57. ... Kd8 {[%eval +0.47]} 58. Rf1 {[%eval +0.00]} 58. ...
+ Kc8 {[%eval +0.00]} 59. Bc1 {[%eval +0.00]} 59. ... Kb7 {[%eval +0.00]} 
+60. Nd1 {[%eval +0.00]} 60. ... Rg8 {[%eval +0.71]} 61. Ne3 {[%eval +0.58]
+} 61. ... Kc8 {[%eval +0.59]} 62. Nc4 {[%eval +0.00]} 62. ... Nf7 {[%eval 
++0.00]} 63. Be3 {[%eval +0.00]} 63. ... Kb7 {[%eval +0.00]} 64. Rc1 {
+[%eval +0.00]} 64. ... Rg7 {[%eval +0.00]} 65. Ke2 {[%eval +0.00]} 65. ...
+ Rg8 {[%eval +0.00]} 66. Kf3 {[%eval +0.00]} 66. ... Rdd8 {[%eval +0.00]} 
+67. Ke2 {[%eval +0.00]} 67. ... Rd7 {[%eval +0.00]} 68. Kf3 {[%eval +0.00]
+} 68. ... Rdd8 {[%eval +0.00]} 69. Bd2 {[%eval +0.00]} 69. ... Rd7 {[%eval
++0.00]} 70. Rc3 {[%eval +0.00]} 70. ... Rdd8 {[%eval +0.00]} 71. Rc2 {
+[%eval +0.00]} 71. ... Rd7 {[%eval +0.00]} 72. Rc1 {[%eval +0.00]} 72. ...
+ Rdd8 {[%eval +0.00]} 73. Ke2 {[%eval +0.00]} 73. ... Rd7 {[%eval +0.00]} 
+74. Kd3 {[%eval +0.07]} 74. ... Rdd8 {[%eval +0.09]} 75. Be3 {[%eval 
++0.00]} 75. ... Rd7 {[%eval +0.00]} 76. Rc2 {[%eval +0.00]} 76. ... Rg7 {
+[%eval +0.16]} 77. Bc1 {[%eval +0.19]} 77. ... Rg8 {[%eval +0.24]} 1/2-1/2
+
+[Event "44th Olympiad 2022"]
+[Site "Chennai IND"]
+[Date "2022.08.08"]
+[Round "10.5"]
+[White "Indjic, Aleksandar"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2620"]
+[BlackElo "2760"]
+[ECO "D43"]
+[EventDate "2022.07.29"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "QGD semi-Slav"]
+[WhiteTeam "Serbia"]
+[BlackTeam "Netherlands"]
+[WhiteFideId "911925"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. d4 {[%eval +0.28]} 1. ... d5 {[%eval +0.46]} 2. c4 {[%eval +0.29]} 
+2. ... c6 {[%eval +0.31]} 3. Nc3 {[%eval +0.32]} 3. ... Nf6 {[%eval +0.36]
+} 4. Nf3 {[%eval +0.25]} 4. ... e6 {[%eval +0.46]} 5. Bg5 {[%eval +0.25]} 
+5. ... h6 {[%eval +0.26]} 6. Bxf6 {[%eval +0.25]} 6. ... Qxf6 {[%eval 
++0.37]} 7. e3 {[%eval +0.35]} 7. ... g6 {[%eval +0.42]} 8. Ne5 {[%eval 
++0.15]} 8. ... Bg7 {[%eval +0.20]} 9. f4 {[%eval +0.14]} 9. ... O-O {
+[%eval +0.16]} 10. h4 {[%eval +0.00]} 10. ... Qe7 {[%eval +0.04]} 11. g4 {
+[%eval +0.07]} 11. ... c5 {[%eval +0.01]} 12. Qd2 {[%eval +0.15]} 12. ... 
+dxc4 {[%eval +0.34]} 13. O-O-O {[%eval +0.00]} 13. ... Nc6 {[%eval +0.00]}
+14. Bg2 {[%eval -0.33]} 14. ... cxd4 {[%eval -0.23]} 15. exd4 {[%eval 
+-0.10]} 15. ... Bd7 {[%eval -0.11]} 16. g5 {[%eval -0.93]} 16. ... h5 {
+[%eval -1.06]} 17. Rhe1 {[%eval -1.20]} 17. ... Rac8 {[%eval +0.35]} 18. 
+Bxc6 {[%eval -0.26]} 18. ... Bxc6 {[%eval +0.00]} 19. d5 {[%eval -0.13]} 
+19. ... Rfd8 {[%eval -0.09]} 20. f5 {[%eval -1.32]} 20. ... gxf5 {[%eval 
+-1.30]} 21. g6 {[%eval -1.22]} 21. ... fxg6 {[%eval -1.85]} 22. Nxg6 {
+[%eval -1.67]} 22. ... Qf6 {[%eval -0.31]} 23. Nf4 {[%eval -0.21]} 23. ...
+ Bxd5 {[%eval -0.12]} 24. Ncxd5 {[%eval -0.17]} 24. ... exd5 {[%eval 
+-0.22]} 25. Nxh5 {[%eval -0.14]} 25. ... Qh6 {[%eval -0.17]} 26. Re7 {
+[%eval -0.40]} 26. ... Bxb2+ {[%eval -0.16]} 27. Kb1 {[%eval -4.09]} 
+27. ... Qxd2 {[%eval -5.19]} 28. Rxd2 {[%eval -5.89]} 28. ... Kf8 {[%eval 
+-2.98]} 29. Rde2 {[%eval -3.75]} 29. ... c3 {[%eval -2.96]} 30. Rxb7 {
+[%eval -3.42]} 30. ... c2+ {[%eval -0.12]} 31. Rxc2 {[%eval -0.06]} 
+31. ... Rxc2 {[%eval -0.05]} 32. Kxc2 {[%eval -0.10]} 32. ... Be5 {[%eval 
+-0.06]} 33. Rxa7 {[%eval -0.11]} 33. ... Rc8+ {[%eval -0.02]} 34. Kd1 {
+[%eval +0.00]} 34. ... Rc4 {[%eval -0.02]} 35. Rd7 {[%eval +0.00]} 35. ...
+ Rd4+ {[%eval +0.00]} 36. Ke2 {[%eval +0.00]} 36. ... Ke8 {[%eval +0.00]} 
+37. Rb7 {[%eval +0.00]} 37. ... Kf8 {[%eval +0.00]} 38. Rd7 {[%eval +0.00]
+} 38. ... Re4+ {[%eval +0.00]} 39. Kf2 {[%eval +0.00]} 39. ... d4 {[%eval 
++0.00]} 40. Ng3 {[%eval +0.00]} 40. ... Rxh4 {[%eval +0.00]} 41. Rd5 {
+[%eval -0.11]} 41. ... Rh2+ {[%eval -0.09]} 42. Kf3 {[%eval -0.09]} 
+42. ... Bxg3 {[%eval +0.00]} 43. Kxg3 {[%eval +0.00]} 43. ... Rxa2 {[%eval
++0.00]} 1/2-1/2
+
+[Event "44th Olympiad 2022"]
+[Site "Chennai IND"]
+[Date "2022.08.09"]
+[Round "11.3"]
+[White "Abdusattorov, Nodirbek"]
+[Black "Giri, A"]
+[Result "1/2-1/2"]
+[WhiteElo "2688"]
+[BlackElo "2760"]
+[ECO "B90"]
+[EventDate "2022.07.29"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[Opening "Sicilian"]
+[Variation "Najdorf"]
+[WhiteTeam "Uzbekistan"]
+[BlackTeam "Netherlands"]
+[WhiteFideId "14204118"]
+[BlackFideId "24116068"]
+[Annotator "Stockfish 15"]
+[Depth "25"]
+
+1. e4 {[%eval +0.33]} 1. ... c5 {[%eval +0.41]} 2. Nf3 {[%eval +0.28]} 
+2. ... d6 {[%eval +0.38]} 3. d4 {[%eval +0.23]} 3. ... cxd4 {[%eval +0.41]
+} 4. Nxd4 {[%eval +0.41]} 4. ... Nf6 {[%eval +0.36]} 5. Nc3 {[%eval +0.33]
+} 5. ... a6 {[%eval +0.30]} 6. Rg1 {[%eval +0.07]} 6. ... h5 {[%eval 
++0.24]} 7. h3 {[%eval +0.17]} 7. ... g6 {[%eval +0.14]} 8. Be3 {[%eval 
++0.07]} 8. ... Bg7 {[%eval +0.45]} 9. Qe2 {[%eval +0.46]} 9. ... b5 {
+[%eval +0.51]} 10. O-O-O {[%eval +0.47]} 10. ... Nbd7 {[%eval +0.79]} 11. 
+g4 {[%eval +0.29]} 11. ... Bb7 {[%eval +0.39]} 12. Bg2 {[%eval +0.40]} 
+12. ... b4 {[%eval +0.39]} 13. Nd5 {[%eval +0.22]} 13. ... e5 {[%eval 
++0.33]} 14. Nxf6+ {[%eval -0.10]} 14. ... Nxf6 {[%eval +0.00]} 15. Nb3 {
+[%eval +0.00]} 15. ... Qc7 {[%eval +0.00]} 16. gxh5 {[%eval -0.52]} 
+16. ... Nxh5 {[%eval +0.14]} 17. Qd2 {[%eval +0.10]} 17. ... Rc8 {[%eval 
++0.71]} 18. Kb1 {[%eval +0.72]} 18. ... Nf4 {[%eval +0.87]} 19. Bf3 {
+[%eval +0.68]} 19. ... O-O {[%eval +0.93]} 20. Qxb4 {[%eval +0.47]} 
+20. ... d5 {[%eval +0.60]} 21. c3 {[%eval +0.00]} 21. ... dxe4 {[%eval 
++1.01]} 22. Bxe4 {[%eval +0.83]} 22. ... Bxe4+ {[%eval +0.84]} 23. Qxe4 {
+[%eval +0.90]} 23. ... Nxh3 {[%eval +0.93]} 24. Rge1 {[%eval +0.70]} 
+24. ... Nf4 {[%eval +0.89]} 25. Nc5 {[%eval +0.47]} 25. ... Qc6 {[%eval 
++0.68]} 26. Bxf4 {[%eval +0.51]} 26. ... exf4 {[%eval +1.06]} 27. Qxc6 {
+[%eval +0.89]} 27. ... Rxc6 {[%eval +1.02]} 28. Rd5 {[%eval +0.94]} 
+28. ... Rfc8 {[%eval +1.60]} 29. Nd3 {[%eval +1.44]} 29. ... Bf6 {[%eval 
++1.38]} 30. Rg1 {[%eval +1.75]} 30. ... Rb6 {[%eval +2.14]} 31. Kc2 {
+[%eval +2.18]} 31. ... Rc4 {[%eval +2.49]} 32. Re1 {[%eval +0.62]} 32. ...
+ Kg7 {[%eval +0.51]} 33. Rc5 {[%eval +0.00]} 33. ... Rxc5 {[%eval +0.00]} 
+34. Nxc5 {[%eval +0.00]} 34. ... Bh4 {[%eval +0.40]} 35. Nd3 {[%eval 
++0.33]} 35. ... g5 {[%eval +0.47]} 36. c4 {[%eval +0.53]} 36. ... Kf6 {
+[%eval +0.60]} 37. b4 {[%eval +0.25]} 37. ... f3 {[%eval +0.63]} 38. c5 {
+[%eval +0.00]} 38. ... Re6 {[%eval +0.00]} 39. Kd1 {[%eval +0.02]} 39. ...
+ g4 {[%eval +0.02]} 40. a4 {[%eval +0.00]} 40. ... g3 {[%eval +0.00]} 41. 
+fxg3 {[%eval +0.00]} 41. ... Bxg3 {[%eval +0.00]} 42. Rf1 {[%eval +0.00]} 
+42. ... Re3 {[%eval +0.00]} 43. Kd2 {[%eval +0.00]} 43. ... Re2+ {[%eval 
++0.00]} 44. Kd1 {[%eval +0.00]} 44. ... Re3 {[%eval +0.00]} 45. Kd2 {
+[%eval +0.00]} 45. ... Re2+ {[%eval +0.00]} 46. Kd1 {[%eval +0.00]} 
+1/2-1/2
+
