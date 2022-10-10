@@ -281,9 +281,10 @@ As a complement, there is also the average centipawn loss (again a measure of av
 | Keymer       |                   0.574 |                              0.151 |                               0.141 |                  0.183 |                             0.176 |                                                 0.155 |
 | Gukesh       |                   0.539 |                              0.169 |                               0.093 |                  0.175 |                             0.134 |                                                 0.153 |
 | Nihal        |                   0.553 |                              0.179 |                               0.140 |                  0.147 |                             0.204 |                                                 0.204 |
+| Erigaisi     |                   0.568 |                              0.172 |                               0.102 |                  0.160 |                             0.116 |                                                 0.136 |
 | Giri         |                   0.583 |                              0.181 |                                0.13 |                  0.147 |                             0.122 |                                                 0.304 |
 | Nakamura     |                   0.605 |                              0.163 |                               0.150 |                  0.135 |                             0.098 |                                                 0.175 |
-| Caruana      |                   0.585 |                              0.179 |                               0.169 |                  0.147 |                             0.129 | 0.254                                                 |
+| Caruana      |                   0.585 |                              0.179 |                               0.169 |                  0.147 |                             0.129 |                                                 0.254 |
 
 [[./Carlsenstm1150.png]]
 
@@ -296,6 +297,8 @@ As a complement, there is also the average centipawn loss (again a measure of av
 [[./Gukeshstm1150.png]]
 
 [[./Nihalstm1150.png]]
+
+[[./Erigaisistm1150.png]]
 
 [[./Giristm1150.png]]
 
@@ -315,6 +318,8 @@ Please note, that I am not claiming that anyone has cheated or has not cheated. 
 | Keymer       | [[./keymerGamesOTB22eval.pgn]]       | [[./Keymerdata.csv]]       |
 | Gukesh       | [[./gukeshGamesOTB22eval.pgn]]       | [[./Gukeshdata.csv]]       |
 | Nihal        | [[./nihalGamesOTB22eval.pgn]]        | [[./Nihaldata.csv]]        |
+| Erigaisi     | [[./erigaisiGamesOTB22eval.pgn]]     | [[./Erigaisidata.csv]]     |
 | Giri         | [[./giriGamesOTBeval.pgn]]           | [[./Giridata.csv]]         |
-| Nakamura     | [[./nakamuraGamesOTB22eval.pgn]]     | [[./Nakamuradata.csv]]              |
+| Nakamura     | [[./nakamuraGamesOTB22eval.pgn]]     | [[./Nakamuradata.csv]]     |
+| Caruana      | [[./carauanaOTB22eval.pgn]]          | [[./Caruanadata.csv]]      |
 
