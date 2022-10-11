@@ -308,6 +308,23 @@ As a complement, there is also the average centipawn loss (again a measure of av
 
 Please note, that I am not claiming that anyone has cheated or has not cheated. The methods used here are not able to give a definite answer to this question and therefore I can also not claim that "the results speak for themselves". I hope that the data and analysis will give you some food for thoughts. To get you started on this consider the following questions: How would the statistics above look like if someone cheated every game? How if he cheated only in some games? How if he cheated only at certain moments of a game? Are there other statistics or visualizations that could give a better picture?
 
+** Results for moves 21 to 30
+   Arguably the results above have to be interpreted with care as certain players are more prone to playing mainline openings where theory is deeper. Furthermore, some people argue that cheating is not feasible in time pressure situations due to technological constraints. The following table includes exactly the same statistics as the one above but, instead of focusing on moves 11 to 50, I will only use moves 21 to 30 which are typically the phase of the game where the players make important decisions on their own and without being in time pressure.
+
+| player       | average share top moves | standard deviation share top moves | share of games with > 75% top moves | average centipawn loss | standard deviation centipawn loss | share of games with average centipawn loss below 0.05 |
+|--------------+-------------------------+------------------------------------+-------------------------------------+------------------------+-----------------------------------+-------------------------------------------------------|
+| Carlsen      |                   0.748 |                              0.189 |                               0.414 |                  0.145 |                             0.185 |                                                 0.364 |
+| Niemann      |                   0.610 |                              0.303 |                               0.338 |                  0.234 |                             0.281 |                                                 0.189 |
+| Abdusattorov |                   0.700 |                              0.256 |                               0.480 |                  0.191 |                             0.160 |                                                 0.204 |
+| Keymer       |                   0.702 |                              0.235 |                               0.460 |                  0.219 |                             0.324 |                                                 0.310 |
+| Gukesh       |                   0.659 |                              0.311 |                               0.477 |                  0.169 |                             0.177 |                                                 0.274 |
+| Nihal        |                   0.699 |                              0.303 |                               0.458 |                  0.175 |                             0.257 |                                                 0.310 |
+| Erigaisi     |                   0.638 |                              0.313 |                               0.423 |                  0.175 |                             0.166 |                                                 0.263 |
+| Giri         |                   0.720 |                              0.286 |                                0.500 |                  0.170 |                             0.218 |                                                 0.372 |
+| Nakamura     |                   0.650 |                              0.250 |                               0.375 |                  0.147 |                             0.155 |                                                 0.316 |
+| Caruana      |                   0.636 |                              0.280 |                               0.419 |                  0.155 |                             0.176 |                                                 0.377 |
+   
+
 * Data files
  I would appreciate if you complemented my analysis with your own one. To simplify your life (and to be fully transparent...), I provide my data below.
 | player       | pgn with evals                   | data                   |
